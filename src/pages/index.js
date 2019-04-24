@@ -1,3 +1,12 @@
-import React from "react"
+import React from "react";
+import AcademyLogoBanner from "../components/AcademyLogoBanner";
+import AboutAcademy from "../components/AboutAcademy";
 
-export default () => <div>Hello world!</div>
+const IndexPage = () => (
+  <div>
+    <AcademyLogoBanner />
+    <AboutAcademy />
+  </div>
+);
+
+export default IndexPage;
