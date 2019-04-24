@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:200,300,400,800");
+
+html {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  margin: 0px;
+  background-color: white;
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: calc(1em + 0.8vw);
+}
+
+#AcademyLogoBanner {
+  margin: 0px;
+  padding: 7%;
+  background-color: rgb(158, 181, 203);
+  /* 
+    background-color: rgb(0, 150, 130);
+    background-color: rgb(0, 150, 130);
+  */
+}
+
+#AcademyLogo {
+  height: auto;
+  max-width: 100%;
+}
+
+#AboutAcademy {
+  padding: 5%;
+  hyphens: auto;
+}
