@@ -3,9 +3,11 @@ import AcademyLogoBanner from "../components/AcademyLogoBanner";
 import AboutAcademy from "../components/AboutAcademy";
 
 const IndexPage = () => (
-  <div>
+  <div id="IndexPage">
     <AcademyLogoBanner />
-    <AboutAcademy />
+    <div className="inline">
+      <AboutAcademy />
+    </div>
   </div>
 );
 

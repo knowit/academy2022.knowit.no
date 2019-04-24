@@ -3,32 +3,57 @@
 html {
   margin: 0px;
   padding: 0px;
+  height: 100%;
 }
 
 body {
   margin: 0px;
-  background-color: white;
   font-family: "Raleway", Arial, Helvetica, sans-serif;
   font-weight: 300;
-  font-size: calc(1em + 0.8vw);
+  font-size: calc(1em + 0.6vw);
+  background-color: white; /* rgb(228, 226, 219); */
+}
+
+body,
+#___gatsby,
+#___gatsby > div,
+.inline {
+  height: 100%;
+}
+
+#IndexPage {
+  min-height: 100%;
+  height: 100%;
+  text-align: center;
+  margin: auto;
+}
+
+#IndexPage.inline {
+  display: inline-block;
 }
 
 #AcademyLogoBanner {
-  margin: 0px;
-  padding: 7%;
-  background-color: rgb(158, 181, 203);
-  /* 
-    background-color: rgb(0, 150, 130);
-    background-color: rgb(0, 150, 130);
+  padding: 5%;
+  /* background-color: rgb(158, 181, 203); */
+  background-color: rgb(0, 150, 130);
+  /*  background-color: rgb(0, 150, 130);
   */
 }
 
 #AcademyLogo {
+  width: 100%;
+  max-width: 800px;
   height: auto;
-  max-width: 100%;
 }
 
 #AboutAcademy {
+  display: inline-block;
+  /* padding: 20px 5%; */
   padding: 5%;
   hyphens: auto;
+  text-align: left;
+  min-height: 50%;
+  height: 100%;
+  max-width: 800px;
+  background-color: white;
 }
