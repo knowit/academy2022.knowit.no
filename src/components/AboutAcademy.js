@@ -10,7 +10,7 @@ class AboutAcademy extends React.Component {
           datterselskaper.
         </p>
         <p>
-          For 2018-2019 bestod Knowit Academy av følgende programer: Teah
+          For 2018-2019 bestod Knowit Academy av følgende program: Team
           Lead-skolen, Tech Lead-skolen og Prosjektleder-skolen.
         </p>
         <p>
