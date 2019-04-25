@@ -1,14 +1,29 @@
-import React from "react";
-import AcademyLogoBanner from "../components/AcademyLogoBanner";
-import AboutAcademy from "../components/AboutAcademy";
+import React from "react"
+import styled from "styled-components"
+import AcademyLogoBanner from "../components/AcademyLogoBanner"
+import AboutAcademy from "../components/AboutAcademy"
 
-const IndexPage = () => (
-  <div id="IndexPage">
+const IndexPage = styled.div`
+  height: 100vh;
+  width: 100vw;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  margin: auto;
+  & > * {
+    margin: 0 auto;
+    text-align: left;
+    display: block;
+  }
+`
+
+const Page = () => (
+  <IndexPage>
     <AcademyLogoBanner />
-    <div className="inline">
-      <AboutAcademy />
-    </div>
-  </div>
-);
+    <AboutAcademy />
+  </IndexPage>
+)
 
-export default IndexPage;
+export default Page

@@ -1,13 +1,22 @@
-import React from "react";
+import React from "react"
+import styled from "styled-components"
+
+const AboutDiv = styled.div`
+  display: flex;
+  margin: auto;
+  background-color: white;
+  max-width: 800px;
+  padding: 1vw 1.4em;
+  hyphens: auto;
+`
 
 class AboutAcademy extends React.Component {
   render() {
     return (
-      <div id="AboutAcademy">
+      <AboutDiv>
         <p>
           Knowit Academy Norway er Knowits norske kompetanseutviklingsprogram.
-          Målgruppen for programmet er ansatte i Knowit Norge med
-          datterselskaper.
+          Målgruppen for programmet er ansatte i alle Knowits selskaper i Norge.
         </p>
         <p>
           For 2018-2019 bestod Knowit Academy av følgende program: Team
@@ -17,9 +26,9 @@ class AboutAcademy extends React.Component {
           Planlegging av programmet for 2019-2020 er i gang, og mer informasjon
           vil bli lagt ut så snart det er klart.
         </p>
-      </div>
-    );
+      </AboutDiv>
+    )
   }
 }
 
-export default AboutAcademy;
+export default AboutAcademy
