@@ -79,7 +79,7 @@ const ThePrograms = ({ pages }) => {
   ))
 
   return (
-    <Section>
+    <Section id="theprograms">
       <h2>Programmer for 2019/2020</h2>
       <nav>
         <ul>{programPages}</ul>
