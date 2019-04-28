@@ -12,7 +12,7 @@ const FrontHeader = styled.header`
 `
 
 const AcademyFrontMenu = styled.nav`
-  max-width: 800px;
+  max-width: 960px;
   padding: 0 1.4rem;
   margin: auto;
 
@@ -42,6 +42,11 @@ const AcademyFrontMenu = styled.nav`
     // background-color: ${colors.knowit.green[1]};
     border-bottom: 0.4rem solid ${colors.knowit.green[2]};
   }
+
+  li a {
+      text-decoration: inherit;
+      color: inherit;
+  }
 `
 
 const AcademyFrontHeader = () => {
@@ -50,9 +55,15 @@ const AcademyFrontHeader = () => {
       <AcademyLogoBanner />
       <AcademyFrontMenu>
         <ul>
-          <li>Om Knowit Academy</li>
-          <li>Programmene</li>
-          <li>Påmelding</li>
+          <li>
+            <a href="#about">Om Knowit Academy</a>
+          </li>
+          <li>
+            <a href="#theprograms">Programmene</a>
+          </li>
+          <li>
+            <a href="/">Påmelding</a>
+          </li>
         </ul>
       </AcademyFrontMenu>
     </FrontHeader>
