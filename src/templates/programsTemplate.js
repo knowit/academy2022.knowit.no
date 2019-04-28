@@ -1,7 +1,27 @@
 import React from "react"
 import { graphql } from "gatsby"
-import Layout from "../components/Layout"
+import styled from "styled-components"
+import Layout from "../components/FrontLayout"
 import Helmet from "react-helmet"
+import colors from "../utils/colors"
+
+const ContentDiv = styled.div`
+  margin: 20px;
+
+  h1,
+  h2 {
+    font-weight: 400;
+    color: ${colors.knowit.red[0]};
+  }
+
+  h1 {
+    font-size: calc(1.4em + 0.6vw);
+  }
+
+  h2 {
+    font-size: calc(1em + 0.6vw);
+  }
+`
 
 // export default function Template({
 //   data, // this prop will be injected by the GraphQL query below.
@@ -18,16 +38,11 @@ const Template = ({ data }) => {
         <meta property="og:title" content={frontmatter.title} />
         <meta property="og:description" content={frontmatter.description} />
       </Helmet>
-      <div className="blog-post-container">
-        <div className="blog-post">
-          <h1>{frontmatter.title}</h1>
-          <h2>{frontmatter.date}</h2>
-          <div
-            className="blog-post-content"
-            dangerouslySetInnerHTML={{ __html: html }}
-          />
-        </div>
-      </div>
+      <ContentDiv>
+        <b>{frontmatter.title}</b>
+        <div>{frontmatter.date}</div>
+        <div dangerouslySetInnerHTML={{ __html: html }} />
+      </ContentDiv>
     </Layout>
   )
 }
@@ -38,7 +53,7 @@ export const pageQuery = graphql`
     markdownRemark(frontmatter: { path: { eq: $path } }) {
       html
       frontmatter {
-        date(formatString: "MMMM DD, YYYY")
+        date(formatString: "DD MMMM, YYYY")
         path
         title
         description
