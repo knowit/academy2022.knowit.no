@@ -13,7 +13,7 @@ const FrontHeader = styled.header`
 
 const AcademyFrontMenu = styled.nav`
   max-width: 800px;
-  padding: 0 1.4em;
+  padding: 0 1.4rem;
   margin: auto;
 
   ul {
@@ -22,7 +22,7 @@ const AcademyFrontMenu = styled.nav`
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: left;
+    justify-content: flex-start;
     overflow: hidden;
   }
 
