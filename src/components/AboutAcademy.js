@@ -3,24 +3,33 @@ import styled from "styled-components"
 import colors from "../utils/colors"
 
 const AboutSection = styled.section`
-  margin: auto;
-  background-color: white;
-  max-width: 800px;
-  padding: 1vw 1.4em;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white; // ${colors.knowit.purple[3]};
   hyphens: auto;
 
   h2 {
-    font-weight: 600;
-    color: ${colors.knowit.blue[1]};
+    color: ${colors.knowit.green[0]};
+  }
+
+  p {
+    line-height: 1.4;
+  }
+  p:first-child {
+    margin-top: 0;
+  }
+  p:last-child {
+    margin-bottom: 0;
   }
 `
 
 //class AboutAcademy extends React.Component {
 //  render() {
 //     return (
+// <h2>Norges beste kompetanseutviklingsprogram</h2>
 const AboutAcademy = () => (
   <AboutSection>
-    <h2>Norges beste kompetanseutviklingsprogram</h2>
     <p>
       Knowit Academy Norway er Knowits norske kompetanseutviklingsprogram.
       Målgruppen for programmet er ansatte i alle Knowits selskaper i Norge. Vår
