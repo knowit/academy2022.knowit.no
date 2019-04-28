@@ -10,10 +10,9 @@ import AcademyLogo from "./AcademyLogo"
 // red
 // background-color: rgb(234, 167, 148);
 const LogoBanner = styled.a`
-  width: 100vw;
+  width: 100%;
   background-color: ${colors.knowit.green[1]};
   max-height: 50vh;
-  overflow: hidden;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,7 +23,7 @@ const LogoBanner = styled.a`
     background-color: ${colors.knowit.purple[1]};
     height: 72px;
     min-height: 72px;
-    width: 100vw;
+    width: 100%;
     margin: 0px;
     flex-direction: row;
     justify-content: flex-end;

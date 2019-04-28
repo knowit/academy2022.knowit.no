@@ -8,7 +8,6 @@ const AboutSection = styled.section`
   margin-right: auto;
   background-color: white; // ${colors.knowit.purple[3]};
   hyphens: auto;
-  overflow: hidden;
 
   h2 {
     color: ${colors.knowit.green[0]};

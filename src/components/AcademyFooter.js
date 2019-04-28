@@ -29,7 +29,6 @@ const Footer = styled.footer`
     font-size: calc(0.2em + 0.6em);
     font-weight: 200;
     color: black;
-    overflow: hidden;
   }
 
   img {
