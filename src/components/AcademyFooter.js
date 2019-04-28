@@ -7,7 +7,7 @@ const Wrapper = styled.div`
   display: flex;
   justify-content: center;
   // bottom: 0px;
-  width: 100vw;
+  width: 100%;
   padding: 0;
   margin: auto;
   background-color: ${colors.knowit.green[3]};
@@ -17,8 +17,8 @@ const Footer = styled.footer`
   display: flex;
   padding: 12px 1.4rem;
   align-items: center;
-  max-width: 800px;
-  width: 800px;
+  max-width: 960px;
+  width: 960px;
 
   & > *:not(:first-child) {
     margin-left: 0.8rem;
@@ -29,6 +29,7 @@ const Footer = styled.footer`
     font-size: calc(0.2em + 0.6em);
     font-weight: 200;
     color: black;
+    overflow: hidden;
   }
 
   img {
