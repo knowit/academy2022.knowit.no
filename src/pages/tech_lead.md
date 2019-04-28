@@ -7,8 +7,12 @@ description: "Tech-lead programmet er for deg som vil utvikle deg videre som tec
 
 # Tech-lead programmet
 
-Her kommer informasjon om årets program
+Tech-lead programmet er for deg med 2-5 års utviklererfaring og oppover, som ønsker å lede og ta arkitektur- og teknologiansvar.
 
 ## Påmelding
 
+Informasjon om påmelding og frister kommer snart.
+
 ## Mer informasjon
+
+Her kommer mer informasjon om årets program så snart det er klart.
