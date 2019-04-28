@@ -15,7 +15,10 @@ const FrontPage = styled.div`
   margin: auto;
 
   main {
+    flex-grow: 1;
     display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
     margin: 0;
   }
 `
