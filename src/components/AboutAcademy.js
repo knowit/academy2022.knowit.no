@@ -8,6 +8,7 @@ const AboutSection = styled.section`
   margin-right: auto;
   background-color: white; // ${colors.knowit.purple[3]};
   hyphens: auto;
+  overflow: hidden;
 
   h2 {
     color: ${colors.knowit.green[0]};
@@ -29,7 +30,7 @@ const AboutSection = styled.section`
 //     return (
 // <h2>Norges beste kompetanseutviklingsprogram</h2>
 const AboutAcademy = () => (
-  <AboutSection>
+  <AboutSection id="about">
     <p>
       Knowit Academy Norway er Knowits norske kompetanseutviklingsprogram.
       Målgruppen for programmet er ansatte i alle Knowits selskaper i Norge. Vår
