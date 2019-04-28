@@ -9,7 +9,7 @@ import AcademyLogo from "./AcademyLogo"
 // background-color: rgb(0, 150, 130);
 // red
 // background-color: rgb(234, 167, 148);
-const LogoBanner = styled.div`
+const LogoBanner = styled.a`
   width: 100vw;
   background-color: ${colors.knowit.green[1]};
   max-height: 50vh;
@@ -34,7 +34,7 @@ const LogoBanner = styled.div`
 class AcademyLogoBanner extends React.Component {
   render() {
     return (
-      <LogoBanner>
+      <LogoBanner href="/">
         <AcademyLogo />
       </LogoBanner>
     )
