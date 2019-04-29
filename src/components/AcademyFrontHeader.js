@@ -4,7 +4,7 @@ import colors from "../utils/colors"
 import AcademyLogoBanner from "../components/AcademyLogoBanner"
 
 const FrontHeader = styled.header`
-  width: 100vw;
+  width: 100%;
   background-color: ${colors.knowit.green[0]};
   margin: 0;
   padding: 0;
