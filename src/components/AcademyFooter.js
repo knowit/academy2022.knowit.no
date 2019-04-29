@@ -3,13 +3,12 @@ import styled from "styled-components"
 import colors from "../utils/colors.js"
 
 const Wrapper = styled.div`
-  // position: fixed;
   display: flex;
+  flex-grow: 1;
   justify-content: center;
-  // bottom: 0px;
   width: 100%;
   padding: 0;
-  margin: auto;
+  margin: 0 auto;
   background-color: ${colors.knowit.green[3]};
   border-top: 1px solid ${colors.knowit.green[1]};
 `
