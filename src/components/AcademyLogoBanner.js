@@ -20,7 +20,7 @@ const LogoBanner = styled.a`
   margin: auto;
 
   @media (max-height: 480px) {
-    background-color: ${colors.knowit.purple[1]};
+    background-color: ${colors.knowit.green[1]};
     height: 72px;
     min-height: 72px;
     width: 100%;
