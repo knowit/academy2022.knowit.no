@@ -24,27 +24,12 @@ const AboutSection = styled.section`
   }
 `
 
-//class AboutAcademy extends React.Component {
-//  render() {
-//     return (
-// <h2>Norges beste kompetanseutviklingsprogram</h2>
-const AboutAcademy = () => (
-  <AboutSection id="about">
-    <p>
-      Knowit Academy Norway er Knowits norske kompetanseutviklingsprogram.
-      Målgruppen for programmet er ansatte i alle Knowits selskaper i Norge. Vår
-      ambisjon er å lage et kompetanseutviklingsprogram som er bedre enn noe
-      annet du kan finne.
-    </p>
-    <p>
-      For 2018-2019 bestod Knowit Academy av følgende program: Team Lead-skolen,
-      Tech Lead-skolen og Prosjektleder-skolen.
-    </p>
-    <p>
-      Planlegging av programmet for 2019-2020 er i gang, og mer informasjon vil
-      bli lagt ut så snart det er klart.
-    </p>
-  </AboutSection>
-)
+const AboutAcademy = ({ content }) => {
+  return (
+    <AboutSection id="about">
+      <div dangerouslySetInnerHTML={{ __html: content.html }} />
+    </AboutSection>
+  )
+}
 
 export default AboutAcademy

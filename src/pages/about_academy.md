@@ -6,13 +6,10 @@ title: "About Knowit Academy"
 description: "Knowit Academy er knowits interne utviklingsprogram. Programmet har som ambisjon om å være det beste og mest givende kompentaseutviklingsprogrammet."
 ---
 
-Knowit Academy Norway er Knowits norske kompetanseutviklingsprogram.
-Målgruppen for programmet er ansatte i alle Knowits selskaper i Norge. Vår
-ambisjon er å lage et kompetanseutviklingsprogram som er bedre enn noe
-annet du kan finne.
+Knowit Academy Norway er Knowits interne kompetanseutviklingsprogram.
+Målgruppen for programmet er alle ansatte i Knowits selskaper i Norge. Vår
+ambisjon er å lage det beste og mest givende kompetanseutviklingsprogramet man kan finne i teknologibedrfter.
 
-For 2018-2019 bestod Knowit Academy av følgende program: Team Lead-skolen,
-Tech Lead-skolen og Prosjektleder-skolen.
+Med oppstart høsten 2019 planlegger vi å gjennomføre programmer for tech-leads, team-leads og designere.
 
-Planlegging av programmet for 2019-2020 er i gang, og mer informasjon vil
-bli lagt ut så snart det er klart.
+Vi har også et program for prosjektledere vi jobber med å gjennomføre med oppstart høsten 2020.

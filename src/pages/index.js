@@ -12,10 +12,13 @@ const Page = ({ data }) => {
     .filter(i => i.node.frontmatter.path.match(/^\/programs/))
     .map(item => item.node.frontmatter)
 
-  console.log("the programpages: ", programPages)
+  const aboutPage = data.allMarkdownRemark.edges.find(
+    i => i.node.frontmatter.path === "/about"
+  ).node
+
   return (
     <Layout data={siteMetadata}>
-      <AboutAcademy />
+      <AboutAcademy content={aboutPage} />
       <ThePrograms pages={programPages} />
     </Layout>
   )
@@ -36,6 +39,7 @@ export const query = graphql`
     allMarkdownRemark {
       edges {
         node {
+          html
           frontmatter {
             title
             path
