@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css?family=Raleway:200,300,400,600,800");
+/* @import url("https://fonts.googleapis.com/css?family=Raleway:200,300,400,600,800");
+*/
 
 html {
   margin: 0;
@@ -9,8 +10,8 @@ html {
 
 body {
   margin: 0;
-  font-family: "Raleway", sans-serif;
-  font-weight: 300;
+  font-family: "Arial", sans-serif;
+  font-weight: lighter;
   font-size: calc(1em + 0.6vw);
   height: 100%;
   background-color: rgb(160, 209, 202);
