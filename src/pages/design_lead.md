@@ -1,17 +1,17 @@
 ---
-path: "/programs/tech-lead"
-date: "2019-04-27"
-title: "Tech-lead programmet"
-description: "For deg med 2-5 års utviklererfaring, som vil utvikle deg videre som tech-lead og arkitekt på et utviklingsteam."
+path: "/programs/design-lead"
+date: "2019-06-05"
+title: "Design-lead programmet"
+description: "For deg med 2-5 års erfaring med tjenestedesign, visuell design eller interaksjonsdesign, og som vil utvikle deg videre for å ta større ansvar i leveranser, strategiarbeid og ledelse."
 ---
 
-# Tech-lead programmet
+# Design-lead programmet
 
-Tech-lead programmet er for deg med 2-5 års utviklererfaring og oppover, som ønsker å lede og ta arkitektur- og teknologiansvar.
+Legg til mer innhold her.
 
 ## Påmelding
 
-Informasjon om påmelding og frister kommer snart.
+Påmelding til programmene åpner i midten av august, og fristen for påmelding blir 31. august, 2019.
 
 ## Mer informasjon
 
