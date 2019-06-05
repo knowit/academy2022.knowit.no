@@ -62,7 +62,7 @@ const AcademyFrontHeader = () => {
             <a href="#theprograms">Programmene</a>
           </li>
           <li>
-            <a href="/">Påmelding</a>
+            <a href="#signup">Påmelding</a>
           </li>
         </ul>
       </AcademyFrontMenu>
