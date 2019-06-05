@@ -56,13 +56,13 @@ const AcademyFrontHeader = () => {
       <AcademyFrontMenu>
         <ul>
           <li>
-            <a href="#about">Om Knowit Academy</a>
+            <a href="/#about">Om Knowit Academy</a>
           </li>
           <li>
-            <a href="#theprograms">Programmene</a>
+            <a href="/#theprograms">Programmene</a>
           </li>
           <li>
-            <a href="#signup">Påmelding</a>
+            <a href="/how-to-apply">Påmelding</a>
           </li>
         </ul>
       </AcademyFrontMenu>
