@@ -12,6 +12,7 @@ const Page = ({ data }) => {
     .filter(i => i.node.frontmatter.path.match(/^\/programs/))
     .map(item => item.node.frontmatter)
 
+  console.log("the programpages: ", programPages)
   return (
     <Layout data={siteMetadata}>
       <AboutAcademy />
