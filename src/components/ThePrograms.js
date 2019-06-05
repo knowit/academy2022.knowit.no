@@ -42,6 +42,10 @@ const Section = styled.section`
     background-color: ${colors.knowit.red[0]};
   }
 
+  nav > ul > li {
+    background-color: ${colors.knowit.blue[1]};
+  }
+
 
   nav > ul > li div {
     padding: 1rem;
@@ -56,7 +60,7 @@ const Section = styled.section`
   }
 
   nav p {
-    font-size: 0.9em;
+    font-size: 0.8em;
     line-height: 1.4;
   }
   nav p:last-child {
