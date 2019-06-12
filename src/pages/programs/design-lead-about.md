@@ -1,5 +1,5 @@
 ---
-path: "/programs/design-lead"
+path: "/programs/about-design-lead"
 date: "2019-06-05"
 title: "Design-lead programmet"
 description: "For deg med 2-5 års erfaring med tjenestedesign, visuell design eller interaksjonsdesign, og som vil utvikle deg videre for å ta større ansvar i leveranser, strategiarbeid og ledelse."

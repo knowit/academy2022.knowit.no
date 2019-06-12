@@ -1,5 +1,5 @@
 ---
-path: "/programs/team-lead-about"
+path: "/programs/about-team-lead"
 date: "2019-04-27"
 title: "Team-lead programmet"
 description: "For deg med minst 5 års utviklererfaring, og som ønsker å ta en faglig lederrolle, samt utvikle og følge opp et teknisk team."
