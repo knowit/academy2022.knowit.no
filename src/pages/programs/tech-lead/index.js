@@ -1,26 +1,31 @@
 import React from "react"
 import { graphql } from "gatsby"
-import styled from "styled-components"
+// import styled from "styled-components"
 import Layout from "../../../components/FrontLayout"
+import css from "../../../styles/tech-lead-index.module.scss"
 
-const CourseTable = styled.table`
-  border-collapse: collapse;
-  td {
-    margin: 0;
-    border: 1px solid black;
-    padding: 6px;
-    margin: 0;
-  }
-
-  thead td {
-    font-weight: bold;
-  }
-`
 const TechLeadProgram = ({ data }) => {
+  const courseInfo = data.allMarkdownRemark.edges
+    .filter(i => i.node.frontmatter.path.match(/^\/courses\/tech-lead/))
+    .map(i => {
+      i.node.frontmatter.date = new Date(i.node.frontmatter.date)
+      return i
+    })
+    .map(i => {
+      return (
+        <tr>
+          <td>{i.node.frontmatter.title}</td>
+          <td>{i.node.frontmatter.teacher}</td>
+          <td>{i.node.frontmatter.date.toLocaleDateString("no")}</td>
+        </tr>
+      )
+    })
+
+  console.log("courses", courseInfo)
   return (
     <Layout data={data.site}>
       <h1>Tech Lead programmet 2019/2020</h1>
-      <CourseTable>
+      <table>
         <thead>
           <tr>
             <td>Tema</td>
@@ -28,12 +33,8 @@ const TechLeadProgram = ({ data }) => {
             <td>Dato</td>
           </tr>
         </thead>
-        <tbody>
-          <tr>
-            <td>foo</td>
-          </tr>
-        </tbody>
-      </CourseTable>
+        <tbody>{courseInfo}</tbody>
+      </table>
     </Layout>
   )
 }
@@ -59,6 +60,8 @@ export const query = graphql`
             path
             date
             description
+            image
+            teacher
           }
         }
       }
