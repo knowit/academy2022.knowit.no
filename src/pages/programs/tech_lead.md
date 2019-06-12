@@ -12,6 +12,7 @@ Tech-lead programmet er for deg med 2-5 års utviklererfaring og oppover, som ø
 ## Påmelding
 
 Informasjon om påmelding og frister kommer snart.
+Her kommer tekst jeg skal fjerne.
 
 ## Mer informasjon
 
