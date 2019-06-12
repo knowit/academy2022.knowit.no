@@ -21,3 +21,15 @@ Further extensions to the programme is in planning and more information will be 
 ## Contribution
 
 You are welcome to participate and contribute, especially if you are an employee of [Knowit AS](https://www.knowit.no). If you would like to contribute please send an email to academy@knowit.no.
+
+## Editing pages
+
+All pages are either written in markdown or as react components
+
+all pages are added under:
+
+```
+/src/pages
+```
+
+Please add pages using the existing structure.
