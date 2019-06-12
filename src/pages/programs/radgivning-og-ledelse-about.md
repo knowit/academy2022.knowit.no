@@ -13,7 +13,7 @@ hvordan håndtere prosjektene dine i Jira/Confluence,
 hvordan endre organisasjoner gjennom Change Management, bli mer effektiv med bruk av Excel, 
 vinne fram i salgsprosesser i pitchekurset, endre måten din å tenke på i Google Design Sprint, 
 motivere medarbeiderne dine gjennnom "Ledelse i prosjekter", hvor du også lærer å bygge gode prosjektteam 
-og unngå tidstyver. 
+og unngå tidstyver.  Det er rom for diskusjon og mulighet til å diskutere dine ledererfaringer med andre kollega og kursleder.
 
 ## Påmelding
 
