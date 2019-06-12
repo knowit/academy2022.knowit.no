@@ -21,4 +21,4 @@ Hvis ikke dette utsettes et år, vil påmelding til programmet åpnes i midten a
 
 ## Mer informasjon
 
-Her kommer mer informasjon om årets program så snart det er klart.
+Du kan kontakte Heidi Hundåla inntil videre, heidi.hundala@knowit.no for flere detaljer om programmet. Det kommer mer informasjon om årets program så snart det er klart.
