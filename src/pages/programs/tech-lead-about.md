@@ -1,8 +1,9 @@
 ---
-path: "/programs/tech-lead"
+path: "/programs/tech-lead-about"
 date: "2019-04-27"
 title: "Tech-lead programmet"
 description: "For deg med 2-5 års utviklererfaring, som vil utvikle deg videre som tech-lead og arkitekt på et utviklingsteam."
+image: ""
 ---
 
 # Tech-lead programmet
