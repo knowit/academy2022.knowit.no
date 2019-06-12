@@ -26,10 +26,16 @@ You are welcome to participate and contribute, especially if you are an employee
 
 All pages are either written in markdown or as react components
 
-all pages are added under:
+**all pages are added under:**
 
 ```
 /src/pages
+```
+
+**All programmes has a top level about page:**
+
+```
+/src/pages/programs/<program-name-about.md>
 ```
 
 Please add pages using the existing structure.
