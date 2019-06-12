@@ -1,9 +1,11 @@
 ---
 path: "/courses/tech-lead/software-architecture"
-date: "2019-06-05"
-title: "Systemarkitektur for utviklere med Simon Brown"
+date: "2019-11-13"
+title: "Systemarkitektur for utviklere"
+teacher: "Simon Brown"
 description: ""
 image: ""
+updated: "2019-06-12"
 ---
 
 # Arkitektur for utviklere

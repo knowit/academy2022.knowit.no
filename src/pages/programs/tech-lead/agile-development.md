@@ -1,9 +1,11 @@
 ---
 path: "/courses/tech-lead/agile-development"
-date: "2019-06-05"
-title: "Agile Development Best Practices med Venkat Subramaniam"
+date: "2019-10-07"
+title: "Agile Development Best Practices"
+teacher: "Venkat Subramaniam"
 description: ""
 image: ""
+updated: "2019-06-12"
 ---
 
 # Agile Development Best Practices
