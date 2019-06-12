@@ -20,4 +20,4 @@ Further extensions to the programme is in planning and more information will be 
 
 ## Contribution
 
-You are welcome to participate and contribute, especially if you are an employee of [Knowit AS](https://www.knowit.no).
+You are welcome to participate and contribute, especially if you are an employee of [Knowit AS](https://www.knowit.no). If you would like to contribute please send an email to academy@knowit.no.
