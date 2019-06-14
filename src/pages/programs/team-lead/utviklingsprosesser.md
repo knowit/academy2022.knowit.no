@@ -20,7 +20,7 @@ I dette kurset er man innom en god del teknikker og måter å jobbe på i modern
 * Autonome team
   * Aligned autonomy
 * Scrum vs Kanban
-* Koordinering i storskala agile
+* Koordinering i storskala smidig
 * Møter og møtetips
 * Sosiale nettverk
 * BizDevOps
@@ -28,12 +28,12 @@ I dette kurset er man innom en god del teknikker og måter å jobbe på i modern
 * Community Of Practice
 
 # Om foredragsholderene
-Nils Brede Moe
+**Nils Brede Moe**
 * Forskningsleder ved SINTEF Digital og forsker ved Blekinge Tekniske Høgskole (BTH)
   * Autonome team, sourcing, innovasjon, agile praksiser, virtuelle team i mer enn 15 år
   * Studier i Norden, Øst-Europa, USA, Kina og Australia
 
-Viktoria Stray
+**Viktoria Stray**
 * Main position: Associate professor, UiO
 * Part-time: Research Scientist, SINTEF Digital
   * Research interests: Agile practices, teamwork, coordination, global software development, large-scale agile, meetings, process improvement
