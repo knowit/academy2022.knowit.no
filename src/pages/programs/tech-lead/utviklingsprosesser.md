@@ -1,1 +1,0 @@
-../team-lead/utviklingsprosesser.md
