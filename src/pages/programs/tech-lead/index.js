@@ -12,14 +12,19 @@ const TechLeadProgram = ({ data }) => {
       i.node.frontmatter.date = new Date(i.node.frontmatter.date)
       return i
     })
+    .sort((a, b) =>
+      a.node.frontmatter.date > b.node.frontmatter.date ? 1 : -1
+    )
     .map(i => {
       return (
-        <tr>
-          <td>{i.node.frontmatter.title}</td>
-          <td>{i.node.frontmatter.teacher}</td>
-          <td>{i.node.frontmatter.date.toLocaleDateString("no")}</td>
-          <td>
-            <a href={i.node.frontmatter.path}>Mer informasjon</a>
+        <tr key={i.node.frontmatter.path}>
+          <td className="title">{i.node.frontmatter.title}</td>
+          <td className="teacher">{i.node.frontmatter.teacher}</td>
+          <td className="date">
+            {i.node.frontmatter.date.toLocaleDateString("no")}
+          </td>
+          <td className={css.info}>
+            <a href={i.node.frontmatter.path}>info</a>
           </td>
         </tr>
       )
