@@ -5,6 +5,8 @@ title: "Building Microservices"
 teacher: "Sam Newman"
 description: ""
 updated: "2019-06-19"
+author: "Thomas Malt"
+email: "academy@knowit.no"
 ---
 
 <iframe width="720" height="404" 
