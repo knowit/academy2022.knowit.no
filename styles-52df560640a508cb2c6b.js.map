@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack:///./src/styles/programTemplate.module.scss"],"names":["module","exports","content"],"mappings":"mGACAA,EAAAC,QAAA,CAAkBC,QAAA","file":"styles-52df560640a508cb2c6b.js","sourcesContent":["// extracted by mini-css-extract-plugin\nmodule.exports = {\"content\":\"programTemplate-module--content--3_aT_\"};"],"sourceRoot":""}
