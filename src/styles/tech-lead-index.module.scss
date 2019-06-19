@@ -26,5 +26,10 @@ thead {
 tbody {
   td {
     border: 1px dashed $purple-medium;
+    font-size: 0.9em;
+  }
+  .info {
+    white-space: nowrap;
+    text-align: center;
   }
 }
