@@ -1,6 +1,6 @@
 ---
 path: "/courses/tech-lead/utviklingsprosesser"
-date: "2019-05-07"
+date: "2020-05-07"
 title: "Utviklingsprosesser"
 teacher: "Nils Brede Moe og Viktoria Stray"
 description: ""
