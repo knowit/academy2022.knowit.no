@@ -1,0 +1,12 @@
+@import "../../styles/common.scss";
+
+.byline {
+  color: $gray-dark;
+  font-size: 0.9em;
+  margin-bottom: 32px;
+
+  a {
+    text-decoration: underline;
+    color: $gray-dark;
+  }
+}

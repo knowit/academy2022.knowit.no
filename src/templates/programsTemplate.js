@@ -1,13 +1,14 @@
 import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/FrontLayout"
+import Byline from "../components/Byline"
 import Helmet from "react-helmet"
-import colors from "../utils/colors"
 import css from "../styles/programTemplate.module.scss"
 
 // export default function Template({
 //   data, // this prop will be injected by the GraphQL query below.
 // }) {
+
 const Template = ({ data }) => {
   const { markdownRemark } = data // data.markdownRemark holds our post data
   const { frontmatter, html } = markdownRemark
@@ -20,11 +21,17 @@ const Template = ({ data }) => {
         <meta property="og:title" content={frontmatter.title} />
         <meta property="og:description" content={frontmatter.description} />
       </Helmet>
-      <div className={css.content}>
-        <b>{frontmatter.title}</b>
-        <div>{frontmatter.date}</div>
-        <div dangerouslySetInnerHTML={{ __html: html }} />
-      </div>
+      <section>
+        <div className={css.content}>
+          <Byline
+            title={frontmatter.title}
+            author={frontmatter.author}
+            email={frontmatter.email}
+            updated={frontmatter.updated}
+          />
+          <div dangerouslySetInnerHTML={{ __html: html }} />
+        </div>
+      </section>
     </Layout>
   )
 }
@@ -39,6 +46,10 @@ export const pageQuery = graphql`
         path
         title
         description
+        image
+        updated
+        email
+        author
       }
     }
     site {
