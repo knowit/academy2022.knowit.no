@@ -2,6 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 // import styled from "styled-components"
 import Layout from "../../../components/FrontLayout"
+import Byline from "../../../components/Byline"
 import css from "../../../styles/tech-lead-index.module.scss"
 
 const TechLeadProgram = ({ data }) => {
@@ -17,6 +18,9 @@ const TechLeadProgram = ({ data }) => {
           <td>{i.node.frontmatter.title}</td>
           <td>{i.node.frontmatter.teacher}</td>
           <td>{i.node.frontmatter.date.toLocaleDateString("no")}</td>
+          <td>
+            <a href={i.node.frontmatter.path}>Mer informasjon</a>
+          </td>
         </tr>
       )
     })
@@ -24,17 +28,25 @@ const TechLeadProgram = ({ data }) => {
   console.log("courses", courseInfo)
   return (
     <Layout data={data.site}>
-      <h1>Tech Lead programmet 2019/2020</h1>
-      <table>
-        <thead>
-          <tr>
-            <td>Tema</td>
-            <td>Foredragsholder</td>
-            <td>Dato</td>
-          </tr>
-        </thead>
-        <tbody>{courseInfo}</tbody>
-      </table>
+      <section id="main">
+        <Byline
+          title="Tech-Lead programmet 2019/2020"
+          updated="2019-06-19"
+          author="Thomas Malt"
+          email="academy.knowit.no"
+        ></Byline>
+        <table>
+          <thead>
+            <tr>
+              <td>Tema</td>
+              <td>Foredragsholder</td>
+              <td>Dato</td>
+              <td>Om kurset</td>
+            </tr>
+          </thead>
+          <tbody>{courseInfo}</tbody>
+        </table>
+      </section>
     </Layout>
   )
 }
