@@ -30,9 +30,19 @@ const TechLeadProgram = ({ data }) => {
       )
     })
 
+  const metadata = data.site.siteMetadata
+  metadata.title = "Tech-Lead programmet 2019/2020"
+  metadata.description = `
+    Tech-Lead programmet i Knowit Academy starter i september 2019 og varer 
+    fram til sommeren 2020. Her finner du mer informasjon om programmet, 
+    hvilke kurs og workshops som er med, og informasjons om hvordan du søker
+  `
+  metadata.siteUrl = "https://academy.knowit.no/programs/tech-lead/"
+
+  console.log("data", data)
   console.log("courses", courseInfo)
   return (
-    <Layout data={data.site}>
+    <Layout data={data.site.siteMetadata}>
       <section id="main">
         <Byline
           title="Tech-Lead programmet 2019/2020"
