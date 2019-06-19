@@ -1,5 +1,5 @@
 ---
-path: "/courses/team-lead/kickoff"
+path: "/courses/tech-lead/kickoff"
 date: "2019-09-15"
 title: "Kick-off og lagarbeid"
 teacher: "Jan Henrik Gundelsby"
