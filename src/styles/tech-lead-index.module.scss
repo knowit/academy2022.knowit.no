@@ -1,14 +1,30 @@
+@import "./common.scss";
+
+h1 {
+  color: $green-dark;
+  margin-bottom: 0px;
+}
+
 table {
   border-collapse: collapse;
   margin-bottom: 56px;
+  width: 100%;
 }
+
 td {
-  border: 1px solid black;
   padding: 8px;
 }
 
 thead {
+  background-color: $purple-light;
   td {
     font-weight: bold;
+    border: 1px solid $purple-dark;
+  }
+}
+
+tbody {
+  td {
+    border: 1px dashed $purple-medium;
   }
 }
