@@ -6,6 +6,7 @@ teacher: "Nils Brede Moe og Viktoria Stary"
 description: ""
 image: ""
 updated: "2019-06-14"
+author: "Jan Henrik Gundelsby"
 ---
 
 # Utviklingsprosesser

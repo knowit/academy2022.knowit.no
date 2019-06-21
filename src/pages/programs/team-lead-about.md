@@ -5,9 +5,7 @@ title: "Team-lead programmet"
 description: "For deg med minst 5 års utviklererfaring, og som ønsker å ta en faglig lederrolle, samt utvikle og følge opp et teknisk team."
 ---
 
-# Team-lead programmet
-
-Her kommer informasjon om årets program
+Team-lead programmet er for deg med minst 3 års utviklererfaring, og som ønsker å ta en faglig lederrolle, samt utvikle og følge opp et teknisk team.
 
 ## Påmelding
 
@@ -15,4 +13,4 @@ Informasjon om påmelding og frister kommer snart.
 
 ## Mer informasjon
 
-Her kommer mer informasjon om årets program så snart det er klart.
+Mer informasjon om [årets program](/programs/team-lead)

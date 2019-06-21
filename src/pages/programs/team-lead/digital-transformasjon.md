@@ -26,7 +26,7 @@ fremtidens marked.
   for å snakke om de mer akademiske og teorietiske sidene av digital
   transformasjon og innovasjon.
 
-# Om foredragsholderen
+# Om foredragsholderene
 
 **Tine Reuterdahl** Tine er leder av Origo Digi og har ansvaret for strategi
 og overordnet tilnærming til digitaliseringsprogrammet. Hun har bakgrunn fra
