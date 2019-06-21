@@ -4,6 +4,7 @@ module.exports = {
   singleQuote: false,
   tabWidth: 2,
   trailingComma: "es5",
+  arrowParens: "always",
   overrides: [
     {
       files: "*.md",
