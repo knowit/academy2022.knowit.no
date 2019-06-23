@@ -1,6 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 import colors from "../utils/colors.js"
+import Version from "../components/Version"
 
 const Wrapper = styled.div`
   display: flex;
@@ -60,6 +61,7 @@ const AcademyFooter = () => {
           Har du spørsmål om Knowit Academy? Send en epost til{" "}
           <a href="mailto:academy@knowit.no">academy@knowit.no</a> så svarer vi
           så snart vi rekker.
+          <Version></Version>
         </div>
       </Footer>
     </Wrapper>
