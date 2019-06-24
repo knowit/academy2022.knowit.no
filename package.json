@@ -2,7 +2,7 @@
   "name": "academy.knowit.no",
   "private": true,
   "description": "A landing page and open information page about Knowit Academy Norway",
-  "version": "0.4.5",
+  "version": "0.4.6",
   "author": "Thomas Malt <thomas.malt@knowit.no>",
   "license": "Private",
   "scripts": {
@@ -12,7 +12,7 @@
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+    "test": "gatsby build"
   },
   "dependencies": {
     "@material-ui/core": "^4.1.0",
