@@ -15,4 +15,4 @@ Påmelding til programmene åpner i midten av august, og fristen for påmelding 
 
 ## Mer informasjon
 
-Her kommer mer informasjon om årets program så snart det er klart.
+Her er informasjon om [årets program](/programs/design-lead)
