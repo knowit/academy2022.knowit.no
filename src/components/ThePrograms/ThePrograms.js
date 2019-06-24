@@ -16,7 +16,7 @@ const ThePrograms = ({ pages }) => {
   ))
 
   return (
-    <section id="theprograms">
+    <section id="theprograms" className={css.thePrograms}>
       <h2>Programmer for 2019/2020</h2>
       <nav>
         <ul>{programPages}</ul>
