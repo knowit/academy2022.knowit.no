@@ -19,6 +19,24 @@
     font-size: calc(1em + 0.6vw);
   }
 
+  p {
+    line-height: 1.5em;
+  }
+
+  ul {
+    li {
+      line-height: 1.5em;
+    }
+
+    li > p {
+      margin: 0;
+    }
+
+    li > ul {
+      // background-color: pink;
+      margin-bottom: 0.6em;
+    }
+  }
   iframe {
     width: 100%;
     height: 56.25vw;

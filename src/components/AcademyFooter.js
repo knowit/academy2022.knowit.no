@@ -1,7 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 import colors from "../utils/colors.js"
-import Version from "../components/Version"
+import Version from "./Version/Version"
 
 const Wrapper = styled.div`
   display: flex;

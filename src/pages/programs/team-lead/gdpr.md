@@ -1,5 +1,5 @@
 ---
-path: "/courses/tech-lead/gdpr"
+path: "/courses/team-lead/gdpr"
 date: "2019-11-24"
 title: "GDPR - programvareutvikling med innebygd personvern"
 teacher: "Torgeir Waterhouse"

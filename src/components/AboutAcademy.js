@@ -14,7 +14,7 @@ const AboutSection = styled.section`
   }
 
   p {
-    line-height: 1.4;
+    line-height: 1.6em;
   }
   p:first-child {
     margin-top: 0;

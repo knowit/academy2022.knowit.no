@@ -29,7 +29,7 @@ const FrontLayout = ({ children, data }) => {
   return (
     <FrontPage>
       <MainHelmet metadata={data} />
-      <AcademyFrontHeader />
+      <AcademyFrontHeader data={data} />
       <main>{children}</main>
       <AcademyFooter />
     </FrontPage>

@@ -3,7 +3,10 @@ path: "/courses/team-lead/estimering"
 date: "2019-11-01"
 title: "Estimering"
 teacher: "Magne Jørgensen"
-description: "Estimering er ofte nødvendig i IT-utvikling, og dette kurset gir deg faktaene bak estimering fra en av verdens ledende forskere på området, Magne Jørgensen."
+description:
+  "Estimering er ofte nødvendig i IT-utvikling, og dette kurset gir deg
+  faktaene bak estimering fra en av verdens ledende forskere på området, Magne
+  Jørgensen."
 updated: "2019-06-19"
 ---
 

@@ -1,11 +1,11 @@
 ---
-path: "/courses/tech-lead/kommunikasjon"
-date: "2019-09-12"
+path: "/courses/design-lead/kommunikasjon"
+date: ""
 title: "Kommunikasjon"
 teacher: "Alf Inge Cleve-Stiansen"
 description: ""
 updated: "2019-06-24"
-author: "Michael Åhs"
+author: "Thea Basthus Nilsen"
 email: "academy@knowit.no"
 ---
 
@@ -25,10 +25,10 @@ I løpet av denne dagen vil du blant annet lære;
 - Hvorfor vi reagerer ulikt på samme informasjon og hvordan vi kan redusere
   sannsynligheten for at dette skjer
 - Språkteknikker for å skape presisjon og felles forståelse
-- Teknikker for hvordan våre tilstede i øyeblikket for å skape en bedre flyt i
+- Teknikker for hvordan være tilstede i øyeblikket for å skape en bedre flyt i
   kommunikasjonen
 
-# About Alf Inge Cleve-Stiansen
+# Om Alf Inge Cleve-Stiansen
 
 Alf Inge har dedikert seg til å utforske, forstå og anvende strategier som
 kjennetegner de mennesker og organisasjoner som skaper enestående resultater.
@@ -40,6 +40,6 @@ i større grupper, og er ofte å se på større scener grunnet sine
 formidlingsevner. Alf Inge er en internasjonalt sertifisert NLP Trener, har en
 Mastergrad i Strategy & International Business og en Krigsskoleutdannelse. Han
 er en av få som vitenskapelig har dokumentert sammenhengen mellom
-medarbeider-engasjement, kunde-engasjement og økonimiske resultater det
+medarbeider-engasjement, kunde-engasjement og økonomiske resultater det
 lederskapet, og har de siste årene designet og gjennomført programmer i
 samskapning med kunder i ulike bransjer.

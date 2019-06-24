@@ -1,0 +1,81 @@
+@import "../../styles/common.scss";
+
+.thePrograms {
+  background-color: white; // ${colors.knowit.red[3]};
+  flex-grow: 1;
+
+  h2 {
+    margin: 0;
+    padding: 0;
+    color: $green-dark;
+  }
+
+  h4 {
+    margin: 0;
+  }
+
+  nav {
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 1.4rem 0;
+      padding: 0;
+      justify-content: center;
+
+      li {
+        list-style: none;
+        display: block;
+        padding: 0;
+        margin: 12px;
+        border-radius: 0.6rem;
+        background-color: $green-medium;
+        @media (min-width: 960px) {
+          width: 430px;
+          height: 200px;
+        }
+        @media (min-width: 768px) and (max-width: 959px) {
+          width: 324px;
+          height: 256px;
+        }
+        @media (max-width: 767px) {
+          width: 100%;
+          margin: 12px 0px;
+          height: 168px;
+        }
+
+        div {
+          padding: 1rem;
+          text-align: center;
+          // color: ${colors.knowit.red[3]};
+          color: white;
+        }
+        a {
+          text-decoration: inherit;
+          color: inherit;
+        }
+        h4 {
+          font-size: 1.14em;
+        }
+        p {
+          font-size: 1em;
+          line-height: 1.56;
+        }
+        p:last-child {
+          margin-bottom: 0;
+        }
+      }
+
+      li:nth-child(1) {
+        background-color: $blue-medium;
+      }
+
+      li:nth-child(2) {
+        background-color: $red-medium;
+      }
+
+      li:nth-child(3) {
+        background-color: $purple-medium;
+      }
+    }
+  }
+}

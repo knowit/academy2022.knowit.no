@@ -1,0 +1,59 @@
+@import "../../styles/common.scss";
+
+.academyFrontHeader {
+  width: 100%;
+  background-color: $green-dark;
+  margin: 0;
+  padding: 0;
+  display: block;
+  @media (max-height: 480px) {
+    background-color: $purple-dark;
+  }
+}
+
+.academyHeaderMenu {
+  max-width: 960px;
+  padding: 0 1.4rem;
+  margin: auto;
+
+  ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    overflow: hidden;
+  }
+
+  li {
+    list-style: none;
+    padding: 0.6rem 0.2rem;
+    margin: 0 3rem 0 0rem;
+    font-weight: 600;
+    color: white;
+    display: inline-block;
+    white-space: nowrap;
+    border-top: 0.4rem solid $green-dark;
+    border-bottom: 0.4rem solid $green-dark;
+    @media (max-height: 480px) {
+      border-top: 0.4rem solid $purple-dark;
+      border-bottom: 0.4rem solid $purple-dark;
+      padding: 0.2rem;
+      font-size: 0.9em;
+    }
+
+    a {
+      text-decoration: inherit;
+      color: inherit;
+    }
+  }
+
+  li:hover {
+    // background-color: ${colors.knowit.green[1]};
+    border-bottom: 0.4rem solid $green-light;
+    @media (max-height: 480px) {
+      border-bottom: 0.4rem solid $purple-light;
+    }
+  }
+}
