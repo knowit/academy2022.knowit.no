@@ -1,24 +1,45 @@
 ---
-path: "/courses/tech-lead/kommunikasjon"
+path: "/courses/team-lead/kommunikasjon"
 date: "2019-09-12"
 title: "Kommunikasjon"
 teacher: "Alf Inge Cleve-Stiansen"
 description: ""
 updated: "2019-06-24"
-author: "Michael Åhs"
+author: "Michael Ã…hs"
 email: "academy@knowit.no"
 ---
 
-Hva handler kommunikasjon egentlig om og hvordan kan vi bedre forstå hvordan vi mennesker prosesserer informasjon? Hva er det som gjør at kommunikasjon kan bli krevende eller enkel? Hvordan sikre at vi i et samspill med andre mennesker har en mest mulig effektiv kommunikasjon? I løpet av denne dagen skal vi dykke inn i forståelse av mentale prosesser og hvordan vi gjennom dette lettere kan skape en mer presis og felles forståelse. 
+Hva handler kommunikasjon egentlig om og hvordan kan vi bedre forstï¿½ hvordan
+vi mennesker prosesserer informasjon? Hva er det som gjï¿½r at kommunikasjon kan
+bli krevende eller enkel? Hvordan sikre at vi i et samspill med andre
+mennesker har en mest mulig effektiv kommunikasjon? I lï¿½pet av denne dagen
+skal vi dykke inn i forstï¿½else av mentale prosesser og hvordan vi gjennom
+dette lettere kan skape en mer presis og felles forstï¿½else.
 
-# Hva du lærer
-I løpet av denne dagen vil du blant annet lære;
-* Kommunikasjonsmodellen; en beskrivelse av hvordan vi mennesker behandler informasjon og hvorfor vi skaper vår helt unike oppfatning. 
-* Hvorfor vi reagerer ulikt på samme informasjon og hvordan vi kan redusere sannsynligheten for at dette skjer
-* Språkteknikker for å skape presisjon og felles forståelse
-* Teknikker for hvordan være tilstede i øyeblikket for å skape en bedre flyt i kommunikasjonen
+# Hva du lï¿½rer
+
+I lï¿½pet av denne dagen vil du blant annet lï¿½re;
+
+- Kommunikasjonsmodellen; en beskrivelse av hvordan vi mennesker behandler
+  informasjon og hvorfor vi skaper vï¿½r helt unike oppfatning.
+- Hvorfor vi reagerer ulikt pï¿½ samme informasjon og hvordan vi kan redusere
+  sannsynligheten for at dette skjer
+- Sprï¿½kteknikker for ï¿½ skape presisjon og felles forstï¿½else
+- Teknikker for hvordan vï¿½re tilstede i ï¿½yeblikket for ï¿½ skape en bedre flyt i
+  kommunikasjonen
 
 # About Alf Inge Cleve-Stiansen
-Alf Inge har dedikert seg til å utforske, forstå og anvende strategier som kjennetegner de mennesker og organisasjoner som skaper enestående resultater. Han er en av Skandinavias fremste prestasjonsutviklere og har en genuin glede og interesse i å arbeide med utvikling av lederskapet, forandringsprosesser, design og utvikling av nye konsepter og bedriftsinterne programmer. Han har solid og bred erfaring med å drive prestasjonsutvikling både på individnivå og i større grupper, og er ofte å se på større scener grunnet sine formidlingsevner.
-Alf Inge er en internasjonalt sertifisert NLP Trener, har en Mastergrad i Strategy & International Business og en Krigsskoleutdannelse. Han er en av få som vitenskapelig har dokumentert sammenhengen mellom medarbeider-engasjement, kunde-engasjement og økonomiske resultater det lederskapet, og har de siste årene designet og gjennomført programmer i samskapning med kunder i ulike bransjer. 
 
+Alf Inge har dedikert seg til ï¿½ utforske, forstï¿½ og anvende strategier som
+kjennetegner de mennesker og organisasjoner som skaper enestï¿½ende resultater.
+Han er en av Skandinavias fremste prestasjonsutviklere og har en genuin glede
+og interesse i ï¿½ arbeide med utvikling av lederskapet, forandringsprosesser,
+design og utvikling av nye konsepter og bedriftsinterne programmer. Han har
+solid og bred erfaring med ï¿½ drive prestasjonsutvikling bï¿½de pï¿½ individnivï¿½ og
+i stï¿½rre grupper, og er ofte ï¿½ se pï¿½ stï¿½rre scener grunnet sine
+formidlingsevner. Alf Inge er en internasjonalt sertifisert NLP Trener, har en
+Mastergrad i Strategy & International Business og en Krigsskoleutdannelse. Han
+er en av fï¿½ som vitenskapelig har dokumentert sammenhengen mellom
+medarbeider-engasjement, kunde-engasjement og ï¿½konomiske resultater det
+lederskapet, og har de siste ï¿½rene designet og gjennomfï¿½rt programmer i
+samskapning med kunder i ulike bransjer.

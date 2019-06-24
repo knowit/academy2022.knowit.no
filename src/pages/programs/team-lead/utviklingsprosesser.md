@@ -8,8 +8,6 @@ image: ""
 updated: "2019-06-14"
 ---
 
-# Utviklingsprosesser
-
 Vi jobber ofte i tverrfaglige team når vi skal lage produkter eller løsninger.
 Det å få team til å fungere optimalt er helt essensielt for å få til effektiv
 systemutvikling. Målet med dette kurset er å få innblikk i hva forskningen

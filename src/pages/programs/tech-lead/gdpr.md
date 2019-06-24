@@ -4,7 +4,7 @@ date: "2019-11-24"
 title: "GDPR - programvareutvikling med innebygd personvern"
 teacher: "Torgeir Waterhouse"
 updated: "2019-06-19"
-author: Thomas Malt
+author: "Thomas Malt"
 ---
 
 Profilering, automatisert behandling og persontilpassede tjenester er blitt en

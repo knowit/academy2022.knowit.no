@@ -5,20 +5,41 @@ title: "Kommunikasjon"
 teacher: "Alf Inge Cleve-Stiansen"
 description: ""
 updated: "2019-06-24"
-author: "Michael Åhs"
+author: "Michael Ã…hs"
 email: "academy@knowit.no"
 ---
 
-Hva handler kommunikasjon egentlig om og hvordan kan vi bedre forstå hvordan vi mennesker prosesserer informasjon? Hva er det som gjør at kommunikasjon kan bli krevende eller enkel? Hvordan sikre at vi i et samspill med andre mennesker har en mest mulig effektiv kommunikasjon? I løpet av denne dagen skal vi dykke inn i forståelse av mentale prosesser og hvordan vi gjennom dette lettere kan skape en mer presis og felles forståelse. 
+Hva handler kommunikasjon egentlig om og hvordan kan vi bedre forstÃ¥ hvordan
+vi mennesker prosesserer informasjon? Hva er det som gjÃ¸r at kommunikasjon kan
+bli krevende eller enkel? Hvordan sikre at vi i et samspill med andre
+mennesker har en mest mulig effektiv kommunikasjon? I lÃ¸pet av denne dagen
+skal vi dykke inn i forstÃ¥else av mentale prosesser og hvordan vi gjennom
+dette lettere kan skape en mer presis og felles forstÃ¥else.
 
-# Hva du lærer
-I løpet av denne dagen vil du blant annet lære;
-* Kommunikasjonsmodellen; en beskrivelse av hvordan vi mennesker behandler informasjon og hvorfor vi skaper vår helt unike oppfatning. 
-* Hvorfor vi reagerer ulikt på samme informasjon og hvordan vi kan redusere sannsynligheten for at dette skjer
-* Språkteknikker for å skape presisjon og felles forståelse
-* Teknikker for hvordan være tilstede i øyeblikket for å skape en bedre flyt i kommunikasjonen
+# Hva du lÃ¦rer
+
+I lÃ¸pet av denne dagen vil du blant annet lÃ¦re;
+
+- Kommunikasjonsmodellen; en beskrivelse av hvordan vi mennesker behandler
+  informasjon og hvorfor vi skaper vÃ¥r helt unike oppfatning.
+- Hvorfor vi reagerer ulikt pÃ¥ samme informasjon og hvordan vi kan redusere
+  sannsynligheten for at dette skjer
+- SprÃ¥kteknikker for Ã¥ skape presisjon og felles forstÃ¥else
+- Teknikker for hvordan vÃ¥re tilstede i Ã¸yeblikket for Ã¥ skape en bedre flyt i
+  kommunikasjonen
 
 # About Alf Inge Cleve-Stiansen
-Alf Inge har dedikert seg til å utforske, forstå og anvende strategier som kjennetegner de mennesker og organisasjoner som skaper enestående resultater. Han er en av Skandinavias fremste prestasjonsutviklere og har en genuin glede og interesse i å arbeide med utvikling av lederskapet, forandringsprosesser, design og utvikling av nye konsepter og bedriftsinterne programmer. Han har solid og bred erfaring med å drive prestasjonsutvikling både på individnivå og i større grupper, og er ofte å se på større scener grunnet sine formidlingsevner.
-Alf Inge er en internasjonalt sertifisert NLP Trener, har en Mastergrad i Strategy & International Business og en Krigsskoleutdannelse. Han er en av få som vitenskapelig har dokumentert sammenhengen mellom medarbeider-engasjement, kunde-engasjement og økonomiske resultater det lederskapet, og har de siste årene designet og gjennomført programmer i samskapning med kunder i ulike bransjer. 
 
+Alf Inge har dedikert seg til Ã¥ utforske, forstÃ¥ og anvende strategier som
+kjennetegner de mennesker og organisasjoner som skaper enestÃ¥ende resultater.
+Han er en av Skandinavias fremste prestasjonsutviklere og har en genuin glede
+og interesse i Ã¥ arbeide med utvikling av lederskapet, forandringsprosesser,
+design og utvikling av nye konsepter og bedriftsinterne programmer. Han har
+solid og bred erfaring med Ã¥ drive prestasjonsutvikling bÃ¥de pÃ¥ individnivÃ¥ og
+i stÃ¸rre grupper, og er ofte Ã¥ se pÃ¥ stÃ¸rre scener grunnet sine
+formidlingsevner. Alf Inge er en internasjonalt sertifisert NLP Trener, har en
+Mastergrad i Strategy & International Business og en Krigsskoleutdannelse. Han
+er en av fÃ¥ som vitenskapelig har dokumentert sammenhengen mellom
+medarbeider-engasjement, kunde-engasjement og Ã¸konimiske resultater det
+lederskapet, og har de siste Ã¥rene designet og gjennomfÃ¸rt programmer i
+samskapning med kunder i ulike bransjer.

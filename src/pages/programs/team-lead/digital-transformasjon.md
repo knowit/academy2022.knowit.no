@@ -8,8 +8,6 @@ image: ""
 updated: "2019-06-14"
 ---
 
-# Digital transformasjon og innovasjon
-
 Verden endrer seg. Virksomheter blir digitale. Våre kunder og oss selv har
 behov for å innovere, transformere og endre sine forretningsmodeller. Denne
 sesjonen er foredragsbasert, og har foredrag fra sentrale kunder av Knowit
