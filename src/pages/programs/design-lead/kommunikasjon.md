@@ -16,7 +16,7 @@ mennesker har en mest mulig effektiv kommunikasjon? I løpet av denne dagen
 skal vi dykke inn i forståelse av mentale prosesser og hvordan vi gjennom
 dette lettere kan skape en mer presis og felles forståelse.
 
-# Hva du l@rer
+# Hva du lærer
 
 I løpet av denne dagen vil du blant annet lære;
 
