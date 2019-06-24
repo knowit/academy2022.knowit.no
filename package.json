@@ -12,7 +12,7 @@
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "test": "gatsby build"
+    "test": "gatsby build && false"
   },
   "dependencies": {
     "@material-ui/core": "^4.1.0",
