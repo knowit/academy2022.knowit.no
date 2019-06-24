@@ -1,6 +1,6 @@
 ---
 path: "/courses/team-lead/digital-transformasjon"
-date: "2019-11-01"
+date: "2020-06-04"
 title: "Digital transformasjon og innovasjon"
 teacher: "TBD"
 description: ""

@@ -1,6 +1,6 @@
 ---
 path: "/courses/team-lead/presentasjonsteknikk"
-date: "2020-03-05"
+date: "2020-01-21"
 title: "Presentasjonsteknikk"
 teacher: "Alf Inge Cleve-Stiansen"
 description: ""

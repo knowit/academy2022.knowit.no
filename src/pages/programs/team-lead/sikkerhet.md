@@ -1,6 +1,6 @@
 ---
 path: "/courses/team-lead/sikkerhet"
-date: "2019-11-01"
+date: "2019-11-04"
 title: "Sikkerhet"
 teacher: "Rickard Westberg - Knowit Defence Technology"
 description: ""

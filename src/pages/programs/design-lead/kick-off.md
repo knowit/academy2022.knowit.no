@@ -1,6 +1,6 @@
 ---
 path: "/courses/design-lead/kick-off"
-date: ""
+date: "2019-09-05"
 title: "Kick-off"
 teacher: ""
 description: "Kommer"
@@ -8,6 +8,7 @@ updated: "2019-06-24"
 author: "Thea Basthus Nilsen"
 email: "academy@knowit.no"
 ---
+**NB: Tentativ dato (ikke fastsatt)**
 
 Kick-off'en er starten på design-lead-programmet. 
 Her vil du få vite detaljert om hva som skal skje gjennom året, hva du kan forvente av programmet og hva som er forventet av deg som deltager.

@@ -1,6 +1,6 @@
 ---
 path: "/courses/team-lead/kommunikasjon"
-date: "2019-09-12"
+date: "2019-09-25"
 title: "Kommunikasjon"
 teacher: "Alf Inge Cleve-Stiansen"
 description: ""
