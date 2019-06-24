@@ -3,7 +3,7 @@ import { graphql } from "gatsby"
 // import styled from "styled-components"
 import Layout from "../../../components/FrontLayout"
 import Byline from "../../../components/Byline"
-import css from "../../../styles/tech-lead-index.module.scss"
+import css from "../../../styles/design-lead-index.module.scss"
 
 const DesignLeadProgram = ({ data }) => {
   const courseInfo = data.allMarkdownRemark.edges
