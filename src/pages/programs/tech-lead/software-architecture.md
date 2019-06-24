@@ -8,8 +8,6 @@ image: ""
 updated: "2019-06-12"
 ---
 
-# Arkitektur for utviklere
-
 # Hva du lærer
 
 # Om foredragsholderen
