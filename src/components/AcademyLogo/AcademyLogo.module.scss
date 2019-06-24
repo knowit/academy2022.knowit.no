@@ -1,0 +1,38 @@
+@import "../../styles/common.scss";
+
+.logoWrapper {
+  width: 100%;
+  background-color: $green-medium;
+  max-height: 33vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  margin: auto;
+
+  @media (max-height: 480px) {
+    background-color: $purple-medium;
+    height: 72px;
+    min-height: 72px;
+    width: 100%;
+    margin: 0px;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+}
+
+.logoStyle {
+  width: 90%;
+  height: auto;
+  // max-width: 800px;
+  max-height: 27vh;
+  display: flex;
+  object-fit: scale-down;
+  margin: 1.1rem auto 1.4rem auto;
+
+  @media (max-height: 480px) {
+    height: auto;
+    width: calc(60 * 2.8px);
+    margin: 4px 20px 4px auto;
+  }
+}
