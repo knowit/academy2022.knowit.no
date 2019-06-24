@@ -3,11 +3,11 @@ import { graphql } from "gatsby"
 // import styled from "styled-components"
 import Layout from "../../../components/FrontLayout"
 import Byline from "../../../components/Byline"
-import css from "../../../styles/design-lead-index.module.scss"
+import css from "../../../styles/tech-lead-index.module.scss"
 
 const DesignLeadProgram = ({ data }) => {
   const courseInfo = data.allMarkdownRemark.edges
-    .filter(i => i.node.frontmatter.path.match(/^\/courses\/tech-lead/))
+    .filter(i => i.node.frontmatter.path.match(/^\/courses\/design-lead/))
     .map(i => {
       i.node.frontmatter.date = new Date(i.node.frontmatter.date)
       return i
