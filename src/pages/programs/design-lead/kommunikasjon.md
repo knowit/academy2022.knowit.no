@@ -28,7 +28,7 @@ I løpet av denne dagen vil du blant annet lære;
 - Teknikker for hvordan være tilstede i øyeblikket for å skape en bedre flyt i
   kommunikasjonen
 
-# About Alf Inge Cleve-Stiansen
+# Om Alf Inge Cleve-Stiansen
 
 Alf Inge har dedikert seg til å utforske, forstå og anvende strategier som
 kjennetegner de mennesker og organisasjoner som skaper enestående resultater.
