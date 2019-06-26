@@ -1,6 +1,6 @@
 ---
 path: "/courses/design-lead/kommunikasjon"
-date: "2019-09-24"
+date: "2019-11-19"
 title: "Kommunikasjon"
 teacher: "Alf Inge Cleve-Stiansen"
 description: ""
