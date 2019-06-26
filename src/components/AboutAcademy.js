@@ -9,8 +9,9 @@ const AboutSection = styled.section`
   background-color: white; // ${colors.knowit.purple[3]};
   hyphens: auto;
 
-  h2 {
+  h2, h1 {
     color: ${colors.knowit.green[0]};
+    text-align: center;
   }
 
   p {

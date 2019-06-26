@@ -26,21 +26,33 @@ const SignUpButton = styled.p`
   }
 `
 
+const SignupSection = styled.section`
+  margin: 0;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  line-height: 1.56em;
+  text-align: center;
+  background-color: ${colors.knowit.red[3]};
+`
+
 const SignUp = () => {
   return (
-    <section id="signup">
+    <SignupSection id="signup">
       <SignUpTitle>Påmelding</SignUpTitle>
       <p>
         Påmelding er planlagt å starte i midten av august, med{" "}
-        <b>søknadsfrist 31. august, 2019</b>.
+        <b>søknadsfrist 31. august, 2019</b>. Mer informasjon om
+        søknadsprosessen vil bli sendt ut rett over sommeren.
       </p>
-      <p>Mer informasjon om dette vil bli sendt ut rett over sommeren.</p>
       <SignUpButton>
         <a href="how-to-apply" alt="Information about how to apply">
           Hvordan søke
         </a>
       </SignUpButton>
-    </section>
+    </SignupSection>
   )
 }
 
@@ -49,18 +61,18 @@ const Page = ({ data }) => {
 
   // remove unneccessary complexity from the data.
   const programPages = data.allMarkdownRemark.edges
-    .filter(i => i.node.frontmatter.path.match(/^\/programs/))
-    .map(item => item.node.frontmatter)
+    .filter((i) => i.node.frontmatter.path.match(/^\/programs/))
+    .map((item) => item.node.frontmatter)
 
   const aboutPage = data.allMarkdownRemark.edges.find(
-    i => i.node.frontmatter.path === "/about"
+    (i) => i.node.frontmatter.path === "/about"
   ).node
 
   return (
     <Layout data={siteMetadata}>
-      <AboutAcademy content={aboutPage} />
       <ThePrograms pages={programPages} />
       <SignUp />
+      <AboutAcademy content={aboutPage} />
     </Layout>
   )
 }

@@ -1,8 +1,14 @@
 @import "../../styles/common.scss";
 
 .thePrograms {
+  width: 100%;
+  margin: auto;
   background-color: white; // ${colors.knowit.red[3]};
   flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  // justify-content: center;
+  padding: 20px 0px;
 
   h2 {
     margin: 0;
@@ -34,8 +40,8 @@
         justify-content: center;
 
         @media (min-width: 960px) {
-          width: calc(886px / 2);
-          height: 280px;
+          width: calc(904px / 2);
+          height: 260px;
         }
         @media (min-width: 768px) and (max-width: 959px) {
           width: 45vw;
