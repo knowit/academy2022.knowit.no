@@ -1,7 +1,8 @@
 @import "common.scss";
 
 .content {
-  // margin: 20px;
+  max-width: 960px;
+
   h1,
   h2 {
     font-weight: 400;

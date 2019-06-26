@@ -1,10 +1,15 @@
 ---
 path: "/courses/tech-lead/software-architecture"
 date: "2019-11-13"
+endDate: "2019-11-14"
+confirmed: true
 title: "Software Architecture for Developers"
 teacher: "Simon Brown"
-description: ""
-image: ""
+description:
+  "The workshop is aimed at software developers and architects, and is a guide
+  to modern software architecture that's pragmatic rather than academic, and
+  lightweight rather than 'enterprisey'."
+image: "/assets/simon_brown.jpg"
 updated: "2019-06-24"
 author: "Thomas Malt"
 ---

@@ -1,9 +1,10 @@
 ---
 path: "/courses/tech-lead/agile-development"
 date: "2019-10-07"
+endDate: "2019-10-08"
 confirmed: true
 title: "Agile Development Best Practices"
-teacher: "Venkat Subramaniam"
+teacher: "Dr. Venkat Subramaniam"
 description:
   "This course takes a highly practical and result driven approach to being
   agile. It will present the major impediments, things we have to deeply
@@ -15,8 +16,6 @@ image: "/assets/venkat_subramaniam.jpg"
 updated: "2019-06-12"
 author: "Thomas Malt"
 ---
-
-<img style="float: right; padding-left: 16px; width: 300px; height: 400px; object-fit: cover" src="/assets/venkat_subramaniam.jpg"/>
 
 Agile development is all about succeeding in our efforts with the help of
 short, meaningful feedback loops. If we're not succeeding, then we ought to

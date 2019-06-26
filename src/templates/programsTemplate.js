@@ -30,13 +30,7 @@ const Template = ({ data }) => {
       </Helmet>
       <section>
         <div className={css.content}>
-          <Byline
-            title={frontmatter.title}
-            author={frontmatter.author}
-            email={frontmatter.email}
-            updated={frontmatter.updated}
-          />
-          {showInfoHeader()}
+          <InfoHeader data={markdownRemark} />
           <div dangerouslySetInnerHTML={{ __html: html }} />
         </div>
       </section>
@@ -50,7 +44,8 @@ export const pageQuery = graphql`
     markdownRemark(frontmatter: { path: { eq: $path } }) {
       html
       frontmatter {
-        date(formatString: "DD MMMM, YYYY")
+        date
+        endDate
         path
         title
         description

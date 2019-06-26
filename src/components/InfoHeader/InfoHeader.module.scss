@@ -1,10 +1,75 @@
 @import "../../styles/common.scss";
 
 .infoHeader {
-  padding: 8px;
-  background-color: #eee;
+  display: flex;
+  margin-top: 24px;
+  flex-wrap: nowrap;
+}
 
-  b {
-    color: $green-dark;
+.infoBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-grow: 1;
+  // min-height: 120px;
+  min-width: 220px;
+  margin-right: 16px;
+  // background-color: skyblue;
+
+  @media (max-width: 375px) {
+    width: 220px;
+  }
+  h1 {
+    margin: 0px;
+  }
+}
+
+.byline {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  vertical-align: middle;
+  color: $gray-dark;
+  padding: 4px 0px;
+  div {
+    display: inline-block;
+  }
+}
+
+.labels {
+  padding: 0px 24px 0px 8px;
+  position: relative;
+  top: -5px;
+  font-size: 16px;
+  @media (max-width: 320px) {
+    font-size: 12px;
+    top: -6px;
+  }
+  @media (min-width: 640px) and (max-width: 768px) {
+    font-size: 15px;
+  }
+}
+.pictureWrapper {
+  @media (max-width: 320px) {
+    width: 16px;
+  }
+
+  @media (min-width: 321px) and (max-width: 375px) {
+    width: 64px;
+  }
+}
+.picture {
+  width: 120px;
+  height: auto;
+  border-radius: 50%;
+  border: 4px solid #aaa;
+  @media (max-width: 320px) {
+    width: 64px;
+    position: relative;
+    right: 52px;
+  }
+  @media (min-width: 321px) and (max-width: 375px) {
+    width: 56px;
+    position: relative;
   }
 }
