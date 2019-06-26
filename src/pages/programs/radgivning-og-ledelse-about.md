@@ -2,8 +2,7 @@
 path: "/programs/about-radgivning-og-ledese"
 date: "2019-06-12"
 title: "Programmet for rådgivning og ledelse"
-description: "Dette er skolen for deg som vil lære hvordan du best leder en workshop,
-hvordan håndtere prosjektene dine i Jira/Confluence, hvordan endre
+description: "For deg som vil lære hvordan du best leder en workshop, hvordan endre
 organisasjoner gjennom Change Management, og mye mer."
 updated: "2019-06-12"
 author: "Heidi Hundåla"
