@@ -25,5 +25,11 @@ module.exports = {
         anonymize: true,
       },
     },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: ["material icons"],
+      },
+    },
   ],
 }
