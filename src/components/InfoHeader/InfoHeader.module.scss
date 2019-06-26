@@ -1,0 +1,10 @@
+@import "../../styles/common.scss";
+
+.infoHeader {
+  padding: 8px;
+  background-color: #eee;
+
+  b {
+    color: $green-dark;
+  }
+}
