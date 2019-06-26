@@ -8,27 +8,30 @@ import colors from "../utils/colors"
 
 const SignUpTitle = styled.h2`
   color: ${colors.knowit.purple[0]};
+  max-width: 960px;
 `
 
-const SignUpButton = styled.p`
+const SignUpButton = styled.a`
   text-align: center;
-  a {
-    display: inline-block;
-    text-decoration: none;
-    background-color: ${colors.knowit.green[1]};
-    height: 24px;
-    padding: 16px 16px;
-    color: white;
-    border-radius: 4px;
-    width: 320px;
-    vertical-align: middle;
-    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.24);
+  width: 78vw;
+  max-width: 320px;
+  display: block;
+  background-color: ${colors.knowit.green[1]};
+  padding: 16px 16px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.24);
+  margin: 24px auto;
+  text-decoration: none;
+  color: white;
+  border-radius: 4px;
+
+  &:active {
+    background-color: pink;
   }
 `
 
 const SignupSection = styled.section`
-  margin: 0;
-  padding: 32px;
+  margin: auto;
+  padding: 48px 20px 32px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -36,6 +39,12 @@ const SignupSection = styled.section`
   line-height: 1.56em;
   text-align: center;
   background-color: ${colors.knowit.red[3]};
+
+  & > p {
+    max-width: 960px;
+    margin: auto;
+    width: 100%;
+  }
 `
 
 const SignUp = () => {
@@ -47,10 +56,8 @@ const SignUp = () => {
         <b>søknadsfrist 31. august, 2019</b>. Mer informasjon om
         søknadsprosessen vil bli sendt ut rett over sommeren.
       </p>
-      <SignUpButton>
-        <a href="how-to-apply" alt="Information about how to apply">
-          Hvordan søke
-        </a>
+      <SignUpButton href="how-to-apply" alt="Information about how to apply">
+        Hvordan søke
       </SignUpButton>
     </SignupSection>
   )

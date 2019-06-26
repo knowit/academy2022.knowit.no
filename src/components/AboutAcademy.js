@@ -3,11 +3,14 @@ import styled from "styled-components"
 import colors from "../utils/colors"
 
 const AboutSection = styled.section`
-  margin-top: 0;
-  margin-left: auto;
-  margin-right: auto;
   background-color: white; // ${colors.knowit.purple[3]};
   hyphens: auto;
+  // width: 100%;
+  // max-width: 960px;
+
+   & > div {
+     max-width: 960px;
+   }
 
   h2, h1 {
     color: ${colors.knowit.green[0]};
@@ -15,13 +18,13 @@ const AboutSection = styled.section`
   }
 
   p {
-    line-height: 1.6em;
+    line-height: 1.56em;
   }
   p:first-child {
     margin-top: 0;
   }
   p:last-child {
-    margin-bottom: 0;
+    margin-bottom: 24px;
   }
 `
 
