@@ -5,9 +5,7 @@ import css from "./Version.module.scss"
 const Version = () => (
   <>
     {" "}
-    <span className={css.version}>
-      Dette er versjon {version} av websidene.
-    </span>
+    <span className={css.version}>v{version}</span>
   </>
 )
 
