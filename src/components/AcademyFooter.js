@@ -61,7 +61,7 @@ const AcademyFooter = () => {
           Har du spørsmål om Knowit Academy? Send en epost til{" "}
           <a href="mailto:academy@knowit.no">academy@knowit.no</a> så svarer vi
           så snart vi rekker.
-          <Version></Version>
+          <Version />
         </div>
       </Footer>
     </Wrapper>
