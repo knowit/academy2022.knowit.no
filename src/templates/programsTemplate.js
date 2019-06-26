@@ -14,6 +14,12 @@ const Template = ({ data }) => {
   const { markdownRemark } = data // data.markdownRemark holds our post data
   const { frontmatter, html } = markdownRemark
 
+  const showInfoHeader = () => {
+    if (frontmatter.path.match(/\/courses/)) {
+      return <InfoHeader data={markdownRemark} />
+    }
+  }
+  console.log("should show info header:", frontmatter.path, showInfoHeader)
   return (
     <Layout data={data}>
       <Helmet>
@@ -30,7 +36,7 @@ const Template = ({ data }) => {
             email={frontmatter.email}
             updated={frontmatter.updated}
           />
-          <InfoHeader data={markdownRemark} />
+          {showInfoHeader()}
           <div dangerouslySetInnerHTML={{ __html: html }} />
         </div>
       </section>
