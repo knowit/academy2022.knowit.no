@@ -2,6 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/FrontLayout"
 import Byline from "../components/Byline"
+import InfoHeader from "../components/InfoHeader"
 import Helmet from "react-helmet"
 import css from "../styles/programTemplate.module.scss"
 
@@ -29,6 +30,7 @@ const Template = ({ data }) => {
             email={frontmatter.email}
             updated={frontmatter.updated}
           />
+          <InfoHeader data={markdownRemark} />
           <div dangerouslySetInnerHTML={{ __html: html }} />
         </div>
       </section>
@@ -50,6 +52,8 @@ export const pageQuery = graphql`
         updated
         email
         author
+        teacher
+        confirmed
       }
     }
     site {
