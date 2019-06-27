@@ -2,20 +2,19 @@ import React from "react"
 import { graphql } from "gatsby"
 // import styled from "styled-components"
 import Layout from "../../../components/FrontLayout"
-import Byline from "../../../components/Byline"
 import css from "../../../styles/tech-lead-index.module.scss"
 
 const TeamLeadProgram = ({ data }) => {
   const courseInfo = data.allMarkdownRemark.edges
-    .filter(i => i.node.frontmatter.path.match(/^\/courses\/team-lead/))
-    .map(i => {
+    .filter((i) => i.node.frontmatter.path.match(/^\/courses\/team-lead/))
+    .map((i) => {
       i.node.frontmatter.date = new Date(i.node.frontmatter.date)
       return i
     })
     .sort((a, b) =>
       a.node.frontmatter.date > b.node.frontmatter.date ? 1 : -1
     )
-    .map(i => {
+    .map((i) => {
       return (
         <tr key={i.node.frontmatter.path}>
           <td className="title">{i.node.frontmatter.title}</td>
@@ -44,12 +43,6 @@ const TeamLeadProgram = ({ data }) => {
   return (
     <Layout data={data.site.siteMetadata}>
       <section id="main">
-        <Byline
-          title="Team-Lead programmet 2019/2020"
-          updated="2019-06-19"
-          author="Jan Henrik Gundelsby"
-          email="academy.knowit.no"
-        ></Byline>
         <table>
           <thead>
             <tr>

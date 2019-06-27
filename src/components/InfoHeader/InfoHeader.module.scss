@@ -68,7 +68,7 @@
 }
 .picture {
   width: auto;
-  height: calc(width * 0.75);
+  // height: calc(width * 0.75);
   display: block;
   object-fit: cover;
   float: right;
