@@ -9,19 +9,25 @@ author: "Michael Åhs"
 email: "academy@knowit.no"
 ---
 
-Vi skall skapa en digital värld där alla känner sig trygga. Dock upplever vi
-ibland det svårt att leverera säkra system i en värld där allt skall ske
-snabbare och säkerhetkraven inte är prioriterade. Plötsligt dock, när det har
-skett en incident, så är säkerhet det viktigaste kravet.
+# Om kurset
+Vi skal skape en digital verden der alle føler seg trygge. Noen ganger er det imidlertid vanskelig å levere sikre systemer når alt skal skje raskere og sikkerhetskravene ikke prioriteres. Hvis en hendelse oppstår, kan sikkerhet det viktigste kravet.
 
-Richard Westberg, säkerhetexpert från Knowit Defence Technology, kommer att
-förklara hur vi kan levererat säkra system.
+Som Team Lead er det viktig å: 
+forstå behovet for balanse mellom sikkerhet og funksjonalitet og 
+kunne diskutere med interessenter og team de sentrale sikkerhetsprinsippene. 
+I tillegg til å vite hvilke sikkerhetsproblemer som bør prioriteres og hvordan man kan lede teamet for sikker systemutvikling.
 
-# What you'll learn
+Vi skall skapa en digital värld där alla känner sig trygga. Dock upplever vi bland det svårt att leverera säkra system i en värld där allt skall ske snabbare och säkerhetskraven inte är prioriterade. Om det sker en incident, så blir säkerhet det viktigaste kravet.
 
-During this session you will learn:
+Som Team lead är det viktigt att att förstå behovet av balans mellan säkerhet och funktionalitet. Kunna diskutera med intressenter och team de centrala säkerhetsprinciperna. Samt veta vilka säkerhetsfrågor som skall prioriteras samt hur leda teamet för en säker systemutveckling. 
 
-- The need for security
-- Important security principles and terms
-- Importance of defence in depth culture
-- Security methods and tools
+# Du vil lære
+
+I denne sesjonen vil gjennomgå:
+- Nylige relevante hendelser som viser behovet for sikkerhet
+- Betydningen av "defence in depth" kultur
+- Sikkerhetsprinsipper og utfordringer
+- Sikkerhetsmetoder og verktøy
+
+# Om foredragsholderen
+Rickard Westberg har jobbet med utvikling av marine styringssystemer i 20 år i nesten alle roller fra utvikler til divisjonsleder. Rickard har lang erfaring med å jobbe innen sikkerhet i både system og infrastruktur. Rickard har de siste årene fokusert på muligheter og utfordringer ved digitalisering i sikkerhetskritiske applikasjoner.
