@@ -19,11 +19,9 @@ I tillegg til å vite hvilke sikkerhetsproblemer som bør prioriteres og hvordan
 
 Vi skall skapa en digital värld där alla känner sig trygga. Dock upplever vi bland det svårt att leverera säkra system i en värld där allt skall ske snabbare och säkerhetskraven inte är prioriterade. Om det sker en incident, så blir säkerhet det viktigaste kravet.
 
-Som Team lead är det viktigt att att förstå behovet av balans mellan säkerhet och funktionalitet. Kunna diskutera med intressenter och team de centrala säkerhetsprinciperna. Samt veta vilka säkerhetsfrågor som skall prioriteras samt hur leda teamet för en säker systemutveckling. 
-
 # Du vil lære
 
-I denne sesjonen vil gjennomgå:
+I denne sejsonen vil du blant annet lære:
 - Nylige relevante hendelser som viser behovet for sikkerhet
 - Betydningen av "defence in depth" kultur
 - Sikkerhetsprinsipper og utfordringer
