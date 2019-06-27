@@ -2,20 +2,20 @@ import React from "react"
 import { graphql } from "gatsby"
 // import styled from "styled-components"
 import Layout from "../../../components/FrontLayout"
-import Byline from "../../../components/Byline"
+import InfoHeader from "../../../components/InfoHeader"
 import css from "../../../styles/tech-lead-index.module.scss"
 
 const TechLeadProgram = ({ data }) => {
   const courseInfo = data.allMarkdownRemark.edges
-    .filter(i => i.node.frontmatter.path.match(/^\/courses\/tech-lead/))
-    .map(i => {
+    .filter((i) => i.node.frontmatter.path.match(/^\/courses\/tech-lead/))
+    .map((i) => {
       i.node.frontmatter.date = new Date(i.node.frontmatter.date)
       return i
     })
     .sort((a, b) =>
       a.node.frontmatter.date > b.node.frontmatter.date ? 1 : -1
     )
-    .map(i => {
+    .map((i) => {
       return (
         <tr key={i.node.frontmatter.path}>
           <td className="title">{i.node.frontmatter.title}</td>
@@ -38,18 +38,22 @@ const TechLeadProgram = ({ data }) => {
     hvilke kurs og workshops som er med, og informasjons om hvordan du søker
   `
   metadata.siteUrl = "https://academy.knowit.no/programs/tech-lead/"
+  metadata.path = "/programs/tech-lead"
+  metadata.updated = "2019-06-27"
+  metadata.author = "Thomas Malt"
 
+  //  <Byline
+  //    title="Tech-Lead programmet 2019/2020"
+  //    updated="2019-06-19"
+  //    author="Thomas Malt"
+  //    email="academy.knowit.no"
+  //  ></Byline>
   console.log("data", data)
   console.log("courses", courseInfo)
   return (
     <Layout data={data.site.siteMetadata}>
+      <InfoHeader data={{ frontmatter: metadata }} />
       <section id="main">
-        <Byline
-          title="Tech-Lead programmet 2019/2020"
-          updated="2019-06-19"
-          author="Thomas Malt"
-          email="academy.knowit.no"
-        ></Byline>
         <table>
           <thead>
             <tr>

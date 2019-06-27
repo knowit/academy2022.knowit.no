@@ -9,6 +9,7 @@ import colors from "../utils/colors"
 const SignUpTitle = styled.h2`
   color: ${colors.knowit.purple[0]};
   max-width: 960px;
+  margin-bottom: 24px;
 `
 
 const SignUpButton = styled.a`

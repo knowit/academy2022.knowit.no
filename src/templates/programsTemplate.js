@@ -1,7 +1,6 @@
 import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/FrontLayout"
-import Byline from "../components/Byline"
 import InfoHeader from "../components/InfoHeader"
 import Helmet from "react-helmet"
 import css from "../styles/programTemplate.module.scss"
