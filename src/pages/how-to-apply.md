@@ -1,15 +1,13 @@
 ---
 path: "/how-to-apply"
 date: "2019-06-05"
-title: "Informasjon om søknadsprosessern til Knowit Academy"
+title: "Informasjon om søknadsprosessen til Knowit Academy"
 description:
   "Information in Norwegian about the application process for Knowit Academy"
 author: Thomas Malt
 email: thomas.malt@knowit.no
 updated: "2019-06-19"
 ---
-
-# Informasjon om søknadsprosessen
 
 Det er mange som vil delta på programmene i Knowit Academy og stor konkurranse
 om plassene. Her kommer mer informasjon om søknadsprosessen og hvordan du går
