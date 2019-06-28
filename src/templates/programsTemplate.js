@@ -2,6 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/FrontLayout"
 import InfoHeader from "../components/InfoHeader"
+import BlogHeader from "../components/BlogHeader"
 import Helmet from "react-helmet"
 import css from "../styles/programTemplate.module.scss"
 
@@ -16,6 +17,8 @@ const Template = ({ data }) => {
   const showInfoHeader = () => {
     if (frontmatter.path.match(/\/courses/)) {
       return <InfoHeader data={markdownRemark} />
+    } else {
+      return <BlogHeader data={markdownRemark} />
     }
   }
   console.log("should show info header:", frontmatter.path, showInfoHeader)
@@ -29,7 +32,7 @@ const Template = ({ data }) => {
       </Helmet>
       <section>
         <div className={css.content}>
-          <InfoHeader data={markdownRemark} />
+          {showInfoHeader()}
           <div dangerouslySetInnerHTML={{ __html: html }} />
         </div>
       </section>
