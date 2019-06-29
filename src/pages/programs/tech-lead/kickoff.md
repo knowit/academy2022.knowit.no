@@ -1,16 +1,21 @@
 ---
 path: "/courses/tech-lead/kickoff"
 date: "2019-09-05"
+confirmed: false
 title: "Kick-off og lagarbeid"
 teacher: "Jan Henrik Gundelsby"
 description:
-  "Hyggelig og uformell introduksjon til årets program. Etter en presentasjon
-  på ca. 1 time går vi videre til en lagøvelse før vi spiser middag sammen."
-image: ""
-updated: "2019-06-19"
+  "En hyggelig og uformell introduksjon til årets program. Etter en
+  presentasjon på ca. 1 time går vi videre til en lagøvelse før vi spiser
+  middag sammen."
+image: "/assets/jan_henrik_gundelsby.jpg"
+updated: "2019-06-27"
 author: "Thomas Malt"
 email: "academy@knowit.no"
 ---
+
+En hyggelig og uformell introduksjon til årets program. Etter en presentasjon
+på ca. 1 time går vi videre til en lagøvelse før vi spiser middag sammen.
 
 Kickoff'en har to hovedmålsetninger.
 

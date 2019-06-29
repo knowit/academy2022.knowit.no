@@ -56,10 +56,12 @@
 }
 .pictureWrapper {
   width: 240px;
+  min-width: 96px;
   height: inherit;
+  min-height: 120px;
   border-radius: 0px 8px 8px 0px;
   @media (max-width: 320px) {
-    width: 96px;
+    width: 80px;
   }
 
   @media (min-width: 321px) and (max-width: 375px) {
@@ -82,4 +84,12 @@
     width: 56px;
     position: relative;
   }
+}
+
+.confirmedTrue {
+  color: $red-dark;
+}
+
+.confirmedFalse {
+  color: $green-dark;
 }
