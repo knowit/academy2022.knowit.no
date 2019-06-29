@@ -1,5 +1,6 @@
 import React from "react"
 import Icon from "../Icon"
+import colors from "../../utils/colors"
 import moment from "moment"
 import "moment/locale/nb"
 import css from "./InfoHeader.module.scss"
@@ -11,12 +12,16 @@ import css from "./InfoHeader.module.scss"
  * @param {*} from
  * @param {*} to
  */
-const dateString = (from, to) => {
+const dateString = (from, to, confirmed = false) => {
   const startDate = moment(from)
   const endDate = moment(to)
 
   if (moment(startDate).isValid === false) {
     return "TBD"
+  }
+
+  if (confirmed === false) {
+    return `${startDate.format("D MMM")} (ubekreftet)`
   }
 
   let string = startDate.format("D MMM")
@@ -28,11 +33,22 @@ const dateString = (from, to) => {
   return string
 }
 
-const Dates = ({ startDate, endDate }) => {
+/**
+ * Returns the date field in the info header.
+ *
+ * @param {*} param0
+ */
+const Dates = ({ startDate, endDate, confirmed }) => {
+  const style = confirmed
+    ? { color: colors.knowit.green[0] }
+    : { color: colors.knowit.red[0] }
+
   return (
     <div>
-      <Icon name="date_range" />
-      <span className={css.labels}>{dateString(startDate, endDate)}</span>
+      <Icon style={style} name="date_range" />
+      <span style={style} className={css.labels}>
+        {dateString(startDate, endDate, confirmed)}
+      </span>
     </div>
   )
 }
@@ -74,7 +90,7 @@ const Updated = ({ date, path, author, email }) => {
   )
 }
 
-const Picture = ({ url, teacher }) => {
+const Picture = ({ url }) => {
   // <img src={url} alt={`Lecturer is ${teacher}`} className={css.picture} />
   return (
     <div
@@ -96,9 +112,14 @@ const Picture = ({ url, teacher }) => {
  */
 const InfoHeader = ({ data }) => {
   const { frontmatter } = data
+  const confirmed = frontmatter.confirmed ? true : false
 
   let dates = frontmatter.path.match(/\/courses/) ? (
-    <Dates startDate={frontmatter.date} endDate={frontmatter.endDate} />
+    <Dates
+      confirmed={confirmed}
+      startDate={frontmatter.date}
+      endDate={frontmatter.endDate}
+    />
   ) : (
     ""
   )
