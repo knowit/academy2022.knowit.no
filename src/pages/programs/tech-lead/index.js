@@ -59,7 +59,7 @@ const TechLeadProgram = ({ data }) => {
             <tr>
               <td>Tema</td>
               <td>Foredragsholder</td>
-              <td>Dato</td>
+              <td>Tentativ dato</td>
               <td>Om kurset</td>
             </tr>
           </thead>
