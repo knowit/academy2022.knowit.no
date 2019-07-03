@@ -1,5 +1,10 @@
 @import "../../styles/common.scss";
 
+.infoHeaderLink {
+  text-decoration: none;
+  color: inherit;
+}
+
 .infoHeader {
   display: flex;
   flex-direction: row;
@@ -22,6 +27,7 @@
   }
   h1 {
     margin: 0px;
+    font-size: 1.4em;
   }
 }
 
@@ -60,29 +66,28 @@
   height: inherit;
   min-height: 120px;
   border-radius: 0px 8px 8px 0px;
+
+  @media (min-width: 960px) {
+    width: 240px;
+    min-width: 240px;
+  }
+
+  @media (min-width: 720px) and (max-width: 959px) {
+    width: 180px;
+    min-width: 180px;
+  }
+
+  @media (min-width: 481px) and (max-width: 719px) {
+    width: 120px;
+    min-width: 120px;
+  }
+
   @media (max-width: 320px) {
     width: 80px;
   }
 
-  @media (min-width: 321px) and (max-width: 375px) {
+  @media (min-width: 321px) and (max-width: 480px) {
     width: 96px;
-  }
-}
-.picture {
-  width: auto;
-  // height: calc(width * 0.75);
-  display: block;
-  object-fit: cover;
-  float: right;
-  // border-radius: 50%;
-  // border: 4px solid #aaa;
-  @media (max-width: 320px) {
-    width: 64px;
-    position: relative;
-  }
-  @media (min-width: 321px) and (max-width: 375px) {
-    width: 56px;
-    position: relative;
   }
 }
 
@@ -92,4 +97,10 @@
 
 .confirmedFalse {
   color: $green-dark;
+}
+
+.description {
+  margin: 8px 0px 24px 0px;
+  padding: 0;
+  line-height: 1.56em;
 }
