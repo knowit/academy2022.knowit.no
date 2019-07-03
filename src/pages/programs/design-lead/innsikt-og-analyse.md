@@ -1,6 +1,6 @@
 ---
 path: "/courses/design-lead/innsikt-og-analyse"
-date: ""
+date: "2020-03-02"
 title: "Innsikt og analyse"
 teacher: "TBA"
 description: ""
@@ -8,6 +8,7 @@ updated: "2019-06-24"
 author: "Thea Basthus Nilsen"
 email: "academy@knowit.no"
 ---
+**NB: Tentativ dato (ikke fastsatt)**
 
 Hvordan kan vi sikre at vi alltid setter brukeren først og hvordan går vi frem for å få god innsikt i brukernes behov? I denne sesjonen får vi trening i innsikt- og analysearbeidet som er avgjørende for å skape innovative og brukervennlige løsninger.
 
