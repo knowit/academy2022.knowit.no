@@ -1,5 +1,5 @@
 ---
-path: "/courses/design-lead/prosjekt-og-designledelse"
+path: "/courses/design-lead/designledelse"
 date: "2020-01-06"
 title: "Designledelse"
 teacher: "TBA"
