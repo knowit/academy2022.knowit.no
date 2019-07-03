@@ -9,14 +9,14 @@ author: "Thea Basthus Nilsen"
 email: "academy@knowit.no"
 ---
 
-Intro
+En intro til designstrategi, innovasjonsarbeid, digital transformasjon og rådgiving.
 
 # Hva du lærer
 
-- Punkt
-- Punkt
-- Punkt
+- Et overordnet perspektiv på innovasjonsledelse, digital transformasjon, innovasjon og strategi, og forståelse for påvirkningen på designprosessen
+- Rådgiving i strategiske beslutninger, utvikling av roadmaps og visjoner
+
 
 # Om læreren
 
-Tekst
+TBA
