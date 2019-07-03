@@ -2,7 +2,7 @@
 path: "/courses/design-lead/innovasjon-og-designmetodikk-1"
 date: ""
 title: "Innovasjon- og designmetodikk del 1"
-teacher: "kommer"
+teacher: "TBA"
 description: ""
 updated: "2019-06-24"
 author: "Thea Basthus Nilsen"
@@ -17,6 +17,6 @@ Første del av 2 sesjoner hvor vi går i dybden og lærer praktisk om ulike aktu
 - Verktøy for lean UX i praksis
 - Hvordan du kontinuerlig engasjerer brukerne og avdekker hva du skal utvikles
 
-# Om læreren
+# Om kursholder
 
-Tekst
+TBA
