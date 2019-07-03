@@ -1,6 +1,6 @@
 ---
 path: "/courses/design-lead/design-og-innovasjonsstrategi"
-date: ""
+date: "2020-04-06"
 title: "Design- og innovasjonsstrategi"
 teacher: "TBA"
 description: ""
@@ -8,6 +8,7 @@ updated: "2019-06-24"
 author: "Thea Basthus Nilsen"
 email: "academy@knowit.no"
 ---
+**NB: Tentativ dato (ikke fastsatt)**
 
 Hvordan kan vi hjelpe kundene vår å ta gode designvalg og skape innovative løsninger? Sesjonen er intro til designstrategi, innovasjonsarbeid, digital transformasjon og rådgiving.
 
