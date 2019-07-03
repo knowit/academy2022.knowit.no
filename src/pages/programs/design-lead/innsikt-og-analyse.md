@@ -13,8 +13,8 @@ Innsikt og analyse er avgjørende for å sette brukerne først og håndtere konk
 
 # Hva du lærer
 
-- Metoder og verktøy for å forstå brukerne, identifisere hvem de er og hva deres behov er basert på innsikt. 
-- Hvordan du oversetter innsikt til løsninger, relevante tilnærminger og konsepter som møter brukerens behov
+- Metoder og verktøy for å forstå brukerne, identifisere hvem de er og deres behov 
+- Hvordan du oversetter innsikt til løsninger og konsepter som møter brukerens behov
 - Visualisering av innsikt og prototyping av løsninger
 - Om kvantitativ innsikt
 
