@@ -9,7 +9,7 @@ author: "Thea Basthus Nilsen"
 email: "academy@knowit.no"
 ---
 
-Innsikt og analyse er avgjørende for å sette brukerne først og håndtere konkurrerende prioriteringer når det gjelder designutvikling. 
+Hvordan kan vi sikre at vi alltid setter brukeren først og hvordan går vi frem for å få god innsikt i brukernes behov? I denne sesjonen får vi trening i innsikt- og analysearbeidet som er avgjørende for å skape innovative og brukervennlige løsninger.
 
 # Hva du lærer
 
