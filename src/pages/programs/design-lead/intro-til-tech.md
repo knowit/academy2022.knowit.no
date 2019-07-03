@@ -8,6 +8,7 @@ updated: "2019-06-24"
 author: "Thea Basthus Nilsen"
 email: "academy@knowit.no"
 ---
+**NB: Tentativ dato (ikke fastsatt)**
 
 # Hva du lærer
 
