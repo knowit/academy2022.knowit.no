@@ -1,13 +1,14 @@
 ---
 path: "/courses/design-lead/prosjekt-og-designledelse"
-date: ""
+date: "2020-01-01"
 title: "Designledelse"
-teacher: "kommer"
+teacher: "TBA"
 description: ""
 updated: "2019-06-24"
 author: "Thea Basthus Nilsen"
 email: "academy@knowit.no"
 ---
+**NB: Tentativ dato (ikke fastsatt)**
 
 # Hva du lærer
 
@@ -16,6 +17,6 @@ email: "academy@knowit.no"
 - Forståelse og styring av risiko og avhengigheter på tvers av folk, fagfelt og ansvarsområder
 - Forstå og løse faglige og tekniske utfordringer av ulik grad av kompleksitet og risiko
 
-# Om læreren
+# Om kursholder
 
 TBA
