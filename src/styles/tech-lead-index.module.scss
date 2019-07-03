@@ -5,31 +5,6 @@ h1 {
   margin-bottom: 0px;
 }
 
-table {
-  border-collapse: collapse;
-  margin-bottom: 56px;
-  width: 100%;
-}
-
-td {
-  padding: 8px;
-}
-
-thead {
-  background-color: $purple-light;
-  td {
-    font-weight: bold;
-    border: 1px solid $purple-dark;
-  }
-}
-
-tbody {
-  td {
-    border: 1px dashed $purple-medium;
-    font-size: 0.9em;
-  }
-  .info {
-    white-space: nowrap;
-    text-align: center;
-  }
+.courseInfoSection {
+  max-width: 960px;
 }
