@@ -1,6 +1,6 @@
 ---
 path: "/courses/design-lead/intro-til-tech"
-date: ""
+date: "2020-05-04"
 title: "Intro til teknologiprosesser og metodikk"
 teacher: "Thomas Malt"
 description: ""
