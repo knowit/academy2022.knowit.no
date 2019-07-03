@@ -13,10 +13,11 @@ Intro
 
 # Hva du lærer
 
-- Punkt
-- Punkt
-- Punkt
+- Planlegging av prosjekter, arbeid med salg og forståelse for kontrakter og avtaler
+- Om designledelse, hvordan du kan omsette visjon til gjennomføring og skaper et miljø for samarbeid og høy faglig kvalitet
+- Forståelse og styring av risiko og avhengigheter på tvers av folk, fagfelt og ansvarsområder
+- Forstå og løse faglige og tekniske utfordringer av ulik grad av kompleksitet og risiko
 
 # Om læreren
 
-Tekst
+TBA
