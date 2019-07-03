@@ -10,14 +10,13 @@ email: "academy@knowit.no"
 ---
 **NB: Tentativ dato (ikke fastsatt)**
 
-Intro
+I andre sesjon om innovasjon- og designmetodikk får du lære mer og teste ut brukersentrerte designmetodikker som design thinking og designsprint.
 
 # Hva du lærer
 
-- Punkt
-- Punkt
-- Punkt
+- Design thinking-metodikk
+- Design sprint
 
-# Om læreren
+# Om kursholderen
 
-Tekst
+TBA
