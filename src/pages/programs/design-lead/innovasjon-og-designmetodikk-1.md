@@ -1,6 +1,6 @@
 ---
 path: "/courses/design-lead/innovasjon-og-designmetodikk-1"
-date: ""
+date: "2019-10-07"
 title: "Innovasjon- og designmetodikk del 1"
 teacher: "TBA"
 description: ""
@@ -8,6 +8,7 @@ updated: "2019-06-24"
 author: "Thea Basthus Nilsen"
 email: "academy@knowit.no"
 ---
+**NB: Tentativ dato (ikke fastsatt)**
 
 Første del av 2 sesjoner hvor vi går i dybden og lærer praktisk om ulike aktuelle design- og innovasjonsmetodikker. I denne sesjonen fokuserer vi på lean-metodikk.
 
