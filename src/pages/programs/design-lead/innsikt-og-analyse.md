@@ -2,7 +2,7 @@
 path: "/courses/design-lead/innsikt-og-analyse"
 date: ""
 title: "Innsikt og analyse"
-teacher: "kommer"
+teacher: "TBA"
 description: ""
 updated: "2019-06-24"
 author: "Thea Basthus Nilsen"
