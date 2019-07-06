@@ -11,6 +11,7 @@ description: "Kurset går gjennom elementene i effektiv kommunikasjon, og hvorda
 updated: "2019-06-24"
 author: "Michael Åhs"
 email: "academy@knowit.no"
+image: "/assets/4BD5282F-4DE2-4374-8B3C-E7146A945CEF.jpeg"
 ---
 
 Hva handler kommunikasjon egentlig om og hvordan kan vi bedre forstå hvordan
