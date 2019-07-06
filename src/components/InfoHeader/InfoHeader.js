@@ -116,10 +116,6 @@ const Description = ({ description }) => {
  */
 const InfoHeader = ({ data, showDescription }) => {
   const { frontmatter } = data;
-  console.log("InfoHeader:", frontmatter);
-  // if (!frontmatter.hasOwnProperty("confirmed")) {
-  //   frontmatter.confirmed = false;
-  // }
 
   const confirmed = frontmatter.confirmed ? true : false;
 
@@ -159,7 +155,7 @@ const InfoHeader = ({ data, showDescription }) => {
     >
       <div className={css.infoHeader} key={frontmatter.path}>
         <div className={css.infoBox}>
-          <h1>{frontmatter.title}</h1>
+          <h4>{frontmatter.title}</h4>
           <div className={css.byline}>
             {dates}
             {teacher}
