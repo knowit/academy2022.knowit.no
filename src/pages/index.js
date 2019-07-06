@@ -10,7 +10,7 @@ const Page = ({ data }) => {
 
   // remove unneccessary complexity from the data.
   const programPages = data.allMarkdownRemark.edges
-    .filter(i => i.node.frontmatter.path.match(/^\/programs/))
+    .filter(i => i.node.frontmatter.path.match(/^\/programs\/about/))
     .map(item => item.node.frontmatter);
 
   const aboutPage = data.allMarkdownRemark.edges.find(

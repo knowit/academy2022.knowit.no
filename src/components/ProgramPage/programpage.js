@@ -36,8 +36,8 @@ const ProgramPage = ({ program }) => {
           className={css.aboutProgram}
           dangerouslySetInnerHTML={{ __html: about.html }}
         />
-        <SignupSection />
         <ProgramOverview courses={courses} title="Kursoversikt" />
+        <SignupSection />
       </section>
     </Layout>
   );
