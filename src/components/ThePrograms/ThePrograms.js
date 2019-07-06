@@ -2,11 +2,8 @@ import React from "react";
 import css from "./ThePrograms.module.scss";
 
 const ThePrograms = ({ pages }) => {
-  console.log("The Programs:", pages);
-
   const programPages = pages.map(item => {
     const path = item.path.replace(/about-/, "");
-    console.log("path fixed:", item.path, path);
     return (
       <li key={item.path}>
         <a href={path}>
