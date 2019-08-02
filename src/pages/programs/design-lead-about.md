@@ -9,8 +9,6 @@ author: "Thea Basthus Nilsen"
 updated: "2019-06-24"
 ---
 
-# Design-lead programmet
-
 Program for design- og innovasjonsledelse (primært for digitale prosjekter).
 Målet er å videreutdanne eksperter som styrker den faglige kvaliteten i
 prosjektene våre og i det interne miljøet i Knowit.
@@ -22,12 +20,3 @@ for faglig kvalitet i leveransene.
 Kurset vil omhandle temaer som kommunikasjon, metodikk, prosjekt- og
 designledelse, innsikt og analyse, fasilitering, digital strategi og
 innovasjon.
-
-## Påmelding
-
-Påmelding til programmene åpner i midten av august, og fristen for påmelding
-blir 31. august, 2019.
-
-## Mer informasjon
-
-Her er informasjon om [årets program](/programs/design-lead)

@@ -1,22 +1,22 @@
 ---
 path: "/courses/design-lead/innovasjon-og-designmetodikk-2"
-date: ""
+date: "2020-02-03"
 title: "Innovasjon- og designmetodikk del 2"
-teacher: "kommer"
+teacher: "TBA"
 description: ""
 updated: "2019-06-24"
 author: "Thea Basthus Nilsen"
 email: "academy@knowit.no"
 ---
+**NB: Tentativ dato (ikke fastsatt)**
 
-Intro
+I andre sesjon om innovasjon- og designmetodikk får du lære verktøy og jobbe praktisk med brukerorienterte designmetodikker som design thinking og designsprint.
 
 # Hva du lærer
 
-- Punkt
-- Punkt
-- Punkt
+- Design thinking-metodikk
+- Design sprint
 
-# Om læreren
+# Om kursholderen
 
-Tekst
+TBA

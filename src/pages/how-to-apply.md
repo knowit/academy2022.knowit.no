@@ -27,4 +27,4 @@ er, hvorfor du ønsker å søke og hva du håper å benytte det du lærer til.
 
 Husk å sende inn søknad innen fristen. Fristen i år vil være <b>31. august</b>
 
-Mer informasjon om søknadsfrist kommer i begynnelsen av august.
+Mer informasjon om søknadsprosessen kommer i begynnelsen av august.

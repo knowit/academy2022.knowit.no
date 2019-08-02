@@ -31,6 +31,7 @@ const TechLeadProgram = ({ data }) => {
       )
     })
 
+<<<<<<< HEAD
   const metadata = data.site.siteMetadata
   metadata.title = "Tech-Lead programmet 2019/2020"
   metadata.description = `
@@ -105,3 +106,4 @@ export const query = graphql`
     }
   }
 `
+export default TechLeadProgram;

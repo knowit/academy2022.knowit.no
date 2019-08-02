@@ -1,5 +1,5 @@
 ---
-path: "/programs/about-radgivning-og-ledelse"
+path: "/programs/radgivning-og-ledelse"
 date: "2019-06-12"
 title: "Programmet for rådgivning og ledelse"
 description: "For deg som vil lære hvordan du best leder en workshop, hvordan endre
@@ -26,4 +26,3 @@ Dette programmet utsettes ett år. Vi har undersøkt og det er ikke mange nok in
 Du kan kontakte Heidi Hundåla inntil videre,
 <a href="mailto:heidi.hundala@knowit.no">heidi.hundala@knowit.no</a> for flere
 detaljer om programmet. Det kommer mer informasjon om neste års program så snart
-det er klart.

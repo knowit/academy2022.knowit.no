@@ -4,7 +4,7 @@ date: "2019-11-04"
 title: "Sikkerhet"
 teacher: "Rickard Westberg - Knowit Defence Technology"
 description: ""
-updated: "2019-06-24"
+updated: "2019-07-05"
 author: "Michael Åhs"
 email: "academy@knowit.no"
 ---
@@ -16,8 +16,6 @@ Som Team Lead er det viktig å:
 forstå behovet for balanse mellom sikkerhet og funksjonalitet og 
 kunne diskutere med interessenter og team de sentrale sikkerhetsprinsippene. 
 I tillegg til å vite hvilke sikkerhetsproblemer som bør prioriteres og hvordan man kan lede teamet for sikker systemutvikling.
-
-Vi skall skapa en digital värld där alla känner sig trygga. Dock upplever vi bland det svårt att leverera säkra system i en värld där allt skall ske snabbare och säkerhetskraven inte är prioriterade. Om det sker en incident, så blir säkerhet det viktigaste kravet.
 
 # Du vil lære
 
