@@ -1,9 +1,9 @@
-import React from "react";
-import Icon from "../Icon";
-import colors from "../../utils/colors";
-import moment from "moment";
-import "moment/locale/nb";
-import css from "./InfoHeader.module.scss";
+import React from "react"
+import Icon from "../Icon"
+import colors from "../../utils/colors"
+import moment from "moment"
+import "moment/locale/nb"
+import css from "./InfoHeader.module.scss"
 
 /**
  * Takes two strings with something that can be parsed to a date as input.
@@ -13,25 +13,27 @@ import css from "./InfoHeader.module.scss";
  * @param {*} to
  */
 const dateString = (from, to, confirmed = false) => {
-  const startDate = moment(from);
-  const endDate = moment(to);
+  const startDate = moment(from)
+  const endDate = moment(to)
 
+  console.log("dateString:", from, to, confirmed)
   if (moment(startDate).isValid === false) {
-    return "TBD";
+    return "TBD"
   }
 
   if (confirmed === false) {
-    return `${startDate.format("D MMM")} (ubekreftet)`;
+    return `${startDate.format("D MMM")} (ubekreftet)`
   }
 
-  let string = startDate.format("D MMM");
+  let string = startDate.format("D MMM")
   if (endDate.isValid()) {
-    string += ` - ${endDate.format("D MMM")}`;
+    string += ` - ${endDate.format("D MMM")}`
   }
-  string += ` ${startDate.format("YYYY")}`;
+  string += ` ${startDate.format("YYYY")}`
+  string += `, kl ${startDate.format("HH:mm")}`
 
-  return string;
-};
+  return string
+}
 
 /**
  * Returns the date field in the info header.
@@ -41,7 +43,7 @@ const dateString = (from, to, confirmed = false) => {
 const Dates = ({ startDate, endDate, confirmed }) => {
   const style = confirmed
     ? { color: colors.knowit.green[0] }
-    : { color: colors.knowit.red[0] };
+    : { color: colors.knowit.red[0] }
 
   return (
     <div>
@@ -50,8 +52,8 @@ const Dates = ({ startDate, endDate, confirmed }) => {
         {dateString(startDate, endDate, confirmed)}
       </span>
     </div>
-  );
-};
+  )
+}
 
 const Teacher = ({ name }) => {
   return (
@@ -59,27 +61,27 @@ const Teacher = ({ name }) => {
       <Icon name="face" />
       <span className={css.labels}>{name}</span>
     </div>
-  );
-};
+  )
+}
 
 const Byline = ({ author, email }) => {
   if (!email) {
-    email = "academy.knowit.no";
+    email = "academy.knowit.no"
   }
 
   return (
     <>
       av <a href={`mailto:${email}`}>{author}</a>
     </>
-  );
-};
+  )
+}
 
 const Updated = ({ date, path, author, email }) => {
   let byline = !path.match(/\/courses/) ? (
     <Byline author={author} email={email} />
   ) : (
     ""
-  );
+  )
   return (
     <div>
       <Icon name="access_time" />
@@ -87,8 +89,8 @@ const Updated = ({ date, path, author, email }) => {
         Oppdatert {moment(date).format("LL")} {byline}
       </span>
     </div>
-  );
-};
+  )
+}
 
 const Picture = ({ url }) => {
   // <img src={url} alt={`Lecturer is ${teacher}`} className={css.picture} />
@@ -100,24 +102,24 @@ const Picture = ({ url }) => {
         backgroundClip: "padding-box",
         backgroundPosition: "50% 30%",
         backgroundSize: "cover",
-        backgroundRepeat: "no-repeat"
+        backgroundRepeat: "no-repeat",
       }}
     />
-  );
-};
+  )
+}
 
 const Description = ({ description }) => {
-  return <p className={css.description}>{description}</p>;
-};
+  return <p className={css.description}>{description}</p>
+}
 
 /**
  * Displays a header with the title and metadata about the workshop
  * @param {*} param0
  */
 const InfoHeader = ({ data, showDescription }) => {
-  const { frontmatter } = data;
+  const { frontmatter } = data
 
-  const confirmed = frontmatter.confirmed ? true : false;
+  const confirmed = frontmatter.confirmed ? true : false
 
   let dates = frontmatter.path.match(/\/courses/) ? (
     <Dates
@@ -127,25 +129,25 @@ const InfoHeader = ({ data, showDescription }) => {
     />
   ) : (
     ""
-  );
+  )
 
   let teacher = frontmatter.path.match(/\/courses/) ? (
     <Teacher name={frontmatter.teacher} />
   ) : (
     ""
-  );
+  )
 
   let picture = frontmatter.path.match(/\/courses/) ? (
     <Picture url={frontmatter.image} teacher={frontmatter.teacher} />
   ) : (
     ""
-  );
+  )
 
   let description = showDescription ? (
     <Description description={frontmatter.description} />
   ) : (
     ""
-  );
+  )
 
   return (
     <a
@@ -171,7 +173,7 @@ const InfoHeader = ({ data, showDescription }) => {
         {picture}
       </div>
     </a>
-  );
-};
+  )
+}
 
-export default InfoHeader;
+export default InfoHeader
