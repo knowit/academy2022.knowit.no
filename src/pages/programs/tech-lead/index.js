@@ -3,6 +3,7 @@ import { graphql } from "gatsby"
 // import styled from "styled-components"
 import Layout from "../../../components/FrontLayout"
 import InfoHeader from "../../../components/InfoHeader"
+import BlogHeader from "../../../components/BlogHeader"
 import css from "../../../styles/tech-lead-index.module.scss"
 
 const TechLeadProgram = ({ data }) => {
@@ -52,7 +53,7 @@ const TechLeadProgram = ({ data }) => {
   console.log("courses", courseInfo)
   return (
     <Layout data={data.site.siteMetadata}>
-      <InfoHeader data={{ frontmatter: metadata }} />
+      <BlogHeader data={{ frontmatter: metadata }} />
       <section id="main">
         <table>
           <thead>
@@ -90,9 +91,14 @@ export const query = graphql`
             title
             path
             date
+            endDate
             description
             image
             teacher
+            updated
+            confirmed
+            author
+            email
           }
         }
       }
