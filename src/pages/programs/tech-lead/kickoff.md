@@ -1,7 +1,7 @@
 ---
 path: "/courses/tech-lead/kickoff"
-date: "2019-09-05"
-confirmed: false
+date: "2019-09-05 16:00"
+confirmed: true
 title: "Kick-off og lagarbeid"
 teacher: "Jan Henrik Gundelsby"
 description:

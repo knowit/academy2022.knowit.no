@@ -1,12 +1,17 @@
 ---
 path: "/courses/tech-lead/presentasjonsteknikk"
-date: "2020-03-05"
+date: "2020-03-03 09:00"
+confirmed: true
 title: "Presentasjonsteknikk"
 teacher: "Alf Inge Cleve-Stiansen"
-description: ""
+description:
+  "Dette er et kurs som fokuserer på deg som formidler og hvordan stå støtt i
+  deg selv når du tar denne rollen. Målet er at du som deltaker vil erfare mer
+  mestring og skape sterkere innflytelse når du holder presentasjoner,"
 updated: "2019-06-24"
 author: "Michael Åhs"
 email: "academy@knowit.no"
+image: "/assets/4BD5282F-4DE2-4374-8B3C-E7146A945CEF.jpeg"
 ---
 
 Hvordan presentere et budskap på en god og effektiv måte og samtidig få

@@ -1,16 +1,18 @@
 ---
 path: "/courses/team-lead/kommunikasjon"
-date: "2019-09-25"
+date: "2019-09-25 09:00"
+confirmed: true
 title: "Kommunikasjon"
 teacher: "Alf Inge Cleve-Stiansen"
-description: "Kurset går gjennom elementene i effektiv kommunikasjon, og hvordan
-  vi bedre kan forstå hvordan vi mennesker prosesserer informasjon. I
-  løpet av denne dagen skal vi dykke inn i forståelse av mentale
-  prosesser og hvordan vi gjennom dette lettere kan skape en mer presis
-  og felles forståelse."
+description:
+  "Kurset går gjennom elementene i effektiv kommunikasjon, og hvordan vi bedre
+  kan forstå hvordan vi mennesker prosesserer informasjon. I løpet av denne
+  dagen skal vi dykke inn i forståelse av mentale prosesser og hvordan vi
+  gjennom dette lettere kan skape en mer presis og felles forståelse."
 updated: "2019-06-24"
 author: "Michael Åhs"
 email: "academy@knowit.no"
+image: "/assets/4BD5282F-4DE2-4374-8B3C-E7146A945CEF.jpeg"
 ---
 
 Hva handler kommunikasjon egentlig om og hvordan kan vi bedre forstå hvordan

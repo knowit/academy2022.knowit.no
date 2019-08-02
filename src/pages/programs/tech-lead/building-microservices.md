@@ -1,14 +1,14 @@
 ---
 path: "/courses/tech-lead/building-microservices"
-date: "2020-01-23"
-endDate: "2020-01-24"
+date: "2020-01-23 09:00"
+endDate: "2020-01-24 16:00"
 confirmed: true
 title: "Building Microservices"
 teacher: "Sam Newman"
 description:
   "This is an interactive two day workshop that helps you design and adopt
-  microservices. We'll share some framing for micro service architectures
-  that explore the various forces that can drive the design and evolution of
+  microservices. We'll share some framing for micro service architectures that
+  explore the various forces that can drive the design and evolution of
   microservices, and then you'll participate in a series of interactive
   architectural kata exercises to put your new found knowledge to the test."
 updated: "2019-06-19"
