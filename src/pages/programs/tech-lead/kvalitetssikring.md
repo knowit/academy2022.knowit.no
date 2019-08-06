@@ -5,4 +5,15 @@ title: "Test og kvalitetssikring"
 teacher: "Ina Espås"
 updated: "2019-06-19"
 author: Thomas Malt
+confirmed: true
 ---
+
+TBA
+
+# Hva du lærer
+
+TBA
+
+# Om foredragsholder
+
+TBA
