@@ -1,12 +1,13 @@
 ---
 path: "/courses/team-lead/kontrakter"
-date: "2020-02-04"
+date: "2020-02-04 16:00"
 title: "Kontrakter"
-teacher: "TBA"
+teacher: "Inventura"
 description: ""
-updated: "2019-06-24"
+updated: "2019-08-06"
 author: "Jan Henrik Gundelsby"
 email: "academy@knowit.no"
+confirmed: true
 ---
 
 TBA

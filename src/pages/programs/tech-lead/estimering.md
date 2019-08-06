@@ -1,6 +1,6 @@
 ---
 path: "/courses/tech-lead/estimering"
-date: "2020-03-24"
+date: "2020-03-24 16:00"
 title: "Estimering"
 teacher: "Magne Jørgensen"
 description:
@@ -9,7 +9,10 @@ description:
   Jørgensen."
 updated: "2019-06-19"
 author: Jan Henrik Gundelsby
+confirmed: true
 ---
+
+# Estimering
 
 Estimering er ofte nødvendig i IT-utvikling, og dette kurset gir deg faktaene
 bak estimering fra en av verdens ledende forskere på området, Magne Jørgensen.
@@ -17,12 +20,10 @@ bak estimering fra en av verdens ledende forskere på området, Magne Jørgensen
 # Hva du lærer
 
 - Grunnleggende om estimering
-
   - Hvorfor og når bommer vi på estimatene?
   - Kundens bidrag til underestimering
   - Vet du hva et estimat er?
   - Kan du addere estimater?
-
 - Hvordan bør vi estimere og hva bør vi unngå?
 - Usikkerhet i estimater
 - Nytteestimering
