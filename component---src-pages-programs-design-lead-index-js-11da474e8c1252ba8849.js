@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[6],{203:function(n,e,a){"use strict";a.r(e);var r=a(0),t=a.n(r),o=a(221);e.default=function(){return t.a.createElement(o.a,{program:"design-lead"})}}}]);
-//# sourceMappingURL=component---src-pages-programs-design-lead-index-js-11da474e8c1252ba8849.js.map
