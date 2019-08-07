@@ -1,15 +1,15 @@
 @import "../../styles/common.scss";
 
 .thePrograms {
-  width: 100%;
+  // width: 100%;
   max-width: 960px;
-  margin: auto;
+  margin: auto 0px;
   background-color: white; // ${colors.knowit.red[3]};
   flex-grow: 1;
   display: flex;
   flex-direction: column;
   // justify-content: center;
-  padding: 40px 0px 32px 0px;
+  padding: 40px 16px 32px;
 
   h2 {
     margin: 0;
@@ -25,40 +25,47 @@
     ul {
       display: flex;
       flex-wrap: wrap;
-      margin: 1.4rem 0;
+      margin: 24px 0;
+      // margin: 0;
       padding: 0;
-      justify-content: center;
+      justify-content: space-between;
 
       li {
         list-style: none;
         padding: 0;
         margin: 8px;
         border-radius: 0.6rem;
-        background-color: $green-medium;
+        background-color: $purple-lighter;
         display: flex;
         flex-direction: column;
         align-content: center;
-        justify-content: center;
+        justify-content: space-between;
 
         @media (min-width: 960px) {
-          width: calc(904px / 2);
-          height: 260px;
+          max-width: calc(928px / 2);
+          height: 340px;
         }
-        @media (min-width: 768px) and (max-width: 959px) {
-          width: 45vw;
-          height: 260px;
+        @media (max-width: 959px) {
+          max-width: calc(100vw - 32px);
         }
-        @media (max-width: 767px) {
-          width: 86vw;
-          margin: 8px 0px;
-          height: 220px;
-        }
+        // width: 45vw;
+        // height: 340px;
+        // }
+        // @media (max-width: 767px) {
+        //   width: 86vw;
+        //   margin: 8px 0px;
+        //   height: 220px;
+        // }
 
         div {
-          padding: 1rem;
+          padding: 24px 16px;
           text-align: center;
+          flex-grow: 1;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
           // color: ${colors.knowit.red[3]};
-          color: white;
+          color: $purple-dark;
         }
         a {
           text-decoration: inherit;
@@ -70,22 +77,15 @@
         p {
           font-size: 1em;
           line-height: 1.56;
+          flex-grow: 2;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          margin: 16px auto;
         }
         p:last-child {
           margin-bottom: 0;
         }
-      }
-
-      li:nth-child(1) {
-        background-color: $blue-medium;
-      }
-
-      li:nth-child(2) {
-        background-color: $red-medium;
-      }
-
-      li:nth-child(3) {
-        background-color: $purple-medium;
       }
     }
   }
