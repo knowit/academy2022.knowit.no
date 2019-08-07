@@ -64,6 +64,23 @@ const Teacher = ({ name }) => {
   )
 }
 
+const Location = ({ location }) => {
+  const style = location
+    ? { color: colors.knowit.green[0] }
+    : { color: colors.knowit.red[0] }
+
+  const output = location ? location : "Ubekreftet"
+
+  return (
+    <div>
+      <Icon style={style} name="location_on" />
+      <span style={style} className={css.labels}>
+        {output}
+      </span>
+    </div>
+  )
+}
+
 const Byline = ({ author, email }) => {
   if (!email) {
     email = "academy.knowit.no"
@@ -143,6 +160,12 @@ const InfoHeader = ({ data, showDescription }) => {
     ""
   )
 
+  let location = frontmatter.path.match(/\/courses/) ? (
+    <Location location={frontmatter.location}></Location>
+  ) : (
+    ""
+  )
+
   let description = showDescription ? (
     <Description description={frontmatter.description} />
   ) : (
@@ -160,13 +183,8 @@ const InfoHeader = ({ data, showDescription }) => {
           <h4>{frontmatter.title}</h4>
           <div className={css.byline}>
             {dates}
+            {location}
             {teacher}
-            <Updated
-              date={frontmatter.updated}
-              path={frontmatter.path}
-              author={frontmatter.author}
-              email={frontmatter.email}
-            />
           </div>
           {description}
         </div>
