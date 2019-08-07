@@ -1,4 +1,4 @@
-import { useStaticQuery, graphql } from "gatsby";
+import { useStaticQuery, graphql } from "gatsby"
 
 const fetchAllPages = () => {
   const data = useStaticQuery(
@@ -27,14 +27,15 @@ const fetchAllPages = () => {
                 updated
                 confirmed
                 author
+                location
               }
             }
           }
         }
       }
     `
-  );
-  return data;
-};
+  )
+  return data
+}
 
-export default fetchAllPages;
+export default fetchAllPages

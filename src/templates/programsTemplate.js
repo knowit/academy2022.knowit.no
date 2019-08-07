@@ -21,6 +21,7 @@ const Template = ({ data }) => {
       return <BlogHeader data={markdownRemark} />
     }
   }
+
   console.log("should show info header:", frontmatter.path, showInfoHeader)
   return (
     <Layout data={data}>
@@ -47,6 +48,7 @@ export const pageQuery = graphql`
       html
       frontmatter {
         date
+        location
         endDate
         path
         title
