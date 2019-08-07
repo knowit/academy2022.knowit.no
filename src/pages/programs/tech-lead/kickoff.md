@@ -1,6 +1,7 @@
 ---
 path: "/courses/tech-lead/kickoff"
 date: "2019-09-05 16:00"
+location: "Midten, Oslo"
 confirmed: true
 title: "Kick-off og lagarbeid"
 teacher: "Jan Henrik Gundelsby"

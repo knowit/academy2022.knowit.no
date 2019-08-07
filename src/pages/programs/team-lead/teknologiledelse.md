@@ -3,6 +3,7 @@ path: "/courses/team-lead/teknologiledelse"
 date: "2019-11-24 09:00"
 endDate: "2019-11-25 16:00"
 confirmed: true
+location: "Midten, Oslo"
 title: "Teknologiledelse"
 teacher: "Pat Kua"
 description:

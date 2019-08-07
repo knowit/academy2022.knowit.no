@@ -3,6 +3,7 @@ path: "/courses/tech-lead/building-microservices"
 date: "2020-01-23 09:00"
 endDate: "2020-01-24 16:00"
 confirmed: true
+location: "Bergen"
 title: "Building Microservices"
 teacher: "Sam Newman"
 description:

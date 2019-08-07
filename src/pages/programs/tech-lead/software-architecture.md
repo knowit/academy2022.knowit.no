@@ -3,6 +3,7 @@ path: "/courses/tech-lead/software-architecture"
 date: "2019-11-13 09:00"
 endDate: "2019-11-14 16:00"
 confirmed: true
+location: "Midten, Oslo"
 title: "Software Architecture for Developers"
 teacher: "Simon Brown"
 description:
