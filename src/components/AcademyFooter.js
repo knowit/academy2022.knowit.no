@@ -2,6 +2,7 @@ import React from "react"
 import styled from "styled-components"
 import colors from "../utils/colors.js"
 import Version from "./Version/Version"
+import { repository } from "../../package"
 
 const Wrapper = styled.div`
   display: flex;
@@ -39,7 +40,7 @@ const Footer = styled.footer`
   a {
     color: ${colors.knowit.green[0]};
     font-weight: 600;
-    text-decoration: none;
+    text-decoration: underline;
   }
 
   a:hover {
@@ -58,10 +59,13 @@ const AcademyFooter = () => {
           />
         </a>
         <div>
-          Har du spørsmål om Knowit Academy? Send en epost til{" "}
+          <strong>Spørsmål:</strong> Send en epost til{" "}
           <a href="mailto:academy@knowit.no">academy@knowit.no</a> så svarer vi
           så snart vi rekker.
-          <Version />
+          <br />
+          <strong>Feil eller mangler:</strong> Gi oss en tilbakemelding på{" "}
+          <a href={repository.url}>github.com/knowit/academy</a> -
+          <Version />{" "}
         </div>
       </Footer>
     </Wrapper>
