@@ -12,11 +12,12 @@ Knowit Academy Norway is Knowits formal competency training programme for
 Norwegian employees. The target audience are employees in all Knowit
 subsidiaries in Norway.
 
-For the year 2018/2019 Knowit Academy consisted of the following programmes:
+For the year 2019/2010 Knowit Academy consisted of the following programmes:
 
 - Team Lead programme
 - Tech Lead programme
-- Project Manager programme
+- Design Lead programme
+- Project Manager programme is not going to be held this year
 
 Further extensions to the programme is in planning and more information will
 be available as soon as it's ready.
