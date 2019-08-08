@@ -1,11 +1,13 @@
 ---
 path: "/courses/team-lead/utviklingsprosesser"
-date: "2020-05-08"
+date: "2020-05-07"
 title: "Utviklingsprosesser"
-teacher: "Nils Brede Moe og Viktoria Stary"
-description: ""
-image: ""
-updated: "2019-06-14"
+teacher: "Viktoria Stray og Nils Brede Moe"
+description: "Vi jobber ofte i tverrfaglige team når vi skal lage produkter eller løsninger.
+Det å få team til å fungere optimalt er helt essensielt for å få til effektiv
+systemutvikling."
+image: "/assets/viktoriaognils.jpg"
+updated: "2019-08-08"
 author: "Jan Henrik Gundelsby"
 ---
 

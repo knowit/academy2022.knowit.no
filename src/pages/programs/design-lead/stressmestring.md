@@ -24,9 +24,7 @@ Høy psykologisk trygghet kjennetegnes ved at medarbeidere tør å stille spørs
 Teamlederen og mellomlederen er en nøkkelrolle. Psykologisk trygghet skjer på gruppenivå i organisasjonen. Derfor er det også her du må lete etter tegn på psykologisk trygghet, ikke på organisasjonsnivå.
 
 * Psykologisk trygghet er ikke et mål – det er en effekt av optimalt team- og gruppemiljø. Målet er å levere best mulige resultater og prestasjoner.
-* Psykologisk trygghet handler ikke om å være snill, men om å være åpen for innspill, konstruktiv kritikk og skape en ramme for læring
-
-Et av de mest kjente studiene på psykologisk trygghet er Googles forskning på egne team, kjent under navnet «Project Aristotle». Der fant de at det hadde lite å si hvem som var i teamet. Bakgrunn, personlighet, ferdigheter – ingen klare mønstre. Det som gang på gang kom frem, var team- og gruppenormer. Og der normene la grunnlaget for høy psykologisk trygghet så man ikke bare at det var en viktig faktor – det var selve grunnmuren for at resten av faktorene for et velfungerende team – gjennomførings-evne, struktur og klarhet, mening og impact – kunne være tilstede. 
+* Psykologisk trygghet handler ikke om å være snill, men om å være åpen for innspill, konstruktiv kritikk og skape en ramme for læring.
 
 # Om kursholder
 Cecilie er organisasjonspsykolog og jobber både i offentlig og privat sektor med lederutvikling og -veiledning, team- og ledergruppeutvikling, arbeidsmiljøkartlegging og arbeidsmiljøtiltak, endring- og omstillingsprosesser, HR-rådgivning, stress og stressmestring samt generell foredragsvirksomhet. 
