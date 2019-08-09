@@ -9,6 +9,7 @@ description: ""
 updated: "2019-07-05"
 author: "Michael Åhs"
 email: "academy@knowit.no"
+image: "/assets/Rickard.jpg"
 ---
 
 # Om kurset
