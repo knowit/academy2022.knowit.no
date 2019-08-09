@@ -1,6 +1,6 @@
 ---
 path: "/courses/design-lead/stressmestring"
-date: "2019-12-02"
+date: "2019-12-02 16:00"
 confirmed: true
 location: "Midten, Oslo"
 title: "Stressmestring"
