@@ -1,7 +1,9 @@
 ---
 path: "/courses/team-lead/sikkerhet"
-date: "2019-11-04"
+date: "2019-11-26"
 title: "Sikkerhet"
+confirmed: true
+location: "Midten, Oslo"
 teacher: "Rickard Westberg - Knowit Defence Technology"
 description: ""
 updated: "2019-07-05"
