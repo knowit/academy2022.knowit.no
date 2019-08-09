@@ -2,6 +2,7 @@
 path: "/courses/team-lead/kommunikasjon"
 date: "2019-09-25 09:00"
 confirmed: true
+location: "Midten, Oslo"
 title: "Kommunikasjon"
 teacher: "Alf Inge Cleve-Stiansen"
 description:
