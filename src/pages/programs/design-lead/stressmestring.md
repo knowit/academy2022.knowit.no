@@ -1,6 +1,7 @@
 ---
 path: "/courses/design-lead/stressmestring"
 date: "2019-12-02"
+confirmed: true
 location: "Midten, Oslo"
 title: "Stressmestring"
 teacher: "Cecilie Byholt Endresen"

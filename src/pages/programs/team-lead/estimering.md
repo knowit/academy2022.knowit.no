@@ -3,6 +3,7 @@ path: "/courses/team-lead/estimering"
 date: "2020-03-24 16:00"
 title: "Estimering"
 teacher: "Magne Jørgensen"
+image: "/assets/magne_jorgensen_prof_simula.jpg"
 description:
   "Estimering er ofte nødvendig i IT-utvikling, og dette kurset gir deg
   faktaene bak estimering fra en av verdens ledende forskere på området, Magne

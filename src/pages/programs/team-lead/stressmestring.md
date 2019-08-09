@@ -1,6 +1,7 @@
 ---
 path: "/courses/team-lead/stressmestring"
 date: "2019-10-31"
+confirmed: true
 location: "Midten, Oslo"
 title: "Stressmestring og psykologisk trygghet"
 teacher: "Cecilie Byholt Endresen"
