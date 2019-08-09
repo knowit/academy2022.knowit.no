@@ -1,11 +1,17 @@
 ---
 path: "/courses/design-lead/kommunikasjon"
-date: "2019-11-19"
+date: "2019-11-19 09:00"
 title: "Kommunikasjon"
 teacher: "Alf Inge Cleve-Stiansen"
-description: ""
-updated: "2019-06-24"
-author: "Thea Basthus Nilsen"
+confirmed: true
+location: "Midten, Oslo"
+description:
+  "Kurset går gjennom elementene i effektiv kommunikasjon, og hvordan vi bedre
+  kan forstå hvordan vi mennesker prosesserer informasjon. I løpet av denne
+  dagen skal vi dykke inn i forståelse av mentale prosesser og hvordan vi
+  gjennom dette lettere kan skape en mer presis og felles forståelse."
+updated: "2019-08-09"
+author: "Michael Åhs"
 email: "academy@knowit.no"
 ---
 
