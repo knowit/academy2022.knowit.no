@@ -2,6 +2,7 @@
 path: "/courses/tech-lead/presentasjonsteknikk"
 date: "2020-03-03 09:00"
 confirmed: true
+location: "Midten, Oslo"
 title: "Presentasjonsteknikk"
 teacher: "Alf Inge Cleve-Stiansen"
 description:
