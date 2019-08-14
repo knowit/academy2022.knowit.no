@@ -1,6 +1,6 @@
 ---
 path: "/courses/tech-lead/kickoff"
-date: "2019-09-05 16:00"
+date: "2019-09-03 16:00"
 location: "Midten, Oslo"
 confirmed: true
 title: "Kick-off og lagarbeid"
@@ -10,7 +10,7 @@ description:
   presentasjon på ca. 1 time går vi videre til en lagøvelse før vi spiser
   middag sammen."
 image: "/assets/jan_henrik_gundelsby.jpg"
-updated: "2019-06-27"
+updated: "2019-08-14"
 author: "Thomas Malt"
 email: "academy@knowit.no"
 ---
