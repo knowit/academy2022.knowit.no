@@ -31,5 +31,11 @@ module.exports = {
         fonts: ["material icons"],
       },
     },
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [`gatsby-remark-responsive-iframe`],
+      },
+    },
   ],
 }
