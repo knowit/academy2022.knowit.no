@@ -19,6 +19,9 @@ image: "/assets/28F2166D-EA6E-492F-958F-BAF3B68691A1.jpeg"
 ---
 
 <iframe width="720" height="404" 
+  style="width: 100%; 
+    height: 56.25vw; 
+    padding-top: 24px;"
   src="https://www.youtube.com/embed/SKt1RfOmR3U" frameborder="0" 
   allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
   allowfullscreen>
