@@ -7,6 +7,8 @@ description: ""
 updated: "2019-06-24"
 author: "Thea Basthus Nilsen"
 email: "academy@knowit.no"
+image: "/assets/knowit_academy_favicon_white.png"
+
 ---
 **NB: Tentativ dato (ikke fastsatt)**
 
