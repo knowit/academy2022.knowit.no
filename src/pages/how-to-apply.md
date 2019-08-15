@@ -5,8 +5,8 @@ title: "Informasjon om søknadsprosessen til Knowit Academy"
 description:
   "Information in Norwegian about the application process for Knowit Academy"
 author: Thomas Malt
-email: thomas.malt@knowit.no
-updated: "2019-06-19"
+email: "academy@knowit.no"
+updated: "2019-08-15"
 ---
 
 Det er mange som vil delta på programmene i Knowit Academy og stor konkurranse
@@ -25,6 +25,5 @@ er, hvorfor du ønsker å søke og hva du håper å benytte det du lærer til.
 
 ## Send inn søknad
 
-Husk å sende inn søknad innen fristen. Fristen i år vil være <b>31. august</b>
-
-Mer informasjon om søknadsprosessen kommer i begynnelsen av august.
+Husk å <a href="/application-form">sende inn søknad</a> innen fristen.
+Påmeldingen er åpen, og fristen i år er <b>mandag 2. september.</b>

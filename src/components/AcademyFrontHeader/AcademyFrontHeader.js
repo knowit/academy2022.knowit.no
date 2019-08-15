@@ -15,7 +15,7 @@ const AcademyFrontHeader = () => {
             <a href="/#theprograms">Programmene</a>
           </li>
           <li>
-            <a href="/how-to-apply">Påmelding</a>
+            <a href="/application-form">Påmelding</a>
           </li>
         </ul>
       </nav>
