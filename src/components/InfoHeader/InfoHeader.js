@@ -81,34 +81,6 @@ const Location = ({ location }) => {
   )
 }
 
-const Byline = ({ author, email }) => {
-  if (!email) {
-    email = "academy.knowit.no"
-  }
-
-  return (
-    <>
-      av <a href={`mailto:${email}`}>{author}</a>
-    </>
-  )
-}
-
-const Updated = ({ date, path, author, email }) => {
-  let byline = !path.match(/\/courses/) ? (
-    <Byline author={author} email={email} />
-  ) : (
-    ""
-  )
-  return (
-    <div>
-      <Icon name="access_time" />
-      <span className={css.labels}>
-        Oppdatert {moment(date).format("LL")} {byline}
-      </span>
-    </div>
-  )
-}
-
 const Picture = ({ url }) => {
   // <img src={url} alt={`Lecturer is ${teacher}`} className={css.picture} />
   return (
