@@ -3,10 +3,11 @@ path: "/courses/design-lead/intro-til-tech"
 date: "2020-05-04"
 title: "Intro til teknologiprosesser og metodikk"
 teacher: "Thomas Malt"
-description: ""
+description: "Hvordan jobbe effektivt med arkitektur og teknologi. Hvilke behov har utviklere og arkitekter når de skal jobbe effektivt med design og brukeropplevelse. Hvordan kan vi bygge opp og organisere høyeffektive produkt- og tjenesteutviklingsteam. I workshoppen vil vi gå gjennom hvordan skape grunnlag for god samarbeidskultur, og hvordan tjenestedesign og brukeropplevelse er en sentral del av ethvert velfungerende utviklingsteam."
 updated: "2019-06-24"
 author: "Thea Basthus Nilsen"
 email: "academy@knowit.no"
+image: "/assets/thomas_malt.jpg"
 ---
 **NB: Tentativ dato (ikke fastsatt)**
 
