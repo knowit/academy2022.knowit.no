@@ -20,7 +20,7 @@
   border-radius: 4px;
 
   &:active {
-    background-color: pink;
+    background-color: $green-dark;
   }
 }
 
@@ -39,5 +39,12 @@
     max-width: 960px;
     margin: auto;
     width: 100%;
+    @media (min-width: 960px) {
+      width: 960px;
+    }
+  }
+
+  a[role="link"] {
+    color: $purple-dark;
   }
 }
