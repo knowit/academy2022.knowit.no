@@ -7,8 +7,7 @@ description: "Hvordan kan vi hjelpe kundene vår å ta gode designvalg og skape 
 updated: "2019-06-24"
 author: "Thea Basthus Nilsen"
 email: "academy@knowit.no"
-image: "/assets/knowit_academy_favicon_white.png"
----
+image: "/assets/Wanda_Grimsgard.jpg"
 
 Mer info kommer
 
