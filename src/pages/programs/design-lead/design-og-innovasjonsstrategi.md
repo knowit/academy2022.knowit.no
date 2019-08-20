@@ -1,4 +1,5 @@
 ---
+
 path: "/courses/design-lead/design-og-innovasjonsstrategi"
 date: "2020-04-06"
 title: "Design- og innovasjonsstrategi"
@@ -8,6 +9,8 @@ updated: "2019-06-24"
 author: "Thea Basthus Nilsen"
 email: "academy@knowit.no"
 image: ""
+
+---
 
 Mer info kommer
 
