@@ -9,33 +9,25 @@ const ThePrograms = ({ pages }) => {
     // <a href={path}></a>
     return (
       <li key={item.path}>
-        <div>
-          <h4>{item.title}</h4>
+        <a href={path}>
+          <h3>{item.title}</h3>
           <p>{item.description}</p>
-          <Button
-            link={path}
-            alt="More information about the programs"
-            style={{
-              margin: "8px auto",
-              color: "white",
-              backgroundColor: colors.knowit.purple[1],
-              width: "80%",
-              maxWidth: "320px",
-            }}
-          >
-            Les mer
-          </Button>
-        </div>
+          <img src="/icons/arrow.svg" width="28px" />
+        </a>
       </li>
     )
   })
 
   return (
-    <section id="theprograms" className={css.thePrograms}>
-      <h2>Program</h2>
-      <nav>
-        <ul>{programPages}</ul>
-      </nav>
+    <section id="theprograms" className={css.programSection}>
+      <div className={css.gridContainer}>
+        <div className={css.frontContent}>
+          <h2>Program</h2>
+          <nav>
+            <ul>{programPages}</ul>
+          </nav>
+        </div>
+      </div>
     </section>
   )
 }

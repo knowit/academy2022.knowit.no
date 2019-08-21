@@ -4,7 +4,12 @@ import css from "./about.module.scss"
 const AboutAcademy = ({ content }) => {
   return (
     <section id="about" className={css.aboutSection}>
-      <div dangerouslySetInnerHTML={{ __html: content.html }} />
+      <div className={css.gridContainer}>
+        <div
+          className={css.frontContent}
+          dangerouslySetInnerHTML={{ __html: content.html }}
+        />
+      </div>
     </section>
   )
 }

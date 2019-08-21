@@ -39,6 +39,8 @@ $gray-medium: rgb(177, 179, 179);
 $gray-light: rgb(208, 208, 206);
 $gray-lighter: rgb(228, 226, 219);
 
+$large-vertical-padding: 86px;
+
 h1,
 h2,
 h3,
@@ -64,5 +66,35 @@ h3 {
 }
 
 h4 {
+  font-size: 24px;
   font-weight: bold;
+}
+
+// section {
+// width: 100%;
+// }
+
+.gridContainer {
+  width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(12, 68px);
+  grid-column-gap: 32px;
+  grid-auto-flow: column;
+  // border: 1px solid green;
+}
+
+.frontContent {
+  grid-column: 3 / span 8;
+  padding: $large-vertical-padding 0px;
+  color: $knowit-black;
+
+  h1,
+  h2 {
+    text-align: center;
+  }
+
+  p {
+    line-height: 28px;
+  }
 }
