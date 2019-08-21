@@ -3,8 +3,12 @@ path: "/courses/design-lead/kick-off"
 date: "2019-09-05 16:00"
 confirmed: true
 title: "Kick-off"
+location: "Midten, Oslo"
 teacher: "TBA"
-description: ""
+description: 
+  "En hyggelig og uformell introduksjon til årets program. Etter en
+  presentasjon på ca. 1 time går vi videre til en lagøvelse før vi spiser
+  middag sammen."
 updated: "2019-06-24"
 author: "Thea Basthus Nilsen"
 email: "academy@knowit.no"
