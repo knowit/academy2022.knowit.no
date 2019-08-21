@@ -8,7 +8,7 @@ description:
   ambisjon om å være det beste og mest givende kompentaseutviklingsprogrammet."
 ---
 
-# Om Knowit Academy
+# Knowit Academy
 
 Knowit Academy Norway er Knowits interne kompetanseutviklingsprogram.
 Målgruppen for programmet er alle ansatte i Knowits selskaper i Norge. Vår
@@ -18,5 +18,5 @@ kan finne i teknologibedrifter.
 Med oppstart høsten 2019 planlegger vi å gjennomføre programmer for
 tech-leads, team-leads og designere.
 
-Vi har også et program for rådgivning og ledelse vi jobber med å gjennomføre med
-oppstart høsten 2020.
+Vi har også et program for rådgivning og ledelse vi jobber med å gjennomføre
+med oppstart høsten 2020.

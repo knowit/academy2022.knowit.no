@@ -1,4 +1,13 @@
 // Knowit colors
+
+$knowit-mint: #dbeede;
+$knowit-pebble: #f1f0ed;
+$knowit-sand: #e4e1db;
+$knowit-forest: #4b6455;
+$knowit-black: #333333;
+$knowit-lollipop: #ff00ff;
+$knowit-pressed: #b300b3;
+
 // green
 $green-dark: rgb(0, 89, 79);
 $green-medium: rgb(0, 150, 130);
@@ -29,3 +38,31 @@ $gray-dark: rgb(117, 120, 123);
 $gray-medium: rgb(177, 179, 179);
 $gray-light: rgb(208, 208, 206);
 $gray-lighter: rgb(228, 226, 219);
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: Arial, sans-serif;
+  font-weight: normal;
+  color: $knowit-black;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-family: "ArialforKnowitRegular", sans-serif;
+  font-size: 77px;
+}
+
+h2 {
+  font-size: 60px;
+}
+
+h3 {
+  font-size: 38px;
+}
+
+h4 {
+  font-weight: bold;
+}

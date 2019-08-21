@@ -29,7 +29,6 @@ html {
 body {
   margin: 0;
   font-family: "Arial", sans-serif;
-  font-weight: bold;
   height: 100%;
-  font-size: 18pt;
+  font-size: 18px;
 }
