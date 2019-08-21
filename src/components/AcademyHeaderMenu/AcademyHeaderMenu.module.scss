@@ -1,0 +1,77 @@
+@import "../../styles/common.scss";
+
+$menu-item-spacing: 50px;
+$container-padding: 40px;
+$menubar-height: 86px;
+
+.academyFrontHeader {
+  width: 100%;
+  background-color: $knowit-mint;
+  height: $menubar-height;
+}
+
+.innerContainer {
+  height: 100%;
+  width: 1200px;
+  padding: 0;
+  margin: auto;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: flex-start;
+  border: 1px solid purple;
+}
+.grower {
+  flex-grow: 1;
+}
+.title {
+  font-family: "ArialforKnowitRegular";
+  font-weight: 200;
+  font-size: 30px;
+  line-height: 40px;
+  margin-left: $container-padding;
+  color: $knowit-black;
+  border: 1px solid purple;
+  display: block;
+}
+
+.academyHeaderMenu {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  color: $knowit-black;
+
+  ul {
+    padding-right: $menu-item-spacing;
+    max-width: 960px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    overflow: hidden;
+  }
+
+  li {
+    list-style: none;
+    display: inline-block;
+    white-space: nowrap;
+    line-height: 32px;
+    margin-left: $container-padding;
+    @media (max-height: 480px) {
+      font-size: 0.9em;
+    }
+    border: 1px solid orangered;
+
+    a {
+      text-decoration: inherit;
+      color: inherit;
+    }
+  }
+
+  li:hover {
+    // background-color: ${colors.knowit.green[1]};
+    @media (max-height: 480px) {
+    }
+  }
+}
