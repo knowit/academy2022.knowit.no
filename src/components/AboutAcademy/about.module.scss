@@ -1,0 +1,25 @@
+@import "../../styles/common.scss";
+
+.aboutSection {
+  background-color: white; // ${colors.knowit.purple[3]};
+  hyphens: auto;
+  // width: 100%;
+  // max-width: 960px;
+  border: 1px solid red;
+  grid-column: 3 / span 8;
+  color: $knowit-black;
+
+  h1 {
+    text-align: center;
+  }
+
+  p {
+    line-height: 32px;
+  }
+  p:first-child {
+    margin-top: 0;
+  }
+  p:last-child {
+    margin-bottom: 24px;
+  }
+}
