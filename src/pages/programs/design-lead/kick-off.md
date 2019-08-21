@@ -1,6 +1,7 @@
 ---
 path: "/courses/design-lead/kick-off"
-date: "2019-09-05"
+date: "2019-09-05 16:00"
+confirmed: true
 title: "Kick-off"
 teacher: "TBA"
 description: ""
