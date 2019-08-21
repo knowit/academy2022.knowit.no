@@ -16,7 +16,5 @@ ambisjon er å lage det beste og mest givende kompetanseutviklingsprogramet man
 kan finne i teknologibedrifter.
 
 Med oppstart høsten 2019 planlegger vi å gjennomføre programmer for
-tech-leads, team-leads og designere.
-
-Vi har også et program for rådgivning og ledelse vi jobber med å gjennomføre
-med oppstart høsten 2020.
+tech-leads, team-leads og designere. Vi har også et program for rådgivning og
+ledelse vi jobber med å gjennomføre med oppstart høsten 2020.

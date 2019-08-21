@@ -1,7 +1,7 @@
 ---
 path: "/programs/about-design-lead"
 date: "2019-06-05"
-title: "Design-lead programmet"
+title: "Design-lead"
 description:
   "For designere med 2+ års erfaring som vil utvikle seg videre for å ta
   større ansvar i leveranser, strategiarbeid og ledelse."
