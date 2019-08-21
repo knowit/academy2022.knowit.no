@@ -4,6 +4,14 @@
 
 const colors = {
   knowit: {
+    mint: "#e4e1db",
+    pebble: "#f1f0ed",
+    sand: "#e4e1db",
+    forest: "#4b6455",
+    black: "#333333",
+    lollipop: "#ff00ff",
+    pressed: "#b300b3",
+
     green: [
       "rgb(0, 89, 79)",
       "rgb(0, 150, 130)",
