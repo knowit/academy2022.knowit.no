@@ -1,6 +1,6 @@
 ---
 path: "/courses/design-lead/innovasjon-og-designmetodikk-1"
-date: "2019-10-07"
+date: "2019-10-01"
 title: "Innovasjon- og designmetodikk del 1"
 teacher: "TBA"
 description: "Første del av 2 sesjoner hvor vi går i dybden og lærer praktisk om ulike aktuelle design- og innovasjonsmetodikker. I denne sesjonen fokuserer vi på lean-metodikk."
