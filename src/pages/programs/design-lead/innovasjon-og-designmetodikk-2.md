@@ -1,6 +1,6 @@
 ---
 path: "/courses/design-lead/innovasjon-og-designmetodikk-2"
-date: "2020-02-03"
+date: "2020-01-16"
 title: "Innovasjon- og designmetodikk del 2"
 teacher: "TBA"
 description: "I andre sesjon om innovasjon- og designmetodikk får du lære verktøy og jobbe praktisk med brukerorienterte designmetodikker som design thinking og designsprint."
