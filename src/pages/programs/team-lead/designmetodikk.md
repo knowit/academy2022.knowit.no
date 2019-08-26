@@ -2,7 +2,7 @@
 path: "/courses/team-lead/designmetodikk"
 date: "2020-04-22"
 title: "Designmetodikk"
-teacher: "TBA"
+teacher: "Thea Basthus Nilsen"
 description: ""
 updated: "2019-06-24"
 author: "Jan Henrik Gundelsby"
@@ -23,4 +23,4 @@ I workshoppen vil dere få en intro til de ulike designfeltene og metodikkene so
 
 # Om foredragsholder
 
-TBA
+Info kommer
