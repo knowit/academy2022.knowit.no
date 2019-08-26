@@ -16,11 +16,15 @@ Hvordan kan du som designer jobbe mer strategisk og være en god rådgiver innen
 
 # Dette lærer du
 
-•	Holde en innledende workshop med oppdragsgiver som også kan brukes som innsalg, og veien videre til strategisk workshop.
-•	Hvordan forstå virksomheten, deres univers og hvilke faktorer som påvirker dem?
-•	Hvordan skal vi tenke, utvikle og bruke mål og strategi? Hvilke strategier trenger vi egentlig?
-•	Hva er Designstrategi vs. Designbrief?
-•	Hvordan koble strategi og design?
+-	Holde en innledende workshop med oppdragsgiver som også kan brukes som innsalg, og veien videre til strategisk workshop.
+
+- Hvordan forstå virksomheten, deres univers og hvilke faktorer som påvirker dem?
+
+- Hvordan skal vi tenke, utvikle og bruke mål og strategi? Hvilke strategier trenger vi egentlig?
+
+- Hva er Designstrategi vs. Designbrief?
+
+- Hvordan koble strategi og design?
 
 # Wanda Grimsgaard
 
