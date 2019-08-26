@@ -4,7 +4,7 @@ path: "/courses/design-lead/design-og-innovasjonsstrategi"
 date: "2020-04-06"
 title: "Design- og innovasjonsstrategi"
 teacher: "Wanda Grimsgaard"
-description: "Hvordan kan vi hjelpe kundene vår å ta gode designvalg og skape innovative løsninger? Sesjonen er intro til designstrategi, innovasjonsarbeid og rådgiving."
+description: "Hvordan kan du som designer jobbe mer strategisk og være en god rådgiver innen strategiske beslutninger."
 updated: "2019-06-24"
 author: "Thea Basthus Nilsen"
 email: "academy@knowit.no"
@@ -12,11 +12,15 @@ image: ""
 
 ---
 
-Mer info kommer
+Hvordan kan du som designer jobbe mer strategisk og være en god rådgiver innen strategiske beslutninger.
 
-# Hva du lærer
+# Dette lærer du
 
-Mer info kommer
+•	Holde en innledende workshop med oppdragsgiver som også kan brukes som innsalg, og veien videre til strategisk workshop.
+•	Hvordan forstå virksomheten, deres univers og hvilke faktorer som påvirker dem?
+•	Hvordan skal vi tenke, utvikle og bruke mål og strategi? Hvilke strategier trenger vi egentlig?
+•	Hva er Designstrategi vs. Designbrief?
+•	Hvordan koble strategi og design?
 
 # Wanda Grimsgaard
 
