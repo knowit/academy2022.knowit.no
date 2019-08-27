@@ -2,7 +2,6 @@
 path: "/courses/design-lead/innovasjon-og-designmetodikk-2"
 date: "2020-01-29 kl 09:00"
 confirmed: true
-location: "Bergen"
 title: "Innovasjon- og designmetodikk: Design Thinking"
 teacher: "Federico Lozano"
 description: "Design thinking er en praktisk, menneskesentrert og prototyp-drevet metodikk for innovasjon. Det hjelper sammensatte og tverrfaglige team å takle uklare og udefinerte utfordringer på kreative måter. I denne workshoppen vil du lære verktøy og tankesettet sentralt i design thinking."
