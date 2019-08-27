@@ -8,7 +8,7 @@ description: "Hvordan kan du som designer jobbe mer strategisk og være en god r
 updated: "2019-06-24"
 author: "Thea Basthus Nilsen"
 email: "academy@knowit.no"
-image: "/assets/knowit_academy_favicon_white.png"
+image: "/assets/Wanda_Grimsgard.jpg"
 
 ---
 
