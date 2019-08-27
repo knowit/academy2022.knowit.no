@@ -1,6 +1,6 @@
 ---
 path: "/courses/design-lead/innovasjon-og-designmetodikk-2"
-date: "2020-01-29 kl 09:00"
+date: "2020-01-29 09:00"
 confirmed: true
 title: "Innovasjon- og designmetodikk: Design Thinking"
 teacher: "Federico Lozano"
