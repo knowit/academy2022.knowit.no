@@ -5,7 +5,7 @@ confirmed: true
 location: "Bergen"
 title: "Innovasjon- og designmetodikk: Design Thinking"
 teacher: "Federico Lozano"
-description: "Design thinking er en praktisk, menneskesentrert og prototyp-drevet metode for innovasjon. Det hjelper sammensatte og tverrfaglige team å takle uklare og udefinerte utfordringer på kreative måter. I denne workshoppen vil du lære praktiske verktøy og tankesettet i design thinking."
+description: "Design thinking er en praktisk, menneskesentrert og prototyp-drevet metode for innovasjon. Det hjelper sammensatte og tverrfaglige team å takle uklare og udefinerte utfordringer på kreative måter. I dette kurset vil du lære praktiske verktøy og om tankesettet i design thinking."
 updated: "2019-06-24"
 author: "Thea Basthus Nilsen"
 email: "academy@knowit.no"
