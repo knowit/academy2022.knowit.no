@@ -5,7 +5,7 @@ confirmed: true
 location: "IBM Client Center - Super Moon, Oslo"
 title: "Innovasjon- og designmetodikk: Lean"
 teacher: "Ash Maurya"
-description: "Hvordan bruke lean sprints til å skape det kundene vil ha. I denne workshoppen vil du lære verktøy for å finne og løse de riktige problemene og hvordan du jobber med kontinuerlig innovasjon."
+description: "Hvordan kan vi bruke lean sprints til å skape det kundene vil ha? I denne workshoppen vil du lære verktøy for å finne og løse de riktige problemene, og hvordan du jobber med kontinuerlig innovasjon i praksis."
 updated: "2019-08-28"
 author: "Thea Basthus Nilsen"
 email: "academy@knowit.no"
