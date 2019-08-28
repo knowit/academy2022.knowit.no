@@ -1,7 +1,8 @@
 import React from "react"
 import css from "./AcademyHeaderMenu.module.scss"
 
-const AcademyHeaderMenu = () => {
+const AcademyHeaderMenu = ({ data }) => {
+  console.log("header menu:", data)
   return (
     <header className={css.academyFrontHeader}>
       <div className={css.innerContainer}>
@@ -10,7 +11,7 @@ const AcademyHeaderMenu = () => {
         <nav className={css.academyHeaderMenu}>
           <ul>
             <li>
-              <a href="/#about">Hjem</a>
+              <a href="/">Hjem</a>
             </li>
             <li>
               <a href="/#theprograms">Programmene</a>

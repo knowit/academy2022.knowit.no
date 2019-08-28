@@ -5,7 +5,8 @@ import AboutAcademy from "../components/AboutAcademy/about"
 import ThePrograms from "../components/ThePrograms"
 import SignupSection from "../components/SignupSection"
 
-const Page = ({ data }) => {
+const Page = ({ data, path }) => {
+  console.log("page:", path)
   const { siteMetadata } = data.site
 
   // remove unneccessary complexity from the data.

@@ -27,10 +27,13 @@ const AcademyFooter = ({ data }) => {
             <Version></Version>
           </div>
           <div className={css.footerKnowit}>
-            <p>Knowit Academy</p>
-            <br />
-            <img alt="" src="/icons/arrow.svg" height="22px" />
-            <img alt="" src="/assets/knowit_black.png" height="26px" />
+            <p>
+              <a href="/">Knowit Academy</a>
+            </p>
+            <a href="https://www.knowit.no/">
+              <img alt="" src="/icons/arrow.svg" height="22px" />
+              <img alt="" src="/assets/knowit_black.png" height="26px" />
+            </a>
           </div>
         </div>
       </section>

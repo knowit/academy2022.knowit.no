@@ -13,7 +13,7 @@
       margin: 0;
       padding: 0;
       display: grid;
-      grid-template-columns: repeat(8, 68px);
+      grid-template-columns: repeat(8, 1fr);
       grid-column-gap: 32px;
       grid-row-gap: $large-vertical-padding;
       grid-auto-flow: row;

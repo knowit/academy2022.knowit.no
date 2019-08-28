@@ -39,7 +39,7 @@ $gray-medium: rgb(177, 179, 179);
 $gray-light: rgb(208, 208, 206);
 $gray-lighter: rgb(228, 226, 219);
 
-$large-vertical-padding: 86px;
+$large-vertical-padding: 94px;
 
 h1,
 h2,
@@ -75,8 +75,9 @@ h4 {
 // }
 
 .gridContainer {
-  width: 1200px;
+  max-width: 1200px;
   margin: auto;
+  padding: 0px 20px;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-column-gap: 32px;
