@@ -17,13 +17,13 @@ author: "Thea Basthus Nilsen"
 email: "academy@knowit.no"
 image: "/assets/thomas_malt.jpg"
 ---
+Hvordan jobbe effektivt med arkitektur og teknologi. Hvilke behov har utviklere og arkitekter når de skal jobbe effektivt med design og brukeropplevelse. Hvordan kan vi bygge opp og organisere høyeffektive produkt- og tjenesteutviklingsteam. I workshoppen vil vi gå gjennom hvordan skape grunnlag for god samarbeidskultur, og hvordan tjenestedesign og brukeropplevelse er en sentral del av ethvert velfungerende utviklingsteam.
 
 # Hva du lærer
 
 - Overordnet kunnskap om teknologiprosesser og metodikk
-- Å forstå og jobbe med teknologiske begrensninger og prosesser, og å utfordre
-  disse der det er nødvendig
-- Å ta gode beslutninger basert på brukerbehov og teknologi
+- Verktøy for samarbeid i produkt- og tjenesteutviklingsteam
+- Å ta gode beslutninger basert på teknologisk
 
 # Om Thomas Malt
 
