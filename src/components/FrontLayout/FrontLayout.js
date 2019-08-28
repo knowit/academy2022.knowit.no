@@ -1,7 +1,7 @@
 import React from "react"
 import MainHelmet from "../MainHelmet"
 import HeaderMenu from "../AcademyHeaderMenu"
-import AcademyFooter from "../AcademyFooter"
+import Footer from "../Footer"
 import css from "./FrontLayout.module.scss"
 
 const FrontLayout = ({ children, data }) => {
@@ -10,7 +10,7 @@ const FrontLayout = ({ children, data }) => {
       <MainHelmet metadata={data} />
       <HeaderMenu data={data} />
       <main>{children}</main>
-      <AcademyFooter />
+      <Footer data={data} />
     </section>
   )
 }
