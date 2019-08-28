@@ -78,7 +78,7 @@ h4 {
   width: 1200px;
   margin: auto;
   display: grid;
-  grid-template-columns: repeat(12, 68px);
+  grid-template-columns: repeat(12, 1fr);
   grid-column-gap: 32px;
   grid-auto-flow: column;
   // border: 1px solid green;
@@ -88,7 +88,7 @@ h4 {
   grid-column: 3 / span 8;
   padding: $large-vertical-padding 0px;
   color: $knowit-black;
-
+  // border: 1px solid red;
   h1,
   h2 {
     text-align: center;
