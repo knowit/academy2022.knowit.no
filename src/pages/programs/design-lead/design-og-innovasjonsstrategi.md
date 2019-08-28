@@ -1,7 +1,7 @@
 ---
 
 path: "/courses/design-lead/design-og-innovasjonsstrategi"
-date: "2020-04-06"
+date: "2020-04-06 09:00"
 title: "Design- og innovasjonsstrategi"
 teacher: "Wanda Grimsgaard"
 description: "Hvordan kan du som designer jobbe mer strategisk og være en god rådgiver innen strategiske beslutninger."
