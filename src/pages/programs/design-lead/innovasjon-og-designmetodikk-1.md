@@ -12,6 +12,8 @@ email: "academy@knowit.no"
 image: "/assets/ash-headshot-2017.png"
 
 ---
+(Kurset foregår på engelsk)
+
 Using LEAN Sprints to build what customers want
 
 Most products fail, simply because we build something nobody wants. The challenge today isn’t building more products, but uncovering the better product to build — which begs the question: “What defines a better product?” A fundamental mindset shift for doing that is starting with problems before solutions. In this workshop, you'll learn a systematic approach for uncovering problems worth solving and turning them into solutions your customers cannot refuse.
