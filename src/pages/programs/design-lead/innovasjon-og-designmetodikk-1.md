@@ -9,7 +9,7 @@ description: "Hvordan bruke lean sprints til å skape det kundene vil ha. I denn
 updated: "2019-08-28"
 author: "Thea Basthus Nilsen"
 email: "academy@knowit.no"
-image: "/assets/knowit_academy_favicon_white.png"
+image: "/assets/ash-headshot-2017.png"
 
 ---
 Using LEAN Sprints to build what customers want
