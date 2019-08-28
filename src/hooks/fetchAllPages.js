@@ -1,6 +1,6 @@
 import { useStaticQuery, graphql } from "gatsby"
 
-const fetchAllPages = () => {
+const useFetchAllPages = () => {
   const data = useStaticQuery(
     graphql`
       query {
@@ -38,4 +38,4 @@ const fetchAllPages = () => {
   return data
 }
 
-export default fetchAllPages
+export default useFetchAllPages

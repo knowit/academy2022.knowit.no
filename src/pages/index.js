@@ -22,6 +22,7 @@ const Page = ({ data }) => {
     <Layout data={siteMetadata}>
       <AboutAcademy content={aboutPage} />
       <ThePrograms pages={programPages} />
+      <SignupSection></SignupSection>
     </Layout>
   )
 }
@@ -35,6 +36,7 @@ export const query = graphql`
         title
         siteUrl
         description
+        email
         ogImage
       }
     }

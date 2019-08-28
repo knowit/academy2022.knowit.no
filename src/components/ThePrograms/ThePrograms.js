@@ -1,6 +1,4 @@
 import React from "react"
-import Button from "../Button"
-import colors from "../../utils/colors"
 import css from "./ThePrograms.module.scss"
 
 const ThePrograms = ({ pages }) => {
@@ -12,7 +10,7 @@ const ThePrograms = ({ pages }) => {
         <a href={path}>
           <h3>{item.title}</h3>
           <p>{item.description}</p>
-          <img src="/icons/arrow.svg" width="28px" />
+          <img alt="" src="/icons/arrow.svg" width="28px" />
         </a>
       </li>
     )
