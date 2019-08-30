@@ -1,6 +1,6 @@
 ---
 path: "/courses/design-lead/kick-off"
-date: "2019-09-19 16:00"
+date: "2019-09-16 16:00"
 confirmed: true
 title: "Kick-off"
 location: "Midten, Oslo"
