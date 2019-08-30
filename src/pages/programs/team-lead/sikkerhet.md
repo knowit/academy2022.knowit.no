@@ -1,6 +1,6 @@
 ---
 path: "/courses/team-lead/sikkerhet"
-date: "2019-11-26"
+date: "2020-03-05"
 title: "Sikkerhet"
 confirmed: true
 location: "Midten, Oslo"
