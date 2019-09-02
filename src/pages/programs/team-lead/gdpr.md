@@ -1,10 +1,16 @@
 ---
 path: "/courses/team-lead/gdpr"
-date: "2019-11-24"
+date: "2019-11-04 16:00"
+confirmed: true
+location: "Fabrikken, Oslo"
 title: "GDPR - programvareutvikling med innebygd personvern"
+description:
+  "En introduksjon til GDPR, hvorfor det er viktig, og hva det betyr for oss
+  utviklere i praksis."
 teacher: "Torgeir Waterhouse"
-updated: "2019-06-19"
-author: "Thomas Malt"
+updated: "2019-09-02"
+author: "Michael Åhs"
+image: "/assets/torgeir_waterhouse.jpg"
 ---
 
 Profilering, automatisert behandling og persontilpassede tjenester er blitt en
