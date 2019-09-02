@@ -6,6 +6,11 @@ import ProgramOverview from "../../components/ProgramOverview";
 import fetchAllPages from "../../hooks/fetchAllPages";
 import css from "./programpage.module.scss";
 
+function parseIsoString(s) {
+  const b = s.split(/\D+/);
+  return new Date(...b);
+}
+
 const ProgramPage = ({ program }) => {
   const data = fetchAllPages();
   const aboutRe = new RegExp(`^/programs/about-${program}`);
@@ -18,7 +23,7 @@ const ProgramPage = ({ program }) => {
   const courses = data.allMarkdownRemark.edges
     .filter(i => i.node.frontmatter.path.match(courseRe))
     .map(i => {
-      i.node.frontmatter.date = new Date(i.node.frontmatter.date);
+      i.node.frontmatter.date = parseIsoString(i.node.frontmatter.date);
       return i;
     })
     .sort((a, b) =>
