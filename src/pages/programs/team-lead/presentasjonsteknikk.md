@@ -1,6 +1,6 @@
 ---
 path: "/courses/team-lead/presentasjonsteknikk"
-date: "2020-03-xx 09:00"
+date: "2020-01-21 09:00"
 confirmed: true
 location: "Midten, Oslo"
 title: "Presentasjonsteknikk"
@@ -9,7 +9,7 @@ description:
   "Dette er et kurs som fokuserer på deg som formidler og hvordan stå støtt i
   deg selv når du tar denne rollen. Målet er at du som deltaker vil erfare mer
   mestring og skape sterkere innflytelse når du holder presentasjoner,"
-updated: "2019-01-21"
+updated: "2019-09-04"
 author: "Michael Åhs"
 email: "academy@knowit.no"
 image: "/assets/4BD5282F-4DE2-4374-8B3C-E7146A945CEF.jpeg"
