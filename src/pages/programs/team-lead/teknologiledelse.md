@@ -7,9 +7,9 @@ location: "Midten, Oslo"
 title: "Teknologiledelse"
 teacher: "Pat Kua"
 description:
-  This is a two day workshop on the Team-Lead role and technical leadership in
-  general. We will talk about the breadth of the Tech Lead role and why
-  technical leadership like we aim to practice at Knowit is neccessary.
+  "This is a two day workshop on the Team-Lead role and technical leadership
+  in general. We will talk about the breadth of the Tech Lead role and why
+  technical leadership like we aim to practice at Knowit is neccessary."
 updated: "2019-08-02"
 author: "Jan Henrik Gundelsby"
 email: "academy@knowit.no"
