@@ -2,6 +2,7 @@
 path: "/courses/team-lead/teknologiledelse"
 date: "2019-11-25 09:00"
 endDate: "2019-11-26 16:00"
+updated: "2019-08-02"
 confirmed: true
 location: "Midten, Oslo"
 title: "Teknologiledelse"
@@ -10,9 +11,8 @@ description:
   "This is a two day workshop on the Team-Lead role and technical leadership
   in general. We will talk about the breadth of the Tech Lead role and why
   technical leadership like we aim to practice at Knowit is neccessary."
-updated: "2019-08-02"
-author: "Jan Henrik Gundelsby"
 email: "academy@knowit.no"
+author: "Jan Henrik Gundelsby"
 image: "/assets/pat_kua.jpg"
 ---
 
