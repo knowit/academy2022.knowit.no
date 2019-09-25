@@ -1,11 +1,8 @@
 @import "common.scss";
 
 .content {
-  max-width: 960px;
-  @media (min-width: 960px) {
-    width: 960px;
-  }
-
+  padding-top: $large-vertical-padding;
+  grid-column: 3 / span 8;
   h1,
   h2 {
     font-weight: 400;

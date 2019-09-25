@@ -31,7 +31,7 @@ const Template = ({ data }) => {
         <meta property="og:title" content={frontmatter.title} />
         <meta property="og:description" content={frontmatter.description} />
       </Helmet>
-      <section>
+      <section className={css.gridContainer}>
         <div className={css.content}>
           {showInfoHeader()}
           <div dangerouslySetInnerHTML={{ __html: html }} />
