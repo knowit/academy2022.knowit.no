@@ -5,13 +5,15 @@ confirmed: true
 location: "IBM Client Center - Super Moon, Oslo"
 title: "Innovasjon- og designmetodikk: Lean"
 teacher: "Ash Maurya"
-description: "Hvordan bruke lean sprints til å skape det kundene vil ha. I denne workshoppen vil du lære verktøy for å finne og løse de riktige problemene og hvordan du jobber med kontinuerlig innovasjon."
+description: "Hvordan kan vi bruke lean sprints til å skape det kundene vil ha? I denne workshoppen vil du lære verktøy for å finne og løse de riktige problemene, og hvordan du jobber med kontinuerlig innovasjon i praksis."
 updated: "2019-08-28"
 author: "Thea Basthus Nilsen"
 email: "academy@knowit.no"
 image: "/assets/ash-headshot-2017.png"
 
 ---
+(Kurset foregår på engelsk)
+
 Using LEAN Sprints to build what customers want
 
 Most products fail, simply because we build something nobody wants. The challenge today isn’t building more products, but uncovering the better product to build — which begs the question: “What defines a better product?” A fundamental mindset shift for doing that is starting with problems before solutions. In this workshop, you'll learn a systematic approach for uncovering problems worth solving and turning them into solutions your customers cannot refuse.

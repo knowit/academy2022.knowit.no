@@ -1,7 +1,8 @@
 ---
 path: "/courses/team-lead/kickoff"
-date: "2019-09-09 16:00"
-location: "Midten, Oslo"
+date: "2019-09-18 16:00"
+confirmed: true
+location: "Fabrikken/Storstua, Oslo"
 title: "Kick-off og lagarbeid"
 teacher: "Jan Henrik Gundelsby"
 description:

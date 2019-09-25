@@ -1,7 +1,7 @@
 ---
 path: "/courses/tech-lead/agile-development"
-date: "2019-10-07 09:00"
-endDate: "2019-10-08 16:00"
+date: "2019-10-08 09:00"
+endDate: "2019-10-09 16:00"
 confirmed: true
 location: "Midten, Oslo"
 title: "Agile Development Best Practices"
