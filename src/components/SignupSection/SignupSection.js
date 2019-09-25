@@ -9,15 +9,15 @@ const SignupSection = () => {
         <div className={css.frontContent}>
           <h2 className={css.signUpTitle}>Påmelding</h2>
           <p>
-            Påmeldingen har startet og søknadsfristen er mandag 2. september,
-            2019.
+            Årets programmer har startet og påmeldingen er stengt. Nye
+            programmer vil bli satt opp høsten 2020.
           </p>
           <Button
             link="/application-form"
             alt="Information about how to apply"
             className={css.signupButton}
           >
-            Fyll ut søknad
+            Mer informasjon
           </Button>
         </div>
       </div>
