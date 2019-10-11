@@ -2,7 +2,7 @@
 path: "/courses/team-lead/gdpr"
 date: "2019-11-04 16:00"
 confirmed: true
-location: "Fabrikken, Oslo<br>TBA, Bergen"
+location: "Fabrikken, Oslo og TBA, Bergen"
 title: "GDPR - programvareutvikling med innebygd personvern"
 description:
   "En introduksjon til GDPR, hvorfor det er viktig, og hva det betyr for oss
