@@ -1,6 +1,6 @@
 ---
 path: "/courses/team-lead/utviklingsprosesser"
-date: "2020-05-12"
+date: "2020-05-12 16:00"
 title: "Utviklingsprosesser"
 teacher: "Viktoria Stray og Nils Brede Moe"
 description: "Vi jobber ofte i tverrfaglige team når vi skal lage produkter eller løsninger.
