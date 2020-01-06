@@ -1,6 +1,6 @@
 ---
 path: "/courses/design-lead/innsikt-og-analyse"
-date: "2020-03-02"
+date: "2020-03-12"
 title: "Innsikt og analyse"
 teacher: "TBA"
 description: "Hvordan kan vi sikre at vi alltid setter brukeren først og hvordan går vi frem for å få god innsikt i brukernes behov? I denne sesjonen får vi trening i innsikt- og analysearbeidet som er avgjørende for å skape innovative og brukervennlige løsninger."
