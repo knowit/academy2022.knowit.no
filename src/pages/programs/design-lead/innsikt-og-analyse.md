@@ -7,7 +7,7 @@ description: "Hvordan kan vi sikre at vi alltid setter brukeren først og hvorda
 updated: "2019-06-24"
 author: "Thea Basthus Nilsen"
 email: "academy@knowit.no"
-image: "/assets/knowit_academy_favicon_white.png"
+image: "/assets/Erika Head and Shoulders.jpg"
 
 ---
 # Collaborative Research for Better Design Decisions
