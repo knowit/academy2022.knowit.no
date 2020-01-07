@@ -10,7 +10,6 @@ email: "academy@knowit.no"
 image: "/assets/knowit_academy_favicon_white.png"
 
 ---
-**NB: Tentativ dato (ikke fastsatt)**
 
 # Hva du lærer
 
