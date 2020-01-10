@@ -13,8 +13,6 @@ image: "/assets/knowit_academy_favicon_white.png"
 Lyninnføring i Grow Designledelse /
 8 måneder på 7 timer
  
-Du lærer om
-
 # Du lærer om
 
 - Grow Designledelse: hva handler det om
