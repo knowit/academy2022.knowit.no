@@ -1,6 +1,8 @@
 ---
 path: "/courses/design-lead/innsikt-og-analyse"
 date: "2020-03-12"
+confirmed: true
+location: "Midten, Oslo"
 title: "Innsikt og analyse"
 teacher: "Erika Hall"
 description: "Hvordan kan vi sikre at vi alltid setter brukeren først og hvordan går vi frem for å få god innsikt i brukernes behov? I denne sesjonen får vi trening i innsikt- og analysearbeidet som er avgjørende for å skape innovative og brukervennlige løsninger."
