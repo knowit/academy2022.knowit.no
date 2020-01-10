@@ -1,6 +1,8 @@
 ---
 path: "/courses/design-lead/designledelse"
 date: "2020-02-13"
+confirmed: true
+location: "Midten, Oslo"
 title: "Designledelse"
 teacher: "Salima Noormohamed, Barbro Helset"
 description: "Lyninnføring i Grow Designledelse - 8 måneder på 7 timer"
