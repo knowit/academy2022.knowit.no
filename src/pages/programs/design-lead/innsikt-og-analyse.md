@@ -1,6 +1,6 @@
 ---
 path: "/courses/design-lead/innsikt-og-analyse"
-date: "2020-03-12 09:00-16:00"
+date: "2020-03-12 09:00"
 confirmed: true
 location: "Midten, Oslo"
 title: "Innsikt og analyse"
