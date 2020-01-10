@@ -1,6 +1,6 @@
 ---
 path: "/courses/design-lead/designledelse"
-date: "2020-02-13"
+date: "2020-02-13 16:00"
 confirmed: true
 location: "Midten, Oslo"
 title: "Designledelse"
