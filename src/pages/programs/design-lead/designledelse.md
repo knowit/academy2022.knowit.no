@@ -9,7 +9,7 @@ description: "Lyninnføring i Grow Designledelse - 8 måneder på 7 timer"
 updated: "2020-01-10"
 author: "Thea Basthus Nilsen"
 email: "academy@knowit.no"
-image: "/assets/image001.jpg, /assets/image002.jpg"
+image: "/assets/barbro_salima_1.jpg"
 
 ---
 Lyninnføring i Grow Designledelse /
