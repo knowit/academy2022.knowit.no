@@ -1,13 +1,13 @@
 ---
 
 path: "/courses/design-lead/design-og-innovasjonsstrategi"
-date: "2020-04-06 09:00"
+date: "2020-04-14 09:00"
 confirmed: true
 location: "Bergen"
 title: "Design- og innovasjonsstrategi"
 teacher: "Wanda Grimsgaard"
 description: "Hvordan kan du som designer jobbe mer strategisk og være en god rådgiver innen strategiske beslutninger."
-updated: "2019-06-24"
+updated: "2020-01-15"
 author: "Thea Basthus Nilsen"
 email: "academy@knowit.no"
 image: "/assets/Wanda_Grimsgard.jpg"
