@@ -1,6 +1,6 @@
 ---
 path: "/courses/tech-lead/presentasjonsteknikk"
-date: "2020-03-03 09:00"
+date: "2020-03-02 09:00"
 confirmed: true
 location: "Midten, Oslo"
 title: "Presentasjonsteknikk"
@@ -12,13 +12,13 @@ description:
   
   NB: Kursdeltagerne blir delt i to grupper. Kurset går enten 3. eller 4. mars, avhengig av hvilken gruppe du kommer på.
   "
-updated: "2019-06-24"
-author: "Michael Åhs"
+updated: "2020-01-20"
+author: "Jan Henrik Gundelsby"
 email: "academy@knowit.no"
 image: "/assets/4BD5282F-4DE2-4374-8B3C-E7146A945CEF.jpeg"
 ---
 
-NB: Kursdeltagerne blir delt i to grupper. Kurset går enten 3. eller 4. mars, avhengig av hvilken gruppe du kommer på.
+NB: Kursdeltagerne blir delt i to grupper. Kurset går enten 2. eller 3. mars, avhengig av hvilken gruppe du kommer på.
 
 Hvordan presentere et budskap på en god og effektiv måte og samtidig få
 innflytelse? Hvordan klare å omsette faglig innhold til lett forståelig
