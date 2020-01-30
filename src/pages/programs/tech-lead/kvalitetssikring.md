@@ -11,12 +11,7 @@ description: "Vi ønsker å oppnå høy kvalitet i alle prosjekter vi leverer. I
 image: "/assets/ina_espas.jpg"
 
 ---
-
-TBA
-
-# Hva du lærer
-
-TBA
+Vi ønsker å oppnå høy kvalitet i alle prosjekter vi leverer. I en hverdag med hyppige releaser og et høyt fokus på devOps, hvordan holder man kvaliteten oppe?
 
 # Om foredragsholder
 

@@ -10,7 +10,7 @@ description:
   deg selv når du tar denne rollen. Målet er at du som deltaker vil erfare mer
   mestring og skape sterkere innflytelse når du holder presentasjoner.
   
-  NB: Kursdeltagerne blir delt i to grupper. Kurset går enten 3. eller 4. mars, avhengig av hvilken gruppe du kommer på.
+  NB: Kursdeltagerne blir delt i to grupper. Kurset går enten 2. eller 3. mars, avhengig av hvilken gruppe du kommer på.
   "
 updated: "2020-01-20"
 author: "Jan Henrik Gundelsby"
