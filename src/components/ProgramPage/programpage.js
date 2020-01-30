@@ -3,11 +3,11 @@ import Layout from "../../components/FrontLayout";
 import BlogHeader from "../../components/BlogHeader";
 import SignupSection from "../../components/SignupSection";
 import ProgramOverview from "../../components/ProgramOverview";
-import fetchAllPages from "../../hooks/fetchAllPages";
+import FetchAllPages from "../../hooks/fetchAllPages";
 import css from "./programpage.module.scss";
 
 const ProgramPage = ({ program }) => {
-  const data = fetchAllPages();
+  const data = FetchAllPages();
   const aboutRe = new RegExp(`^/programs/about-${program}`);
   const courseRe = new RegExp(`^/courses/${program}`);
 
