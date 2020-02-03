@@ -1,6 +1,6 @@
 ---
 path: "/courses/team-lead/estimering"
-date: "2020-03-24 16:00"
+date: "2020-03-23 16:00"
 title: "Estimering"
 teacher: "Magne Jørgensen"
 location: "Midten, Oslo"
