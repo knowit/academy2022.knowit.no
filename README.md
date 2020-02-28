@@ -61,3 +61,8 @@ $ yarn build
 And make sure the changes work.
 
 ## Add a pre push git hook
+
+## Development
+`yarn install` to install latest packages  
+`yarn develop` to start local version  
+`localhost:8000` address for local page
