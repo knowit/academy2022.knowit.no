@@ -1,14 +1,18 @@
 ---
 path: "/courses/team-lead/designmetodikk"
-date: "2020-04-22"
+date: "2020-04-21"
+endDate: "2020-04-22"
 title: "Designmetodikk"
 teacher: "Thea Basthus Nilsen"
-description: "Hva gjør de ulike designerne og hvilke behov har designere når de skal jobbe godt med utvikling og teknologi? Hvordan kan vi bygge opp og organisere velfungerende produkt- og tjenesteutviklingsteam?"
+location: "Midten (Oslo), Kafeen (Bergen)"
+description: "Hva gjør de ulike designerne og hvilke behov har designere når de skal jobbe godt med utvikling og teknologi? Hvordan kan vi bygge opp og organisere velfungerende produkt- og tjenesteutviklingsteam? Workshop holdes i Oslo 21.April og i Bergen 22.April. "
 updated: "2019-06-24"
 author: "Jan Henrik Gundelsby"
 email: "academy@knowit.no"
 image: "/assets/avatar.jpg"
+confirmed: true
 ---
+Workshop holdes i Oslo 21.April og i Bergen 22.April.  
 
 Hva gjør de ulike designerne og hvilke behov har designere når de skal jobbe godt med utvikling og teknologi? Hvordan kan vi bygge opp og organisere velfungerende produkt- og tjenesteutviklingsteam?
 
