@@ -1,6 +1,6 @@
 import React from "react"
 import styled from "styled-components"
-import MainHelmet from "./MainHelmet"
+import { MainHelmet } from "./MainHelmet"
 import AcademyFrontHeader from "../components/AcademyFrontHeader"
 import AcademyFooter from "../components/AcademyFooter"
 
