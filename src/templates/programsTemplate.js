@@ -3,7 +3,7 @@ import { graphql } from "gatsby"
 import Layout from "../components/FrontLayout"
 import InfoHeader from "../components/InfoHeader"
 import BlogHeader from "../components/BlogHeader"
-import Helmet from "react-helmet"
+import { Helmet } from "react-helmet"
 import css from "../styles/programTemplate.module.scss"
 
 // export default function Template({

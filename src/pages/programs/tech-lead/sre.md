@@ -1,28 +1,33 @@
 ---
 path: "/courses/tech-lead/site-reliability-engineering"
-date: "2020-05-26"
+date: "2020-05-26 16:00"
 title: "Site Reliability Engineering"
-teacher: "TBD"
+teacher: "Alexander Percivall"
+image: "/assets/alexander_percivall.jpg"
+location: "Online, Google Meet"
 description:
-  "Members of the SRE team explain how their engagement with the entire
-  software lifecycle has enabled Google to build, deploy, monitor, and
-  maintain some of the largest software systems in the world."
+  "This will be a 2 hour session with Google Cloud Engineering to learn more
+  about Site Reliability Engineering. You will learn on a high level, what an
+  SRE practice looks like, how to make it successful and how to implement the
+  right tools and processes to make it work."
 updated: "2019-06-19"
 author: Thomas Malt
+confirmed: true
 ---
 
-Members of the SRE team explain how their engagement with the entire software
-lifecycle has enabled Google to build, deploy, monitor, and maintain some of
-the largest software systems in the world.
+# About the session
 
-[Link to the books](https://landing.google.com/sre/books/)
+Join our hands on 2 hour session with Google Cloud Engineering to learn more
+about Site Reliability Engineering. You will learn on a high level, what an
+SRE practice looks like, how to make it successful and how to implement the
+right tools and processes to make it work. We will start with a 30 minute
+presentation on the above topic and then follow up with a hands on lab for
+approximately 1,5 hours where you get to put your knowledge into practice.
 
 # What you'll learn
 
-The Site Reliability Workbook is the hands-on companion to the bestselling
-Site Reliability Engineering book and uses concrete examples to show how to
-put SRE principles and practices to work. This book contains practical
-examples from Google’s experiences and case studies from Google’s Cloud
-Platform customers. Evernote, The Home Depot, The New York Times, and other
-companies outline hard-won experiences of what worked for them and what
-didn’t.
+- How to deploy a microservices application on an existing GKE cluster
+- How to select appropriate SLIs/SLOs for an application
+- How to implement SLIs using Cloud Monitoring features
+- How to use Cloud Trace, Cloud Profiler, and Cloud Debugger to identify
+  software issues
