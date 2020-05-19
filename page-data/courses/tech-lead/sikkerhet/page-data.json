@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-programs-template-js","path":"/courses/tech-lead/sikkerhet","webpackCompilationHash":"8fc7a6fc615a7298b531","result":{"errors":[{"message":"Unknown argument \"formatString\" on field \"date\" of type \"MarkdownRemarkFrontmatter\".","locations":[{"line":7,"column":12}]}],"pageContext":{"isCreatedByStatefulCreatePages":false}}}
