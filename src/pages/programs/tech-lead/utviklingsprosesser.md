@@ -1,16 +1,16 @@
 ---
 path: "/courses/tech-lead/utviklingsprosesser"
-date: "2020-05-13 16:00"
+date: "2020-08-25 16:00"
 title: "Utviklingsprosesser"
 teacher: "Viktoria Stray og Nils Brede Moe"
 description: "Vi jobber ofte i tverrfaglige team når vi skal lage produkter eller løsninger.
 Det å få team til å fungere optimalt er helt essensielt for å få til effektiv
 systemutvikling."
 image: "/assets/viktoriaognils.jpg"
-updated: "2019-08-08"
-author: "Jan Henrik Gundelsby"
+updated: "2020-08-05"
+author: "Thomas Malt"
 confirmed: true
-location: "Midten, Oslo"
+location: "Online"
 ---
 
 Vi jobber ofte i tverrfaglige team når vi skal lage produkter eller løsninger.
