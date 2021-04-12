@@ -4,7 +4,7 @@ date: "2019-06-12"
 title: "Programmet for rådgivning og ledelse"
 description: "For deg som vil lære hvordan du best leder en workshop, hvordan endre
 organisasjoner gjennom Change Management, og mye mer."
-updated: "2019-06-12"
+updated: "2021-04-12"
 author: "Heidi Hundåla"
 ---
 
@@ -16,10 +16,6 @@ Google Design Sprint, motivere medarbeiderne dine gjennnom "Ledelse i
 prosjekter", hvor du også lærer å bygge gode prosjektteam og unngå tidstyver.
 Det er rom for diskusjon og mulighet til å diskutere dine ledererfaringer med
 andre kollega og kursleder.
-
-## Påmelding
-
-Dette programmet utsettes ett år. Vi har undersøkt og det er ikke mange nok interesserte enda (trenger 20). Påmelding til programmet åpnes i midten av august neste år, og fristen for påmelding blir da 31. august, 2020.
 
 ## Mer informasjon
 

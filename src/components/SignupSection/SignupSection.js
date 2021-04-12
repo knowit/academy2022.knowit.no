@@ -7,16 +7,8 @@ const SignupSection = () => {
     <section className={css.signupSection} id="signup">
       <h2 className={css.signUpTitle}>Påmelding</h2>
       <p>
-        Påmeldingen har startet.{" "}
-        <b>søknadsfrist er mandag 2. september, 2019</b>.
+        Påmeldingen har ikke startet.{" "}
       </p>
-      <Button
-        link="/application-form"
-        alt="Information about how to apply"
-        className={css.signupButton}
-      >
-        Søknadsskjema
-      </Button>
       <a class="link" href="/how-to-apply">
         Les mer om søknadsprosessen
       </a>

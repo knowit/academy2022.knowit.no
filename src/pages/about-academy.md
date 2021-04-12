@@ -1,7 +1,7 @@
 ---
 path: "/about"
 date: "2019-06-05"
-updated: "2019-06-05"
+updated: "2021-04-12"
 title: "About Knowit Academy"
 description:
   "Knowit Academy er knowits interne utviklingsprogram. Programmet har som
@@ -15,8 +15,5 @@ Målgruppen for programmet er alle ansatte i Knowits selskaper i Norge. Vår
 ambisjon er å lage det beste og mest givende kompetanseutviklingsprogramet man
 kan finne i teknologibedrifter.
 
-Med oppstart høsten 2019 planlegger vi å gjennomføre programmer for
-tech-leads, team-leads og designere.
-
-Vi har også et program for rådgivning og ledelse vi jobber med å gjennomføre med
-oppstart høsten 2020.
+Tidligere har Knowit Academy gjennomført programmer for
+tech-leads, team-leads, designere samt rådgivning og ledelse. Programmer for 2021/2022 er ikke klart enda, men det blir mest sannsynlig oppstart høsten 2021.

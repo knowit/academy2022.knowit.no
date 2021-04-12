@@ -32,7 +32,7 @@ const ThePrograms = ({ pages }) => {
 
   return (
     <section id="theprograms" className={css.thePrograms}>
-      <h2>Programmer for 2019/2020</h2>
+      <h2>Programmer</h2>
       <nav>
         <ul>{programPages}</ul>
       </nav>
