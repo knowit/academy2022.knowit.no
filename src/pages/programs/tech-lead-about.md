@@ -6,10 +6,11 @@ description: "For deg med minst 2 års utviklererfaring, som vil
   utvikle deg videre som tech-lead og arkitekt på et utviklingsteam.
   Programmet starter i på høsten og varer fram til neste sommer."
 image: ""
-author: "Thomas Malt"
+author: "Jan Henrik Gundelsby"
 email: "academy@knowit.no"
 updated: "2021-04-12"
 ---
+**Mrk: Programmet under er eksempler fra kurs fra tidligere programmer.**
 
 Tech-Lead programmet er for deg med minst 2 års utviklererfaring, som vil
 utvikle deg videre som tech-lead og arkitekt på et utviklingsteam.
