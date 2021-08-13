@@ -1,9 +1,9 @@
-import React from "react"
-import Icon from "../Icon"
-import colors from "../../utils/colors"
-import moment from "moment"
-import "moment/locale/nb"
-import css from "./InfoHeader.module.scss"
+import React from 'react'
+import Icon from '../Icon'
+import colors from '../../utils/colors'
+import moment from 'moment'
+import * as css from './InfoHeader.module.scss'
+import 'moment/locale/nb'
 
 /**
  * Takes two strings with something that can be parsed to a date as input.
@@ -16,21 +16,21 @@ const dateString = (from, to, confirmed = false) => {
   const startDate = moment(from)
   const endDate = moment(to)
 
-  console.log("dateString:", from, to, confirmed)
+  // console.log('dateString:', from, to, confirmed)
   if (moment(startDate).isValid === false) {
-    return "TBD"
+    return 'TBD'
   }
 
   if (confirmed === false) {
-    return `${startDate.format("D MMM")} (ubekreftet)`
+    return `${startDate.format('D MMM')} (ubekreftet)`
   }
 
-  let string = startDate.format("D MMM")
+  let string = startDate.format('D MMM')
   if (endDate.isValid()) {
-    string += ` - ${endDate.format("D MMM")}`
+    string += ` - ${endDate.format('D MMM')}`
   }
-  string += ` ${startDate.format("YYYY")}`
-  string += `, kl ${startDate.format("HH:mm")}`
+  string += ` ${startDate.format('YYYY')}`
+  string += `, kl ${startDate.format('HH:mm')}`
 
   return string
 }
@@ -69,7 +69,7 @@ const Location = ({ location }) => {
     ? { color: colors.knowit.green[0] }
     : { color: colors.knowit.red[0] }
 
-  const output = location ? location : "Ubekreftet"
+  const output = location ? location : 'Ubekreftet'
 
   return (
     <div>
@@ -88,10 +88,10 @@ const Picture = ({ url }) => {
       className={css.pictureWrapper}
       style={{
         backgroundImage: `url(${url})`,
-        backgroundClip: "padding-box",
-        backgroundPosition: "50% 30%",
-        backgroundSize: "cover",
-        backgroundRepeat: "no-repeat",
+        backgroundClip: 'padding-box',
+        backgroundPosition: '50% 30%',
+        backgroundSize: 'cover',
+        backgroundRepeat: 'no-repeat',
       }}
     />
   )
@@ -117,31 +117,31 @@ const InfoHeader = ({ data, showDescription }) => {
       endDate={frontmatter.endDate}
     />
   ) : (
-    ""
+    ''
   )
 
   let teacher = frontmatter.path.match(/\/courses/) ? (
     <Teacher name={frontmatter.teacher} />
   ) : (
-    ""
+    ''
   )
 
   let picture = frontmatter.path.match(/\/courses/) ? (
     <Picture url={frontmatter.image} teacher={frontmatter.teacher} />
   ) : (
-    ""
+    ''
   )
 
   let location = frontmatter.path.match(/\/courses/) ? (
     <Location location={frontmatter.location}></Location>
   ) : (
-    ""
+    ''
   )
 
   let description = showDescription ? (
     <Description description={frontmatter.description} />
   ) : (
-    ""
+    ''
   )
 
   return (

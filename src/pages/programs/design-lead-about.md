@@ -1,13 +1,14 @@
 ---
-path: "/programs/about-design-lead"
-date: "2019-06-05"
-title: "Design-lead"
+path: '/programs/about-design-lead'
+date: '2021-08-13'
+title: 'Design-lead'
 description:
-  "For designere med minst 2 års erfaring som vil utvikle seg videre for å ta
-  større ansvar i leveranser, strategiarbeid og kreativ ledelse."
-author: "Jan Henrik Gundelsby"
-updated: "2021-04-12"
+  'For designere med minst 2 års erfaring som vil utvikle seg videre for å ta
+  større ansvar i leveranser, strategiarbeid og kreativ ledelse.'
+author: 'Jan Henrik Gundelsby'
+updated: '2021-04-12'
 ---
+
 **Mrk: Programmet under er eksempler fra kurs fra tidligere programmer.**
 
 Program for design- og innovasjonsledelse (primært for digitale prosjekter).

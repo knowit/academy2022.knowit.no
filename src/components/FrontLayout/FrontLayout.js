@@ -1,8 +1,8 @@
-import React from "react"
-import MainHelmet from "../MainHelmet"
-import HeaderMenu from "../AcademyHeaderMenu"
-import Footer from "../Footer"
-import css from "./FrontLayout.module.scss"
+import React from 'react'
+import { MainHelmet } from '../MainHelmet'
+import HeaderMenu from '../AcademyHeaderMenu'
+import Footer from '../Footer'
+import * as css from './FrontLayout.module.scss'
 
 const FrontLayout = ({ children, data }) => {
   return (

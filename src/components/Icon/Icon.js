@@ -1,5 +1,5 @@
 import React from "react"
-import css from "./Icon.module.scss"
+import * as css from "./Icon.module.scss"
 
 const Icon = ({ name, style }) => {
   return (

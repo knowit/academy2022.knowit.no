@@ -1,5 +1,5 @@
 import React from "react"
-import css from "./Button.module.scss"
+import * as css from "./Button.module.scss"
 
 const Button = ({ link, alt, style, className, children }) => {
   const thisClass =

@@ -1,5 +1,5 @@
 import React from "react"
-import css from "./about.module.scss"
+import * as css from "./about.module.scss"
 
 const AboutAcademy = ({ content }) => {
   return (

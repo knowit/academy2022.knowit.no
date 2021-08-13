@@ -1,8 +1,8 @@
-import React from "react"
-import css from "./AcademyHeaderMenu.module.scss"
+import React from 'react'
+import * as css from './AcademyHeaderMenu.module.scss'
 
 const AcademyHeaderMenu = ({ data }) => {
-  console.log("header menu:", data)
+  // console.log("header menu:", data)
   return (
     <header className={css.academyFrontHeader}>
       <div className={css.innerContainer}>

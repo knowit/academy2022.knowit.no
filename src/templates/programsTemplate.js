@@ -1,10 +1,10 @@
-import React from "react"
-import { graphql } from "gatsby"
-import Layout from "../components/FrontLayout"
-import InfoHeader from "../components/InfoHeader"
-import BlogHeader from "../components/BlogHeader"
-import { Helmet } from "react-helmet"
-import css from "../styles/programTemplate.module.scss"
+import React from 'react'
+import { graphql } from 'gatsby'
+import Layout from '../components/FrontLayout'
+import BlogHeader from '../components/BlogHeader'
+import InfoHeader from '../components/InfoHeader'
+import { Helmet } from 'react-helmet'
+import * as css from '../styles/programTemplate.module.scss'
 
 // export default function Template({
 //   data, // this prop will be injected by the GraphQL query below.
@@ -22,7 +22,7 @@ const Template = ({ data }) => {
     }
   }
 
-  console.log("should show info header:", frontmatter.path, showInfoHeader)
+  // console.log('should show info header:', frontmatter.path, showInfoHeader)
   return (
     <Layout data={data}>
       <Helmet>
@@ -43,7 +43,7 @@ const Template = ({ data }) => {
 export default Template
 
 export const pageQuery = graphql`
-  query($path: String!) {
+  query ($path: String!) {
     markdownRemark(frontmatter: { path: { eq: $path } }) {
       html
       frontmatter {

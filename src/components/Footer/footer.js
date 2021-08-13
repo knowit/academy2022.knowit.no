@@ -1,10 +1,10 @@
-import React from "react"
-import Version from "../Version/Version"
-import { repository } from "../../../package"
-import css from "./footer.module.scss"
+import React from 'react'
+import Version from '../Version/Version'
+import { repository } from '../../../package'
+import * as css from './footer.module.scss'
 
 const AcademyFooter = ({ data }) => {
-  console.log("footer data:", data)
+  // console.log("footer data:", data)
   const { email } = data
   return (
     <footer>
@@ -14,7 +14,7 @@ const AcademyFooter = ({ data }) => {
             <img alt="" src="/icons/spark.svg"></img>
             <h3>Spørsmål?</h3>
             <p>
-              Har du spørsmål om Knowit Academy? Send en epost til{" "}
+              Har du spørsmål om Knowit Academy? Send en epost til{' '}
               <a href={`mailto:${email}`}>{email}</a> så svarer vi så snart vi
               rekker.
             </p>

@@ -1,10 +1,10 @@
-import React from "react"
-import Layout from "../../components/FrontLayout"
-import BlogHeader from "../../components/BlogHeader"
-import SignupSection from "../../components/SignupSection"
-import ProgramOverview from "../../components/ProgramOverview"
-import FetchAllPages from "../../hooks/fetchAllPages"
-import css from "./programpage.module.scss"
+import React from 'react'
+import Layout from '../../components/FrontLayout'
+import BlogHeader from '../../components/BlogHeader'
+import SignupSection from '../../components/SignupSection'
+import ProgramOverview from '../../components/ProgramOverview'
+import FetchAllPages from '../../hooks/fetchAllPages'
+import * as css from './programpage.module.scss'
 
 function parseIsoString(s) {
   const b = s.split(/\D+/)

@@ -1,9 +1,9 @@
-import React from "react"
-import css from "./ThePrograms.module.scss"
+import React from 'react'
+import * as css from './ThePrograms.module.scss'
 
 const ThePrograms = ({ pages }) => {
   const programPages = pages.map((item) => {
-    const path = item.path.replace(/about-/, "")
+    const path = item.path.replace(/about-/, '')
     // <a href={path}></a>
     return (
       <li key={item.path}>
@@ -18,10 +18,12 @@ const ThePrograms = ({ pages }) => {
 
   return (
     <section id="theprograms" className={css.thePrograms}>
-      <h2>Programmer</h2>
-      <nav>
-        <ul>{programPages}</ul>
-      </nav>
+      <div className={css.frontContent}>
+        <h2>Programmer</h2>
+        <nav className={css.frontContent}>
+          <ul>{programPages}</ul>
+        </nav>
+      </div>
     </section>
   )
 }
