@@ -1,5 +1,5 @@
 import React from "react"
-import Helmet from "react-helmet"
+import { Helmet } from "react-helmet"
 
 const MainHelmet = ({ metadata }) => (
   <Helmet>
@@ -14,8 +14,8 @@ const MainHelmet = ({ metadata }) => (
     <meta property="og:url" content={metadata.siteUrl} />
     <meta property="og:image" content={metadata.ogImage} />
     <link rel="canonical" href="https://academy.knowit.no/" />
-    <html lang="nb" />
+    <html lang="no" />
   </Helmet>
 )
 
-export default MainHelmet
+export { MainHelmet }

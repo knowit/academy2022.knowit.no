@@ -71,3 +71,4 @@ yarn-error.log
 # Visual Studio
 /.vs
 .vscode
+.idea

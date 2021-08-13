@@ -1,24 +1,36 @@
 ---
 path: "/courses/design-lead/designledelse"
-date: "2020-02-10"
+date: "2020-02-13 09:00"
+confirmed: true
+location: "Midten, Oslo"
 title: "Designledelse"
-teacher: "TBA"
-description: ""
-updated: "2019-06-24"
+teacher: "Salima Noormohamed, Barbro Helset"
+description: "Lyninnføring i Grow Designledelse - 8 måneder på 7 timer"
+updated: "2020-01-10"
 author: "Thea Basthus Nilsen"
 email: "academy@knowit.no"
-image: "/assets/knowit_academy_favicon_white.png"
+image: "/assets/barbro_salima_1.jpg"
 
 ---
-**NB: Tentativ dato (ikke fastsatt)**
+Lyninnføring i Grow Designledelse /
+8 måneder på 7 timer
+ 
+# Du lærer om
 
-# Hva du lærer
+- Grow Designledelse: hva handler det om
+- Leading or managing design? En designleders rolle og oppgaver
+- Design quality: Når er nok nok?
+- Customer experience vs brand experience: Designets rolle i en totalopplevelse
+- Design brief: Hvorfor er den så viktig
+- Designprosess, fremdrift og estimat: tips og eksempler
+- Presentasjonsteknikk: En liten øvelse
 
-- Planlegging av designprosesser, arbeid med salg og forståelse for kontrakter og avtaler
-- Hvordan du kan omsette visjon til gjennomføring og skaper et miljø for samarbeid og høy faglig kvalitet
-- Forståelse og styring av risiko og avhengigheter på tvers av folk, fagfelt og ansvarsområder
-- Forstå og løse faglige og tekniske utfordringer av ulik grad av kompleksitet og risiko
+# Om kursholderne
 
-# Om kursholder
-
-TBA
+Salima Noormohamed
+- Avdelingsleder Knowit Experience Design Oslo
+- Grow 2018
+ 
+Barbro Helset
+- Design Lead Knowit Experience Oslo
+- Grow 2013

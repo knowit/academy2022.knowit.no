@@ -8,12 +8,17 @@ teacher: "Alf Inge Cleve-Stiansen"
 description:
   "Dette er et kurs som fokuserer på deg som formidler og hvordan stå støtt i
   deg selv når du tar denne rollen. Målet er at du som deltaker vil erfare mer
-  mestring og skape sterkere innflytelse når du holder presentasjoner,"
+  mestring og skape sterkere innflytelse når du holder presentasjoner.
+  
+  NB: Kursdeltagerne blir delt i to grupper. Kurset går enten 21. januar eller 22. januar, avhengig av hvilken gruppe du kommer på.
+  "
 updated: "2019-09-04"
 author: "Michael Åhs"
 email: "academy@knowit.no"
 image: "/assets/4BD5282F-4DE2-4374-8B3C-E7146A945CEF.jpeg"
 ---
+
+NB: Kursdeltagerne blir delt i to grupper. Kurset går enten 21. januar eller 22. januar, avhengig av hvilken gruppe du kommer på.
 
 Hvordan presentere et budskap på en god og effektiv måte og samtidig få
 innflytelse? Hvordan klare å omsette faglig innhold til lett forståelig

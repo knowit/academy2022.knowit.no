@@ -17,15 +17,11 @@ const ThePrograms = ({ pages }) => {
   })
 
   return (
-    <section id="theprograms" className={css.programSection}>
-      <div className={css.gridContainer}>
-        <div className={css.frontContent}>
-          <h2>Program</h2>
-          <nav>
-            <ul>{programPages}</ul>
-          </nav>
-        </div>
-      </div>
+    <section id="theprograms" className={css.thePrograms}>
+      <h2>Programmer</h2>
+      <nav>
+        <ul>{programPages}</ul>
+      </nav>
     </section>
   )
 }
