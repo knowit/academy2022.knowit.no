@@ -1,0 +1,23 @@
+---
+path: "/courses/personalledelse/motivasjon"
+date: "2021-11-10 09:00"
+confirmed: true
+location: "Info kommer"
+title: "Samling 4: Motivasjon"
+teacher: "Tommy Nordang"
+description:
+  "Motivasjon og prestasjon – hvilken type ledelse skaper best lønnsomhet."
+image: ""
+updated: "2021-08-16"
+author: "Mayn Ektvedt Kjær"
+email: "academy@knowit.no"
+---
+
+Motivasjon og prestasjon – hvilken type ledelse skaper best lønnsomhet.
+
+- Sammenhengen mellom prestasjon og motivasjon
+- Ulike typer motivasjon og hvordan skape disse – ytre, indre og prososial
+  motivasjon
+- Hvordan motivere de umotiverte – lederskap handler til syvende og sist om de
+  små tingene.
+- Hva bør du gjøre og ikke gjøre
