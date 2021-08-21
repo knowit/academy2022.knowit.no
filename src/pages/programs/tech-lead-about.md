@@ -1,15 +1,15 @@
 ---
-path: "/programs/about-tech-lead"
-date: "2019-04-27"
-title: "Tech-lead programmet"
+path: '/programs/about-tech-lead'
+date: '2019-04-27'
+title: 'Tech-lead'
 description:
-  "For deg med minst 2 års utviklererfaring, som vil utvikle deg videre som
+  'For deg med minst 2 års utviklererfaring, som vil utvikle deg videre som
   tech-lead og arkitekt på et utviklingsteam. Programmet starter i på høsten
-  og varer fram til neste sommer."
-image: ""
-author: "Jan Henrik Gundelsby"
-email: "academy@knowit.no"
-updated: "2021-04-12"
+  og varer fram til neste sommer.'
+image: ''
+author: 'Thomas Malt'
+email: 'academy@knowit.no'
+updated: '2021-08-21'
 ---
 
 **Mrk: Programmet under er eksempler fra kurs fra tidligere programmer.**

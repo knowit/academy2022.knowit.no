@@ -3,11 +3,12 @@ import * as css from './AcademyHeaderMenu.module.scss'
 
 const AcademyHeaderMenu = ({ data }) => {
   // console.log("header menu:", data)
+  //
+  // <div className={css.grower}></div>
   return (
     <header className={css.academyFrontHeader}>
       <div className={css.innerContainer}>
         <div className={css.title}>Knowit Academy</div>
-        <div className={css.grower}></div>
         <nav className={css.academyHeaderMenu}>
           <ul>
             <li>

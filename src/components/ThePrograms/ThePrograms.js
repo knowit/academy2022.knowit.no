@@ -18,11 +18,13 @@ const ThePrograms = ({ pages }) => {
 
   return (
     <section id="theprograms" className={css.thePrograms}>
-      <div className={css.frontContent}>
-        <h2>Programmer</h2>
-        <nav className={css.frontContent}>
-          <ul>{programPages}</ul>
-        </nav>
+      <div className={css.gridContainer}>
+        <div className={css.frontContent}>
+          <h2>Programmer</h2>
+          <nav>
+            <ul>{programPages}</ul>
+          </nav>
+        </div>
       </div>
     </section>
   )
