@@ -1,10 +1,10 @@
 ---
-path: "/programs/about-radgivning-og-ledelse"
-date: "2019-06-12"
-title: "Rådgiving og ledelse"
-description: "For deg som vil lære hvordan du best leder en workshop, hvordan endre
+path: "/programs/about-strategi-og-ledelse"
+date: "2021-08-22"
+title: "Strategi og ledelse"
+description: "For ansatte som vil lære hvordan du best leder en workshop, hvordan endre
 organisasjoner gjennom Change Management, og mye mer."
-updated: "2021-04-12"
+updated: "2021-08-22"
 email: 'academy@knowit.no'
 author: "Heidi Hundåla"
 ---

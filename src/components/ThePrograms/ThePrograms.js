@@ -20,7 +20,7 @@ const ThePrograms = ({ pages }) => {
     <section id="theprograms" className={css.thePrograms}>
       <div className={css.gridContainer}>
         <div className={css.frontContent}>
-          <h2>Programmer</h2>
+          <h2>Programmene</h2>
           <nav>
             <ul>{programPages}</ul>
           </nav>

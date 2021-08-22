@@ -1,11 +1,11 @@
 ---
-path: '/programs/about-tech-lead'
+path: '/programs/about-teknologi'
 date: '2019-04-27'
-title: 'Tech-lead'
+title: 'Teknologi'
 description:
-  'For deg med minst 2 års utviklererfaring, som vil utvikle deg videre som
-  tech-lead og arkitekt på et utviklingsteam. Programmet starter i på høsten
-  og varer fram til neste sommer.'
+  'For utviklere med minst 3 års arbeidserfaring som vil utvikle deg videre
+  som tech-lead og arkitekt på et utviklingsteam, og ta ansvar for større del
+  av leveransen og produktutviklingen.'
 image: ''
 author: 'Thomas Malt'
 email: 'academy@knowit.no'

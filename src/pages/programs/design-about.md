@@ -1,7 +1,7 @@
 ---
-path: '/programs/about-design-lead'
+path: '/programs/about-design'
 date: '2021-08-13'
-title: 'Design-lead'
+title: 'Design'
 description:
   'For designere med minst 2 års erfaring som vil utvikle seg videre for å ta
   større ansvar i leveranser, strategiarbeid og kreativ ledelse.'
