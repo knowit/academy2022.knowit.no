@@ -1,5 +1,7 @@
+@import '../../styles/common.scss';
 .blogHeader {
-  color: #888;
+  color: $knowit-clay; // #888;
+  margin-bottom: $medium-vertical-padding;
 }
 
 .byline {
@@ -8,7 +10,9 @@
   font-size: 16px;
   top: -5px;
   a {
-    color: inherit;
+    color: $knowit-clay;
+    font-weight: normal;
+    text-decoration: underline;
   }
 }
 

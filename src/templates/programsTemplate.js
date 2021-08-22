@@ -34,7 +34,10 @@ const Template = ({ data }) => {
       <section className={css.gridContainer}>
         <div className={css.content}>
           {showInfoHeader()}
-          <div dangerouslySetInnerHTML={{ __html: html }} />
+          <div
+            className={css.articleContent}
+            dangerouslySetInnerHTML={{ __html: html }}
+          />
         </div>
       </section>
     </Layout>

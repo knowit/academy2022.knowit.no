@@ -7,7 +7,7 @@
   h2 {
     font-weight: 400;
     // color: rgb(142, 127, 174);
-    color: $green-dark;
+    color: $knowit-black;
   }
 
   h1 {
@@ -17,7 +17,8 @@
   }
 
   h2 {
-    font-size: calc(1em + 0.6vw);
+    font-size: calc(1em + 0.5vw);
+    margin-top: $medium-vertical-padding;
   }
 
   p {
@@ -37,5 +38,18 @@
       // background-color: pink;
       margin-bottom: 0.6em;
     }
+  }
+}
+
+.articleContent {
+  a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+
+  .arrow {
+    vertical-align: middle;
+    padding-left: 12px;
   }
 }

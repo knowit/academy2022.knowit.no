@@ -1,12 +1,12 @@
 ---
 path: '/how-to-apply'
 date: '2019-06-05'
-title: 'Informasjon om søknadsprosessen til Knowit Academy'
+title: 'Søknadsprosessen til Knowit Academy'
 description:
   'Information in Norwegian about the application process for Knowit Academy'
 author: Thomas Malt
 email: 'academy@knowit.no'
-updated: '2021-08-21'
+updated: '2021-08-22'
 ---
 
 Det er mange som vil delta på programmene i Knowit Academy og stor konkurranse
@@ -25,5 +25,10 @@ er, hvorfor du ønsker å delta og hva du håper å bruke det du lærer til.
 
 ## Send inn søknad
 
-Påmeldingsfristen til årets program er <strong>søndag 12. september,
+Påmeldingsfristen til årets programmer er <strong>søndag 12. september,
 2021</strong>
+
+<div>
+<a href="/application-form">Send inn søknad her</a>
+<img class="arrow" style="vertical-align: middle; padding-left: 12px" alt="Decorative right arrow" src="/icons/arrow.svg" width="28px" />
+</div>

@@ -4,6 +4,12 @@ import Version from '../Version/Version'
 import * as css from './footer.module.scss'
 
 const AcademyFooter = ({ data }) => {
+  if (
+    typeof data.site !== 'undefined' &&
+    typeof data.site.siteMetadata !== 'undefined'
+  ) {
+    data = data.site.siteMetadata
+  }
   console.log('footer data:', data)
   const { email } = data
   return (
