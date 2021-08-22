@@ -36,7 +36,7 @@ const ProgramPage = ({ program }) => {
   return (
     <Layout data={data.site.siteMetadata}>
       <section id="main" className={css.gridContainer}>
-        <div className={css.frontContent}>
+        <div className={css.blogArticle}>
           <BlogHeader data={about} />
           <div
             className={css.aboutProgram}
@@ -45,9 +45,7 @@ const ProgramPage = ({ program }) => {
           <ProgramOverview courses={courses} title="Kursoversikt" />
         </div>
       </section>
-      <section id="signup" className={css.gridContainer}>
-        <SignupSection />
-      </section>
+      <SignupSection />
     </Layout>
   )
 }

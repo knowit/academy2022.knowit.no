@@ -1,4 +1,4 @@
-@import "../../styles/common.scss";
+@import '../../styles/common.scss';
 
 .infoHeaderLink {
   text-decoration: none;
@@ -19,16 +19,17 @@
   flex-direction: column;
   justify-content: flex-start;
   flex-grow: 1;
+  background-color: white;
   // margin-right: 16px;
-  padding: 8px 8px 0px 16px;
+  padding: 16px;
 
   @media (max-width: 375px) {
     width: 220px;
   }
   h4 {
     margin: 0px;
-    font-size: 1.4em;
-    color: $blue-dark;
+    font-size: 1.2em;
+    color: $knowit-forest;
   }
 }
 
@@ -37,7 +38,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   vertical-align: middle;
-  color: $gray-dark;
+  color: $knowit-forest;
   padding: 4px 0px;
   div {
     display: inline-block;
@@ -48,7 +49,7 @@
   padding: 0px 24px 0px 8px;
   position: relative;
   top: -5px;
-  font-size: 15px;
+  font-size: 12px;
   @media (max-width: 320px) {
     font-size: 12px;
     top: -6px;
@@ -65,8 +66,8 @@
   width: 240px;
   min-width: 96px;
   height: inherit;
-  min-height: 120px;
-  border-radius: 0px 8px 8px 0px;
+  min-height: 240px;
+  // border-radius: 0px 8px 8px 0px;
 
   @media (min-width: 960px) {
     width: 240px;
@@ -105,4 +106,5 @@
   padding: 0;
   line-height: 1.56em;
   font-size: 0.94em;
+  text-align: left;
 }

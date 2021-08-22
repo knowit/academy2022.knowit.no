@@ -1,15 +1,16 @@
-@import "../../styles/common.scss";
+@import '../../styles/common.scss';
 
 h1 {
-  color: $green-dark;
   margin-bottom: 0px;
-}
-
-.courseInfoSection {
-  max-width: 960px;
 }
 
 .aboutProgram {
   margin-bottom: 32px;
   line-height: 1.56em;
+}
+
+.blogArticle {
+  margin: $large-vertical-padding 0;
+  grid-column: 3 / span 8;
+  color: $knowit-black;
 }

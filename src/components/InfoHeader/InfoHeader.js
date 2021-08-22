@@ -91,7 +91,6 @@ const Picture = ({ url }) => {
         backgroundClip: 'padding-box',
         backgroundPosition: '50% 30%',
         backgroundSize: 'cover',
-        backgroundRepeat: 'no-repeat',
       }}
     />
   )
