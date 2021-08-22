@@ -22,6 +22,7 @@
       grid-template-columns: repeat(8, 1fr);
       grid-column-gap: 32px;
       grid-row-gap: $large-vertical-padding;
+      text-align: justify;
       li {
         list-style: none;
         padding: 0;
@@ -30,7 +31,6 @@
 
         a {
           padding: 0;
-          text-align: left;
           text-decoration: inherit;
           color: inherit;
         }

@@ -1,13 +1,19 @@
 // Knowit colors
 
+$knowit-pear: #b7debd;
 $knowit-mint: #dbeede;
 $knowit-pebble: #f1f0ed;
 $knowit-sand: #e4e1db;
 $knowit-forest: #4b6455;
+$knowit-clay: #a5b1aa;
 $knowit-black: #333333;
+$knowit-white: #f1f0ed;
 $knowit-lollipop: #ff00ff;
 $knowit-pressed: #b300b3;
+$knowit-flamingo: #fac0b1; //  rgb(250, 192, 177)
+$knowit-melon: #fcdfd8;
 
+// old colors
 // green
 $green-dark: rgb(0, 89, 79);
 $green-medium: rgb(0, 150, 130);
@@ -76,6 +82,16 @@ h4 {
 // width: 100%;
 // }
 
+p {
+  line-height: 28px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+main {
+  background-color: $knowit-white;
+}
+
 .gridContainer {
   max-width: 1200px;
   margin: auto;
@@ -97,9 +113,5 @@ h4 {
   h1,
   h2 {
     text-align: center;
-  }
-
-  p {
-    line-height: 28px;
   }
 }

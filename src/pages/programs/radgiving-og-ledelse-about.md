@@ -5,6 +5,7 @@ title: "Rådgiving og ledelse"
 description: "For deg som vil lære hvordan du best leder en workshop, hvordan endre
 organisasjoner gjennom Change Management, og mye mer."
 updated: "2021-04-12"
+email: 'academy@knowit.no'
 author: "Heidi Hundåla"
 ---
 

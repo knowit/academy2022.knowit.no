@@ -1,7 +1,7 @@
-@import "common.scss";
+@import 'common.scss';
 
 .content {
-  padding-top: $large-vertical-padding;
+  padding: $large-vertical-padding 0px;
   grid-column: 3 / span 8;
   h1,
   h2 {

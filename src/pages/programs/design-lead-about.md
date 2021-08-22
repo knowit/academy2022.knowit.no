@@ -5,7 +5,8 @@ title: 'Design-lead'
 description:
   'For designere med minst 2 års erfaring som vil utvikle seg videre for å ta
   større ansvar i leveranser, strategiarbeid og kreativ ledelse.'
-author: 'Jan Henrik Gundelsby'
+author: 'Øyvind Brande-Lien'
+email: 'academy@knowit.no'
 updated: '2021-04-12'
 ---
 

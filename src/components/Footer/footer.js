@@ -1,10 +1,10 @@
 import React from 'react'
 import Version from '../Version/Version'
-import { repository } from '../../../package'
+// import { repository } from '../../../package'
 import * as css from './footer.module.scss'
 
 const AcademyFooter = ({ data }) => {
-  // console.log("footer data:", data)
+  console.log('footer data:', data)
   const { email } = data
   return (
     <footer>
