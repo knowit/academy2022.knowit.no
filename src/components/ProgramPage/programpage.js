@@ -35,13 +35,17 @@ const ProgramPage = ({ program }) => {
 
   return (
     <Layout data={data.site.siteMetadata}>
-      <section id="main" className={css.courseInfoSection}>
-        <BlogHeader data={about} />
-        <div
-          className={css.aboutProgram}
-          dangerouslySetInnerHTML={{ __html: about.html }}
-        />
-        <ProgramOverview courses={courses} title="Kursoversikt" />
+      <section id="main" className={css.gridContainer}>
+        <div className={css.frontContent}>
+          <BlogHeader data={about} />
+          <div
+            className={css.aboutProgram}
+            dangerouslySetInnerHTML={{ __html: about.html }}
+          ></div>
+          <ProgramOverview courses={courses} title="Kursoversikt" />
+        </div>
+      </section>
+      <section id="signup" className={css.gridContainer}>
         <SignupSection />
       </section>
     </Layout>
