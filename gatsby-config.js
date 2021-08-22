@@ -6,7 +6,8 @@ module.exports = {
     description: `Knowit Academy er Knowits kompetanseutviklingsprogram for 
       alle ansatte i Knowit Norge. Søknadsfristen for årets programmer er 
       12. september, 2021 og påmeldingen åpner 30. august.`,
-    ogImage: 'https://academy.knowit.no/assets/knowit_academy_banner_green.png',
+    ogImage:
+      'https://academy.knowit.no/assets/knowit_academy_banner_flamingo.png',
   },
   plugins: [
     'gatsby-plugin-styled-components',
