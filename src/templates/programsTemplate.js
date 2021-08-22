@@ -22,7 +22,7 @@ const Template = ({ data }) => {
     }
   }
 
-  // console.log('should show info header:', frontmatter.path, showInfoHeader)
+  console.log('should show info header:', frontmatter.path, showInfoHeader)
   return (
     <Layout data={data}>
       <Helmet>
@@ -64,6 +64,7 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         title
+        email
         siteUrl
         description
         ogImage

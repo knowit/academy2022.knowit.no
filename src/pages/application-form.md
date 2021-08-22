@@ -1,11 +1,11 @@
 ---
-path: "/application-form"
-date: "2019-08-14 10:00"
-title: "Søknad til Knowit Academy"
-description: "Application form in Norwegian to Knowit Academy"
+path: '/application-form'
+date: '2019-08-14 10:00'
+title: 'Søknad til Knowit Academy'
+description: 'Application form in Norwegian to Knowit Academy'
 author: Thomas Malt
-email: academy@knowit-no
-updated: "2021-04-12"
+email: academy@knowit.no
+updated: '2021-04-12'
 ---
 
 Programmene i Knowit Academy er åpent for alle ansatte i Knowit. I tillegg gir

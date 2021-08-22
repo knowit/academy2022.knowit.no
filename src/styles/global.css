@@ -7,17 +7,17 @@
       format("embedded-opentype"),
  */
 @font-face {
-  font-family: "ArialforKnowitBold";
-  src: url("/fonts/arial-for-knowit-w05-bold.woff2") format("woff2"),
-    url("/fonts/arial-for-knowit-w05-bold.woff") format("woff"),
-    url("/fonts/arial-for-knowit-w05-bold.ttf") format("truetype");
+  font-family: 'ArialforKnowitBold';
+  src: url('/fonts/arial-for-knowit-w05-bold.woff2') format('woff2'),
+    url('/fonts/arial-for-knowit-w05-bold.woff') format('woff'),
+    url('/fonts/arial-for-knowit-w05-bold.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: "ArialforKnowitRegular";
-  src: url("/fonts/arial-for-knowit-w05-regular.woff2") format("woff2"),
-    url("/fonts/arial-for-knowit-w05-regular.woff") format("woff"),
-    url("/fonts/arial-for-knowit-w05-regular.ttf") format("truetype");
+  font-family: 'ArialforKnowitRegular';
+  src: url('/fonts/arial-for-knowit-w05-regular.woff2') format('woff2'),
+    url('/fonts/arial-for-knowit-w05-regular.woff') format('woff'),
+    url('/fonts/arial-for-knowit-w05-regular.ttf') format('truetype');
 }
 
 html {
@@ -28,7 +28,8 @@ html {
 
 body {
   margin: 0;
-  font-family: "Arial", sans-serif;
+  font-family: 'Arial', sans-serif;
   height: 100%;
   font-size: 18px;
+  background-color: #b7debd;
 }

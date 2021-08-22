@@ -22,11 +22,6 @@
   font-weight: bold;
   border-radius: 4px;
 
-  img {
-    vertical-align: middle;
-    padding-left: 12px;
-  }
-
   &:active {
     background-color: rgba(0, 0, 0, 0.06);
     border: 3px solid $knowit-pressed;
@@ -35,11 +30,31 @@
 
 .signupSection {
   background-color: $knowit-flamingo;
+  a {
+    text-decoration: none;
+  }
+
+  .signupMessage {
+    font-weight: bold;
+    margin-bottom: 0;
+
+    img {
+      vertical-align: middle;
+      padding-left: 12px;
+    }
+  }
+
+  /* &:active {
+    background-color: $knowit-mint;
+  }
+  */
+
   .frontContent {
     padding-bottom: $large-vertical-padding;
     p {
       text-align: center;
-      padding: 18px 0;
+      padding-top: 12px;
+      padding-bottom: 0;
     }
   }
 }
