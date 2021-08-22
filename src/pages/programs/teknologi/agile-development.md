@@ -1,21 +1,20 @@
 ---
-path: "/courses/tech-lead/agile-development"
-date: "2019-10-08 09:00"
-endDate: "2019-10-09 16:00"
+path: '/courses/teknologi/agile-development'
+date: '2022-02-01'
 confirmed: true
-location: "Midten, Oslo"
-title: "Agile Development Best Practices"
-teacher: "Dr. Venkat Subramaniam"
+location: 'TBD'
+title: 'Agile Development Best Practices'
+teacher: 'Dr. Venkat Subramaniam'
 description:
-  "This course takes a highly practical and result driven approach to being
+  'This course takes a highly practical and result driven approach to being
   agile. It will present the major impediments, things we have to deeply
   introspect and change. It will discuss why adaptive planning is highly
   essential and how to get the team to working in that mode. It has a good
   mixture of technical and non-technical details to help adapt, succeed and
-  sustain agile development."
-image: "/assets/venkat_subramaniam.jpg"
-updated: "2019-06-12"
-author: "Thomas Malt"
+  sustain agile development.'
+image: '/assets/venkat_subramaniam.jpg'
+updated: '2019-06-12'
+author: 'Thomas Malt'
 ---
 
 Agile development is all about succeeding in our efforts with the help of

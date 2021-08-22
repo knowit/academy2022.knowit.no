@@ -1,5 +1,5 @@
 ---
-path: "/programs/about-strategi-og-ledelse"
+path: "/programs/about-leadership"
 date: "2021-08-22"
 title: "Strategi og ledelse"
 description: "For ansatte som vil lære hvordan du best leder en workshop, hvordan endre
