@@ -33,8 +33,10 @@ const ProgramPage = ({ program }) => {
   about.frontmatter.siteUrl = `https://academy.knowit.no/programs/${program}/`
   about.frontmatter.path = `/programs/${program}`
 
+  console.log('program page: about', about)
+
   return (
-    <Layout data={data.site.siteMetadata}>
+    <Layout data={about.frontmatter}>
       <section id="main" className={css.gridContainer}>
         <div className={css.blogArticle}>
           <BlogHeader data={about} />

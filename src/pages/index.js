@@ -19,7 +19,7 @@ const Page = ({ data, path }) => {
     (i) => i.node.frontmatter.path === '/about'
   ).node
 
-  console.log('programs ya:', programPages)
+  // front page index console.log('programs ya:', programPages)
   // <SignupSection />
   return (
     <Layout data={siteMetadata}>
@@ -49,8 +49,11 @@ export const query = graphql`
           html
           frontmatter {
             title
+            author
             path
             date
+            image
+            ogImage
             description
           }
         }

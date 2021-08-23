@@ -1,12 +1,16 @@
 ---
-path: "/programs/about-strategi-og-ledelse"
-date: "2021-08-22"
-title: "Strategi og ledelse"
-description: "For ansatte som vil lære hvordan du best leder en workshop, hvordan endre
-organisasjoner gjennom Change Management, og mye mer."
-updated: "2021-08-22"
+path: '/programs/about-strategi-og-ledelse'
+date: '2021-08-22'
+title: 'Strategi og ledelse'
+description:
+  'Strategi og ledelse er programmet for ansatte som vil lære hvordan du best
+  leder en workshop, hvordan endre organisasjoner gjennom Change Management,
+  og mye mer.'
+updated: '2021-08-22'
+image: 'https://academy.knowit.no/assets/knowit_academy_banner_flamingo.png'
+ogImage: 'https://academy.knowit.no/assets/knowit_academy_banner_flamingo.png'
 email: 'academy@knowit.no'
-author: "Heidi Hundåla"
+author: 'Heidi Hundåla'
 ---
 
 Dette er skolen for deg som vil lære hvordan du best leder en workshop,

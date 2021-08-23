@@ -3,10 +3,12 @@ path: '/programs/about-teknologi'
 date: '2021-08-22'
 title: 'Teknologi'
 description:
-  'For utviklere med minst 3 års arbeidserfaring som vil utvikle deg videre
-  som tech-lead og arkitekt på et utviklingsteam, og ta ansvar for større del
-  av leveransen og produktutviklingen.'
-image: ''
+  'Teknologi-programmet er for utviklere med minst 3 års arbeidserfaring som
+  vil utvikle deg videre som tech-lead og arkitekt på et utviklingsteam, og ta
+  ansvar for større del av leveransen og produktutviklingen. Søknadsfristen
+  for å være med i årets program er søndag 12. september, 2021.'
+image: 'https://academy.knowit.no/assets/knowit_academy_banner_flamingo.png'
+ogImage: 'https://academy.knowit.no/assets/knowit_academy_banner_flamingo.png'
 author: 'Thomas Malt'
 email: 'academy@knowit.no'
 updated: '2021-08-22'
