@@ -1,17 +1,22 @@
+@import '../../styles/common.scss';
 .blogHeader {
-  color: #888;
+  color: $knowit-forest; // #888;
+  margin-bottom: $medium-vertical-padding;
 }
 
 .byline {
   padding-left: 8px;
   position: relative;
-  font-size: 16px;
+  font-size: 14px;
   top: -5px;
   a {
-    color: inherit;
+    color: $knowit-forest;
+    font-weight: normal;
+    text-decoration: underline;
   }
 }
 
 .blogHeaderTitle {
   font-size: 2em;
+  text-align: left;
 }

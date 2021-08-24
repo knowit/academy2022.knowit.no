@@ -1,19 +1,26 @@
 ---
-path: "/about"
-date: "2019-06-05"
-updated: "2021-04-12"
-title: "About Knowit Academy"
+path: '/about'
+date: '2021-08-21'
+updated: '2021-08-21'
+title: 'About Knowit Academy'
+email: 'academy@knowit.no'
 description:
-  "Knowit Academy er knowits interne utviklingsprogram. Programmet har som
-  ambisjon om å være det beste og mest givende kompentaseutviklingsprogrammet."
+  'Knowit Academy er Knowits interne kompetanseutviklingsprogram i Norge.
+  Programmet har som ambisjon om å være det beste og mest givende
+  kompentaseutviklingsprogrammet.'
 ---
 
-# Om Knowit Academy
+# Knowit Academy
 
-Knowit Academy Norway er Knowits interne kompetanseutviklingsprogram.
-Målgruppen for programmet er alle ansatte i Knowits selskaper i Norge. Vår
-ambisjon er å lage det beste og mest givende kompetanseutviklingsprogramet man
-kan finne i teknologibedrifter.
+Knowit Academy er Knowits interne kompetanseutviklingsprogram i Norge.
+Målgruppen for programmet er alle ansatte i Knowit Norge. Vår ambisjon er å
+lage det beste og mest givende kompetanseutviklingsprogramet blant norske
+teknologibedrifter.
 
-Tidligere har Knowit Academy gjennomført programmer for
-tech-leads, team-leads, designere samt rådgivning og ledelse. Programmer for 2021/2022 er ikke klart enda, men det blir mest sannsynlig oppstart høsten 2021.
+Knowit Academy har dedikerte programmer for utviklere som vil bli arkitekter,
+tech-leads og ta større ansvar for løsninger, for ansatte som vil fordype seg
+i personalledelse, strategi og ledelse og design.
+
+Programmene for 2021/2022 er klare. Påmeldingen starter 30. august, og
+søknadsfristen er 12.september, 2021. Programmene har oppstart i månedsskiftet
+september / oktober 2021.

@@ -1,5 +1,5 @@
-import React from "react"
-import { Helmet } from "react-helmet"
+import React from 'react'
+import { Helmet } from 'react-helmet'
 
 const MainHelmet = ({ metadata }) => (
   <Helmet>
@@ -9,6 +9,7 @@ const MainHelmet = ({ metadata }) => (
       name="keywords"
       content="Knowit, Knowit Academy, Knowit Academy Norway, Recruitment, Personal Development, Career Path"
     />
+    <meta name="author" content={metadata.author} />
     <meta property="og:title" content={metadata.title} />
     <meta property="og:description" content={metadata.description} />
     <meta property="og:url" content={metadata.siteUrl} />

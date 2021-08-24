@@ -1,4 +1,19 @@
 // Knowit colors
+
+$knowit-pear: #b7debd;
+$knowit-mint: #dbeede;
+$knowit-pebble: #f1f0ed;
+$knowit-sand: #e4e1db;
+$knowit-forest: #4b6455;
+$knowit-clay: #a5b1aa;
+$knowit-black: #333333;
+$knowit-white: #f1f0ed;
+$knowit-lollipop: #ff00ff;
+$knowit-pressed: #b300b3;
+$knowit-flamingo: #fac0b1; //  rgb(250, 192, 177)
+$knowit-melon: #fcdfd8;
+
+// old colors
 // green
 $green-dark: rgb(0, 89, 79);
 $green-medium: rgb(0, 150, 130);
@@ -29,3 +44,74 @@ $gray-dark: rgb(117, 120, 123);
 $gray-medium: rgb(177, 179, 179);
 $gray-light: rgb(208, 208, 206);
 $gray-lighter: rgb(228, 226, 219);
+
+$large-vertical-padding: 94px;
+$medium-vertical-padding: 46px;
+$small-vertical-padding: 24px;
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: Arial, sans-serif;
+  font-weight: normal;
+  color: $knowit-black;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'ArialforKnowitRegular', sans-serif;
+  font-size: 77px;
+}
+
+h2 {
+  font-size: 60px;
+}
+
+h3 {
+  font-size: 38px;
+}
+
+h4 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+// section {
+// width: 100%;
+// }
+
+p {
+  line-height: 28px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+main {
+  background-color: $knowit-white;
+}
+
+.gridContainer {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0px 20px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 32px;
+  grid-auto-flow: column;
+  // border: 1px solid green;
+}
+
+.frontContent {
+  grid-column: 3 / span 8;
+  padding: $large-vertical-padding 0px $small-vertical-padding 0px;
+  color: $knowit-black;
+  text-align: justify;
+  text-justify: inter-word;
+  // border: 1px solid red;
+  h1,
+  h2 {
+    text-align: center;
+  }
+}

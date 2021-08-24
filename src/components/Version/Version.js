@@ -1,11 +1,11 @@
-import React from "react"
-import { version } from "../../../package"
-import css from "./Version.module.scss"
+import React from 'react'
+import p from '../../../package'
+import * as css from './Version.module.scss'
 
 const Version = () => (
   <>
-    {" "}
-    <span className={css.version}>v{version}</span>
+    {' '}
+    <span className={css.version}>v{p.version}</span>
   </>
 )
 

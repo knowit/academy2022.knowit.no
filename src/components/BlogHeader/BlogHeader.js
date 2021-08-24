@@ -1,11 +1,11 @@
-import React from "react";
-import Icon from "../Icon";
-import moment from "moment";
-import css from "./BlogHeader.module.scss";
+import React from "react"
+import Icon from "../Icon"
+import moment from "moment"
+import * as css from "./BlogHeader.module.scss"
 
 const BlogHeader = ({ data }) => {
-  const { title, author, email, updated } = data.frontmatter;
-  const date = moment(updated).format("LL");
+  const { title, author, email, updated } = data.frontmatter
+  const date = moment(updated).format("LL")
   return (
     <>
       <h1 className={css.blogHeaderTitle}>{title}</h1>
@@ -16,7 +16,7 @@ const BlogHeader = ({ data }) => {
         </span>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default BlogHeader;
+export default BlogHeader

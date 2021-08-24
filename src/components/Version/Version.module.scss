@@ -1,3 +1,6 @@
+@import '../../styles/common.scss';
+
 .version {
-  color: rgba(0, 0, 0, 0.5);
+  color: $knowit-forest;
+  font-size: 12px;
 }

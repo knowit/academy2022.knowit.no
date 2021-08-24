@@ -1,11 +1,12 @@
-import { useStaticQuery, graphql } from "gatsby"
-  const FetchAllPages = () => {
+import { useStaticQuery, graphql } from 'gatsby'
+const FetchAllPages = () => {
   const data = useStaticQuery(
     graphql`
       query {
         site {
           siteMetadata {
             title
+            email
             siteUrl
             description
             ogImage
@@ -26,6 +27,7 @@ import { useStaticQuery, graphql } from "gatsby"
                 updated
                 confirmed
                 author
+                email
                 location
               }
             }
