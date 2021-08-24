@@ -1,15 +1,15 @@
 ---
-path: "/programs/about-personalledelse"
-date: "2019-04-27"
-title: "Praktisk personalledelse "
+path: '/programs/about-personalledelse'
+date: '2019-04-27'
+title: 'Praktisk personalledelse'
 description:
-  "For deg som har eller ønsker deg personalansvar i Knowit. Programmet tilbyr
-nyttige verktøy for å veilede andre og for å bli mer bevisst dine egne
-egenskaper som leder."
-image: ""
-author: "Mayn Ektvedt Kjær"
-email: "mayn.kjar@knowit.no"
-updated: "2021-08-16"
+  'For deg som har eller ønsker deg personalansvar i Knowit. Programmet tilbyr
+  nyttige verktøy for å veilede andre og for å bli mer bevisst dine egne
+  egenskaper som leder.'
+image: ''
+author: 'Mayn Ektvedt Kjær'
+email: 'mayn.kjar@knowit.no'
+updated: '2021-08-16'
 ---
 
 For deg som har eller ønsker deg personalansvar i Knowit. Programmet tilbyr

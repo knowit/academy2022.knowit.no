@@ -1,5 +1,5 @@
 import React from 'react'
-import css from './SignupSection.module.scss'
+import * as css from './SignupSection.module.scss'
 
 const SignupSection = () => {
   // <a class="link" href="/how-to-apply">
