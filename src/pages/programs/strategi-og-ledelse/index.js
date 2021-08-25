@@ -1,5 +1,4 @@
 import React from 'react'
-
 import ProgramPage from '../../../components/ProgramPage/programpage'
 
 const PersonalledelseProgram = () => {
