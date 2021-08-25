@@ -1,3 +1,88 @@
+@import '../../styles/globalVariables.scss';
+
+/* 
+  src: url("/fonts/arial-for-knowit-w05-bold.eot");
+  src: url("/fonts/arial-for-knowit-w05-bold.eot?#iefix")
+      format("embedded-opentype"),
+  src: url("/fonts/arial-for-knowit-w05-regular.eot");
+  src: url("/fonts/arial-for-knowit-w05-regular.eot?#iefix")
+      format("embedded-opentype"),
+ */
+@font-face {
+  font-family: 'ArialforKnowitBold';
+  src: url('/fonts/arial-for-knowit-w05-bold.woff2') format('woff2'),
+    url('/fonts/arial-for-knowit-w05-bold.woff') format('woff'),
+    url('/fonts/arial-for-knowit-w05-bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'ArialforKnowitRegular';
+  src: url('/fonts/arial-for-knowit-w05-regular.woff2') format('woff2'),
+    url('/fonts/arial-for-knowit-w05-regular.woff') format('woff'),
+    url('/fonts/arial-for-knowit-w05-regular.ttf') format('truetype');
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  height: 100%;
+  font-size: 18px;
+  background-color: #b7debd;
+}
+
+li {
+  text-align: initial;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: Arial, sans-serif;
+  font-weight: normal;
+  color: $knowit-black;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'ArialforKnowitRegular', sans-serif;
+  font-size: 77px;
+}
+
+h2 {
+  font-size: 60px;
+}
+
+h3 {
+  font-size: 38px;
+}
+
+h4 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+// section {
+// width: 100%;
+// }
+
+p {
+  line-height: 28px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+main {
+  background-color: $knowit-white;
+}
+
 .frontpage {
   height: 100%;
   background-color: white;
