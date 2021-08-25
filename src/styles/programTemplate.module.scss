@@ -17,8 +17,13 @@
   }
 
   h2 {
-    font-size: calc(1em + 0.5vw);
+    font-size: calc(1em + 0.6vw);
     margin-top: $medium-vertical-padding;
+  }
+
+  h3 {
+    font-size: calc(1em + 0.3vw);
+    margin-top: $small-vertical-padding;
   }
 
   p {
