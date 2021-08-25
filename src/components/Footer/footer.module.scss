@@ -8,11 +8,10 @@
   margin: auto;
 
   a {
-    font-weight: bold;
+    font-weight: normal;
     font-size: 18px;
     text-decoration: none;
     line-height: 28px;
-    color: $knowit-lollipop;
   }
 
   img {
@@ -42,6 +41,8 @@
     text-decoration: inherit;
     font-weight: inherit;
     color: inherit;
+    border: none;
+    padding: none;
   }
   p {
     margin: 0px;

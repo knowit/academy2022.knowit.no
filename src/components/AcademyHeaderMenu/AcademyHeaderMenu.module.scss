@@ -70,8 +70,14 @@ $menubar-height: 86px;
     }
 
     a {
-      text-decoration: inherit;
+      text-decoration: none;
       color: inherit;
+      padding-bottom: 0.2em;
+      border: none;
+
+      &:hover {
+        border-bottom: 0.3em solid $knowit-lollipop;
+      }
     }
   }
 

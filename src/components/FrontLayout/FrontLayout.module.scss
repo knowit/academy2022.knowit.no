@@ -69,9 +69,17 @@ h4 {
   font-weight: bold;
 }
 
-// section {
-// width: 100%;
-// }
+a {
+  font-weight: normal;
+  color: $knowit-black;
+  text-decoration: none;
+  padding-bottom: 0.1em;
+  border-bottom: 0.14em solid $knowit-lollipop;
+
+  &:hover {
+    border-color: $knowit-forest;
+  }
+}
 
 p {
   line-height: 28px;
