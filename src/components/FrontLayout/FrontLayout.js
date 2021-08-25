@@ -5,7 +5,6 @@ import Footer from '../Footer/Footer'
 import * as css from './FrontLayout.module.scss'
 
 const FrontLayout = ({ children, data }) => {
-  console.log('front layout called:', data)
   return (
     <section className={css.frontpage}>
       <MainHelmet metadata={data} />

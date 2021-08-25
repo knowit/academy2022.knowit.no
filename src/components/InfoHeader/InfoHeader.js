@@ -3,7 +3,7 @@ import Icon from '../Icon'
 import colors from '../../utils/colors'
 import moment from 'moment'
 import * as css from './InfoHeader.module.scss'
-import 'moment/locale/nb'
+// import 'moment/locale/nb'
 
 /**
  * Takes two strings with something that can be parsed to a date as input.
@@ -13,6 +13,9 @@ import 'moment/locale/nb'
  * @param {*} to
  */
 const dateString = (from, to, confirmed = false) => {
+  if (from === null) {
+    return 'Informasjon kommer'
+  }
   const startDate = moment(from)
   const endDate = moment(to)
 
@@ -108,6 +111,8 @@ const InfoHeader = ({ data, showDescription }) => {
   const { frontmatter } = data
 
   const confirmed = frontmatter.confirmed ? true : false
+
+  console.log('infoheader data:', data)
 
   let dates = frontmatter.path.match(/\/courses/) ? (
     <Dates

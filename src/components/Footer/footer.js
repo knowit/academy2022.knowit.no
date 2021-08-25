@@ -10,7 +10,6 @@ const AcademyFooter = ({ data }) => {
   ) {
     data = data.site.siteMetadata
   }
-  console.log('footer data:', data)
   const { email } = data
   return (
     <footer>
