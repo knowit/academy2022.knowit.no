@@ -10,4 +10,4 @@ email: 'academy@knowit.no'
 author: 'Heidi Hundåla'
 ---
 
-Kursene skal gi deg bedre kunnskap i det å lede folk.
+Dette programmet er satt sammen for deg som vil jobbe som rådgiver, enten det er med oppdragsledelse og som sparringspartner for kunden, eller det er med utvikling av nye forretningsmodeller og strategi. De ulike modulene vil gi deg både et teoretisk fundament, beste praksis og nyttige verktøy i hverdagen innen temaer som ledelse, selvledelse, teamledelse, kommunikasjon, smidig utviklingsmetodikk og utvikling av forretningsmodeller.
