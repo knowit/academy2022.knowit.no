@@ -1,4 +1,4 @@
-@import '../../styles/common.scss';
+@import '../../styles/globalVariables.scss';
 
 .infoHeaderLink {
   text-decoration: none;
@@ -10,7 +10,7 @@
   flex-direction: row;
   margin-top: 24px;
   flex-wrap: nowrap;
-  background-color: #eee;
+  background-color: $knowit-flamingo;
   border-radius: 8px;
 }
 
@@ -68,6 +68,10 @@
   height: inherit;
   min-height: 240px;
   // border-radius: 0px 8px 8px 0px;
+  background-image: url($favicon-academy-flamingo);
+  background-size: cover;
+  background-clip: 'padding-box';
+  background-position: '50% 30%';
 
   @media (min-width: 960px) {
     width: 240px;

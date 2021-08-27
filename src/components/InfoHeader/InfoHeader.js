@@ -85,18 +85,18 @@ const Location = ({ location }) => {
 }
 
 const Picture = ({ url }) => {
-  // <img src={url} alt={`Lecturer is ${teacher}`} className={css.picture} />
-  return (
-    <div
-      className={css.pictureWrapper}
-      style={{
-        backgroundImage: `url(${url})`,
-        backgroundClip: 'padding-box',
-        backgroundPosition: '50% 30%',
-        backgroundSize: 'cover',
-      }}
-    />
-  )
+  // set default image if missing url.
+
+  if (typeof url === 'undefined' || url.length < 1) {
+    url = '/assets/knowit_academy_flamingo_favicon.png'
+  }
+
+  const elementStyles = {
+    backgroundImage: `url(${url})`,
+    backgroundPosition: '50% 10%',
+  }
+
+  return <div className={css.pictureWrapper} style={elementStyles} />
 }
 
 const Description = ({ description }) => {
@@ -112,8 +112,7 @@ const InfoHeader = ({ data, showDescription }) => {
 
   const confirmed = frontmatter.confirmed ? true : false
 
-  console.log('infoheader data:', data)
-
+  console.log('css', css)
   let dates = frontmatter.path.match(/\/courses/) ? (
     <Dates
       confirmed={confirmed}
