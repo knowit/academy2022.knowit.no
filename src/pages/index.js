@@ -6,9 +6,6 @@ import ThePrograms from '../components/ThePrograms'
 import SignupSection from '../components/SignupSection'
 
 const Page = ({ data, path }) => {
-  // console.log("page:", path)
-  const { siteMetadata } = data.site
-
   // remove unneccessary complexity from the data.
   const programPages = data.allMarkdownRemark.edges
     .filter((i) => i.node.frontmatter.path.match(/^\/programs\/about/))
@@ -22,7 +19,7 @@ const Page = ({ data, path }) => {
   // front page index console.log('programs ya:', programPages)
   // <SignupSection />
   return (
-    <Layout data={siteMetadata}>
+    <Layout data={data} sitemeta={data.site.siteMetadata}>
       <AboutAcademy content={aboutPage} />
       <ThePrograms pages={programPages} />
       <SignupSection></SignupSection>

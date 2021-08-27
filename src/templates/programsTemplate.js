@@ -11,7 +11,7 @@ import * as css from '../styles/programTemplate.module.scss'
 // }) {
 
 const Template = ({ data }) => {
-  const { markdownRemark } = data // data.markdownRemark holds our post data
+  const { markdownRemark, site } = data // data.markdownRemark holds our post data
   const { frontmatter, html } = markdownRemark
 
   const showInfoHeader = () => {
@@ -24,7 +24,7 @@ const Template = ({ data }) => {
 
   console.log('should show info header:', frontmatter.path, showInfoHeader)
   return (
-    <Layout data={data}>
+    <Layout data={data} sitemeta={site.siteMetadata}>
       <Helmet>
         <title>{frontmatter.title}</title>
         <meta name="description" content={frontmatter.description} />

@@ -32,7 +32,7 @@ const ProgramPage = ({ program }) => {
   about.frontmatter.path = `/programs/${program}`
 
   return (
-    <Layout data={about.frontmatter}>
+    <Layout data={about} sitemeta={data.site.siteMetadata}>
       <section id="main" className={css.gridContainer}>
         <div className={css.blogArticle}>
           <BlogHeader data={about} />
