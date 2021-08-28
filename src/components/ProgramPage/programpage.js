@@ -24,9 +24,11 @@ const ProgramPage = ({ program }) => {
           : null
       return i
     })
-    .sort((a, b) =>
-      a.node.frontmatter.date > b.node.frontmatter.date ? 1 : -1
-    )
+    .sort((a, b) => {
+      if (a.node.frontmatter.date === null) return 1
+      if (b.node.frontmatter.date === null) return -1
+      return a.node.frontmatter.date > b.node.frontmatter.date ? 1 : -1
+    })
 
   about.frontmatter.siteUrl = `https://academy.knowit.no/programs/${program}/`
   about.frontmatter.path = `/programs/${program}`
