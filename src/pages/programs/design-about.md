@@ -1,26 +1,26 @@
 ---
 path: '/programs/about-design'
-date: '2021-08-13'
+date: '2021-08-27'
 title: 'Design'
 description:
-  'Design-programmet er for designere med minst 2 års erfaring som vil utvikle
-  seg videre for å ta større ansvar i leveranser, strategiarbeid og kreativ
-  ledelse.'
+  'Med dette programmet søker vi å utvide design-kompetansen til deltakerne i
+  to retninger. Mot utviklere i den ene enden og mot forretningssiden i den
+  andre enden. Ved å bygge disse to broene vil designeren stå sterkere i både
+  design-rollen men også i lederrollen som design-lead.'
 author: 'Øyvind Brande-Lien'
 email: 'academy@knowit.no'
-updated: '2021-04-12'
+updated: '2021-08-27'
 ---
 
-**Mrk: Programmet under er eksempler fra kurs fra tidligere programmer.**
-
-Program for design- og innovasjonsledelse (primært for digitale prosjekter).
 Målet er å videreutdanne eksperter som styrker den faglige kvaliteten i
 prosjektene våre og i det interne miljøet i Knowit.
 
-Design-leads leder og fasiliterer komplekse designprosesser, setter retning i
-prosjektene, jobber tverrfaglig med å utvikle designkonsepter og har ansvar
-for faglig kvalitet i leveransene.
+Med dette programmet søker vi å utvide design-kompetansen til deltakerne i to
+retninger. Mot utviklere i den ene enden og mot forretningssiden i den andre
+enden. Ved å bygge disse to broene vil designeren stå sterkere i både
+design-rollen men også i lederrollen som design-lead.
 
-Kurset vil omhandle temaer som kommunikasjon, metodikk, prosjekt- og
-designledelse, innsikt og analyse, fasilitering, digital strategi og
-innovasjon.
+På broen mot forretningssiden vil vi lære om strategisk business design, value
+proposition canvas, visuell kommunikasjon, presentasjonsteknikk, service
+design og trend-watching. På broen mot utviklere vil vi lære om
+designsystemer, smidig metodikk og mikroanimasjon.
