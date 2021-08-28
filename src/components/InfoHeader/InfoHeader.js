@@ -87,7 +87,7 @@ const Location = ({ location }) => {
 const Picture = ({ url }) => {
   // set default image if missing url.
 
-  if (typeof url === 'undefined' || url.length < 1) {
+  if (typeof url !== 'string' || url.length < 1) {
     url = '/assets/knowit_academy_flamingo_favicon.png'
   }
 
@@ -112,7 +112,6 @@ const InfoHeader = ({ data, showDescription }) => {
 
   const confirmed = frontmatter.confirmed ? true : false
 
-  console.log('css', css)
   let dates = frontmatter.path.match(/\/courses/) ? (
     <Dates
       confirmed={confirmed}
