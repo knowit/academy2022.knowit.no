@@ -1,6 +1,6 @@
 ---
 path: '/programs/about-personalledelse'
-date: '2019-04-27'
+date: '2021-08-27'
 title: 'Praktisk personalledelse'
 description:
   'For deg som har eller ønsker deg personalansvar i Knowit. Programmet tilbyr
@@ -9,7 +9,7 @@ description:
 image: ''
 author: 'Mayn Ektvedt Kjær'
 email: 'mayn.kjar@knowit.no'
-updated: '2021-08-16'
+updated: '2021-08-27'
 ---
 
 For deg som har eller ønsker deg personalansvar i Knowit. Programmet tilbyr

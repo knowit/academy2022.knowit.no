@@ -15,13 +15,25 @@ const ProgramPage = ({ program }) => {
     i.node.frontmatter.path.match(aboutRe)
   ).node
 
+  const makeFrontmatterDate = (front) => {
+    if (typeof front.date === 'undefined') return null
+    if (front.date instanceof Date) return front.date
+    if (typeof front.date !== 'string') return null
+
+    if (front.date.length === 10) return new Date(front.date)
+    if (front.date.length === 16)
+      return new Date(front.date.split(/[T\s]/i).join('T'))
+
+    throw new TypeError(
+      'date field in frontmatter was wrong datestring format. Needs to be YYYY-MM-DDTHH:mm'
+    )
+  }
+
+  // create a list of all courses for program sorted by date
   const courses = data.allMarkdownRemark.edges
     .filter((i) => i.node.frontmatter.path.match(courseRe))
     .map((i) => {
-      i.node.frontmatter.date =
-        typeof i.node.frontmatter.date === 'string'
-          ? new Date(i.node.frontmatter.date)
-          : null
+      i.node.frontmatter.date = makeFrontmatterDate(i.node.frontmatter)
       return i
     })
     .sort((a, b) => {
