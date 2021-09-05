@@ -20,3 +20,11 @@ jobs:
         with:
           branch: gh-pages # The branch the action should deploy to.
           folder: public # The folder the action should deploy.
+
+      - name: Notify Academy Slack
+        uses: rtCamp/action-slack-notify@v2
+        env:
+          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+          SLACK_USERNAME: 'githubBot'
+          SLACK_MESSAGE: 'Academy web pages updated!'
+          SLACK_TITLE: 'Web pages updates'
