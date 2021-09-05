@@ -26,7 +26,7 @@ jobs:
         env:
           SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
           SLACK_USERNAME: 'AcademyBot'
-          SLACK_MESSAGE: 'The Academy web pages are updated.'
+          SLACK_MESSAGE: 'A new version of the Academy web pages has been deployed, and you should see updated information shortly.'
           SLACK_TITLE: 'Academy Web Pages Updated'
           SLACK_ICON: 'https://raw.githubusercontent.com/knowit/academy.knowit.no/master/static/assets/knowit_academy_flamingo_favicon.png'
           SLACK_COLOR: ${{ job.status }}

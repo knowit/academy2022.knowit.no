@@ -23,6 +23,5 @@ Programmet starter i på høsten og varer fram til neste sommer. Her finner du
 mer informasjon om programmet, hvilke kurs og workshops som er med, og
 informasjon om hvordan du søker.
 
-**Merk: Årets program blir fremdeles utarbeidet. Oppdateringer kommer
-fortløpende, og fullstendig program blir publisert så snart vi har det
-klart.**
+**Merk: Årets program blir fremdeles ferdigstilt. Programmet blir fortløpende
+oppdatert når vi får bekreftelse fra foredragsholdere.**
