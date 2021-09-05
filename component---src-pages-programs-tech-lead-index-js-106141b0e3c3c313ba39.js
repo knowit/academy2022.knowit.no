@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[6],{233:function(e,n,a){"use strict";a.r(n);var t=a(0),r=a.n(t),c=a(226);n.default=function(){return r.a.createElement(c.a,{program:"tech-lead"})}}}]);
-//# sourceMappingURL=component---src-pages-programs-tech-lead-index-js-106141b0e3c3c313ba39.js.map
