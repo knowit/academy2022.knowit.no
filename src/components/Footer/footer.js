@@ -1,7 +1,7 @@
 import React from 'react'
 import Version from '../Version/Version'
 // import { repository } from '../../../package'
-import * as css from './footer.module.scss'
+import * as css from './Footer.module.scss'
 
 const AcademyFooter = ({ data }) => {
   if (
