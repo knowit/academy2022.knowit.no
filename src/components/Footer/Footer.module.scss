@@ -1,0 +1,74 @@
+@import '../../styles/common.scss';
+
+.footerTopContent {
+  max-width: 1200px;
+  grid-column: 3 / span 8;
+  position: relative;
+  text-align: justify;
+  margin: auto;
+
+  a {
+    font-weight: normal;
+    font-size: 18px;
+    text-decoration: none;
+    line-height: 28px;
+  }
+
+  img {
+    width: auto;
+    height: 64px;
+    position: absolute;
+    left: 164px;
+    top: -48px;
+  }
+}
+
+.footerVersion {
+  grid-column: 3 / span 1;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  vertical-align: bottom;
+  padding-top: 8px;
+}
+
+.footerKnowit {
+  font-family: 'ArialforKnowitRegular';
+  text-align: right;
+  grid-column: 5 / span 6;
+
+  a {
+    text-decoration: inherit;
+    font-weight: inherit;
+    color: inherit;
+    border: none;
+    padding: none;
+  }
+  p {
+    margin: 0px;
+    padding: 0px 0px 32px 0px;
+    font-size: 52px;
+    text-align: right;
+    color: $knowit-black;
+  }
+
+  img {
+    margin-left: 24px;
+  }
+}
+
+.footerTop {
+  background-color: $knowit-white;
+  padding: 104px 0px 42px;
+}
+
+.footerBottom {
+  background-color: $knowit-pear;
+  padding: 46px 0px 56px;
+}
+
+footer {
+  background-color: $knowit-white;
+  width: 100%;
+  margin: auto;
+}
