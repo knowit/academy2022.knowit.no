@@ -55,7 +55,3 @@ function doPost(req) {
     ContentService.MimeType.JSON
   )
 }
-
-function testing() {
-  return 'the test works'
-}
