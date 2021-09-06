@@ -1,3 +1,13 @@
+function handleInvalidToken() {
+  const data = {
+    response_type: 'ephemeral',
+    text: 'Request was invalid.',
+  }
+  return ContentService.createTextOutput(JSON.stringify(data)).setMimeType(
+    ContentService.MimeType.JSON
+  )
+}
+
 /**
  * Webhook to handle a post request
  *
@@ -5,7 +15,9 @@
  * @returns
  */
 function doPost(req) {
-  console.log('got event', req.parameters)
+  if (req.parameters.token[0] !== secrets.token) {
+    return handleInvalidToken()
+  }
 
   const sheet =
     SpreadsheetApp.getActiveSpreadsheet().getSheetByName('Form Responses 1')
