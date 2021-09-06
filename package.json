@@ -37,6 +37,7 @@
     "typeface-roboto": "^1.1.13"
   },
   "devDependencies": {
+    "@types/google-apps-script": "^1.0.37",
     "babel-plugin-styled-components": "^1.13.2",
     "eslint-utils": "3.0.0",
     "gh-pages": "3.2.3",
