@@ -14,7 +14,7 @@ function getPrograms(data) {
 
   data.forEach((i, x) => {
     if (x < 1) return
-    programs[i[4]] = typeof programs[i[5]] === 'number' ? programs[i[5]] + 1 : 1
+    programs[i[5]] = typeof programs[i[5]] === 'number' ? programs[i[5]] + 1 : 1
   })
 
   return programs
@@ -41,11 +41,11 @@ function doPost(req) {
 
   let programText = '*Programmer:*\n'
   for (const [program, value] of Object.entries(programs)) {
-    programText += `  *${value}:* ${program}\n`
+    programText += ` .   *${value}:* ${program}\n`
   }
   programText += '\n*Selskaper:*\n'
   for (const [company, value] of Object.entries(companies)) {
-    programText += `  *${value}*: ${company}\n`
+    programText += ` .   *${value}*: ${company}\n`
   }
 
   const res = {
