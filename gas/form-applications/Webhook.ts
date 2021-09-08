@@ -41,11 +41,11 @@ function doPost(req) {
 
   let programText = '*Programmer:*\n'
   for (const [program, value] of Object.entries(programs)) {
-    programText += ` .   *${value}:* ${program}\n`
+    programText += `     *${value}:* ${program}\n`
   }
   programText += '\n*Selskaper:*\n'
   for (const [company, value] of Object.entries(companies)) {
-    programText += ` .   *${value}*: ${company}\n`
+    programText += `     *${value}*: ${company}\n`
   }
 
   const res = {
