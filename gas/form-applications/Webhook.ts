@@ -1,11 +1,23 @@
-function handleInvalidToken() {
-  const data = {
-    response_type: 'ephemeral',
-    text: 'Request was invalid.',
-  }
-  return ContentService.createTextOutput(JSON.stringify(data)).setMimeType(
-    ContentService.MimeType.JSON
-  )
+function getCompanies(data) {
+  const comp = {}
+
+  data.forEach((i, x) => {
+    if (x < 1) return
+    comp[i[4]] = typeof comp[i[4]] === 'number' ? comp[i[4]] + 1 : 1
+  })
+
+  return comp
+}
+
+function getPrograms(data) {
+  const programs = {}
+
+  data.forEach((i, x) => {
+    if (x < 1) return
+    programs[i[4]] = typeof programs[i[5]] === 'number' ? programs[i[5]] + 1 : 1
+  })
+
+  return programs
 }
 
 /**
@@ -15,31 +27,25 @@ function handleInvalidToken() {
  * @returns
  */
 function doPost(req) {
+  // @ts-ignore
   if (req.parameters.token[0] !== secrets.token) {
     return handleInvalidToken()
   }
 
-  const sheet =
-    SpreadsheetApp.getActiveSpreadsheet().getSheetByName('Form Responses 1')
+  const activesheet = SpreadsheetApp.getActiveSpreadsheet()
+  const sheet = activesheet.getSheetByName('Form Responses 1')
 
   const data = sheet.getDataRange().getValues()
-  const programs = {}
-  const companies = {}
-
-  data.forEach((i, x) => {
-    if (x < 1) return
-    programs[i[5]] = typeof programs[i[5]] === 'number' ? programs[i[5]] + 1 : 1
-    companies[i[4]] =
-      typeof companies[i[4]] === 'number' ? companies[i[4]] + 1 : 1
-  })
+  const programs = getPrograms(data)
+  const companies = getCompanies(data)
 
   let programText = '*Programmer:*\n'
   for (const [program, value] of Object.entries(programs)) {
-    programText += `*${value}:* ${program}\n`
+    programText += `  *${value}:* ${program}\n`
   }
   programText += '\n*Selskaper:*\n'
   for (const [company, value] of Object.entries(companies)) {
-    programText += `*${value}*: ${company}\n`
+    programText += `  *${value}*: ${company}\n`
   }
 
   const res = {
@@ -60,10 +66,30 @@ function doPost(req) {
           text: programText,
         },
       },
+      {
+        type: 'context',
+        elements: [
+          {
+            type: 'plain_text',
+            text: ':zap: Brought to you by the Knowit Academy Development Team',
+            emoji: true,
+          },
+        ],
+      },
     ],
   }
 
   return ContentService.createTextOutput(JSON.stringify(res)).setMimeType(
+    ContentService.MimeType.JSON
+  )
+}
+
+function handleInvalidToken() {
+  const data = {
+    response_type: 'ephemeral',
+    text: 'Request was invalid.',
+  }
+  return ContentService.createTextOutput(JSON.stringify(data)).setMimeType(
     ContentService.MimeType.JSON
   )
 }
