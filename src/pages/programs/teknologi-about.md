@@ -4,7 +4,7 @@ date: '2021-09-06'
 title: 'Teknologi'
 description:
   'Teknologi-programmet er for utviklere med minst 3 års arbeidserfaring som
-  vil utvikle seg videre som tech-lead og arkitekt. Programet er et naturlig
+  vil utvikle seg videre som tech-lead og arkitekt. Programmet er et naturlig
   skritt på veien for å kunne ta større ansvar for system-, tjeneste- og
   produktutvikling.'
 image: 'https://academy.knowit.no/assets/knowit_academy_banner_flamingo.png'
