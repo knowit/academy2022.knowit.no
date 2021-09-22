@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{232:function(e,n,a){"use strict";a.r(n);var t=a(0),r=a.n(t),o=a(226);n.default=function(){return r.a.createElement(o.a,{program:"team-lead"})}}}]);
-//# sourceMappingURL=component---src-pages-programs-team-lead-index-js-21adba5264ac50e95021.js.map
