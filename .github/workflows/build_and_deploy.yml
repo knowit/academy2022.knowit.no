@@ -25,10 +25,7 @@ jobs:
         uses: rtCamp/action-slack-notify@v2
         env:
           SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
-          # SLACK_USERNAME: 'AcademyBot'
-          SLACK_MESSAGE: 'A new version of the Academy web pages has been deployed, and you should see updated information shortly.'
           SLACK_TITLE: 'Academy Web Pages Updated'
-          # SLACK_ICON: 'https://raw.githubusercontent.com/knowit/academy.knowit.no/master/static/assets/knowit_academy_flamingo_favicon.png'
           SLACK_COLOR: ${{ job.status }}
-          SLACK_FOOTER: 'Brought to you by the Knowit Academy Development Team'
+          SLACK_FOOTER: 'Brought to you by the Knowit Academy Development Team :nerd_face:'
           MSG_MINIMAL: true
