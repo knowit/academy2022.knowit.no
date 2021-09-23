@@ -11,6 +11,7 @@
   }
 
   h1 {
+    margin-top: $medium-vertical-padding;
     font-size: calc(1.4em + 0.6vw);
     padding: 0;
     margin-bottom: 0;
@@ -19,11 +20,13 @@
   h2 {
     font-size: calc(1em + 0.6vw);
     margin-top: $medium-vertical-padding;
+    padding: 0;
   }
 
   h3 {
     font-size: calc(1em + 0.3vw);
     margin-top: $small-vertical-padding;
+    padding: 0;
   }
 
   p {
