@@ -2,7 +2,7 @@
   "name": "academy.knowit.no",
   "private": true,
   "description": "A landing page and open information page about Knowit Academy Norway",
-  "version": "21.9.2302",
+  "version": "21.9.2401",
   "author": "Thomas Malt <thomas.malt@knowit.no>",
   "license": "Private",
   "scripts": {
