@@ -22,6 +22,6 @@ tech-leads og ta større ansvar for løsninger, for ansatte som vil fordype seg
 i strategi, personalledelse og ledelse generelt, og for designere og
 tjenestedesignere som vil utviklse seg videre og ta større ansvar.
 
-Programmene for 2021/2022 er klare. Påmeldingen starter 30. august, og
-søknadsfristen er 12.september, 2021. Programmene har oppstart i månedsskiftet
-september / oktober 2021.
+Programmene for 2021/2022 er klare. Påmeldingen Søknadsfristen er
+12.september, 2021. Programmene har oppstart i månedsskiftet september /
+oktober 2021.

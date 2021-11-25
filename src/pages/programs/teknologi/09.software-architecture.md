@@ -1,18 +1,18 @@
 ---
-path: "/courses/tech-lead/software-architecture"
-date: "2019-11-13 09:00"
-endDate: "2019-11-14 16:00"
-confirmed: true
-location: "Midten, Oslo"
-title: "Software Architecture for Developers"
-teacher: "Simon Brown"
+path: '/courses/teknologi/software-architecture'
+date: '2022-03-13 09:00'
+endDate: '2022-03-14 16:00'
+confirmed: false
+location: 'Info kommer'
+title: 'Software Architecture for Developers'
+teacher: 'Simon Brown'
 description:
   "The workshop is aimed at software developers and architects, and is a guide
   to modern software architecture that's pragmatic rather than academic, and
   lightweight rather than 'enterprisey'."
-image: "/assets/simon_brown.jpg"
-updated: "2019-06-24"
-author: "Thomas Malt"
+image: '/assets/simon_brown.jpg'
+updated: '2019-08-30'
+author: 'Thomas Malt'
 ---
 
 The workshop is aimed at software developers and architects, and is a guide to
