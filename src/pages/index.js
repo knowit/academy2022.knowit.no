@@ -22,7 +22,6 @@ const Page = ({ data, path }) => {
     <Layout data={data} sitemeta={data.site.siteMetadata}>
       <AboutAcademy content={aboutPage} />
       <ThePrograms pages={programPages} />
-      <SignupSection></SignupSection>
     </Layout>
   )
 }
