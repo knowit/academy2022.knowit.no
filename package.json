@@ -23,6 +23,7 @@
     "gatsby-plugin-google-analytics": "^4.17.0",
     "gatsby-plugin-google-fonts": "^1.0.1",
     "gatsby-plugin-react-helmet": "^5.17.0",
+    "gatsby-plugin-resolve-src": "^2.1.0",
     "gatsby-plugin-sass": "^5.17.0",
     "gatsby-plugin-styled-components": "^5.17.0",
     "gatsby-remark-responsive-iframe": "^5.17.0",

@@ -10,6 +10,7 @@ module.exports = {
       'https://academy.knowit.no/assets/knowit_academy_banner_flamingo.png',
   },
   plugins: [
+    'gatsby-plugin-resolve-src',
     'gatsby-plugin-styled-components',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
