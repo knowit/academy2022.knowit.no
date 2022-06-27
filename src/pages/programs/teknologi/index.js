@@ -1,5 +1,5 @@
 import React from 'react'
-import ProgramPage from '../../../components/ProgramPage/programpage'
+import ProgramPage from 'components/ProgramPage/programpage'
 
 const TeknologiProgram = () => {
   return <ProgramPage program="teknologi" />

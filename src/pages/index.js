@@ -1,9 +1,9 @@
 import React from 'react'
 import { graphql } from 'gatsby'
-import Layout from '../components/FrontLayout'
-import AboutAcademy from '../components/AboutAcademy/about'
-import ThePrograms from '../components/ThePrograms'
-// import SignupSection from '../components/SignupSection'
+import Layout from 'components/FrontLayout'
+import AboutAcademy from 'components/AboutAcademy/about'
+import ThePrograms from 'components/ThePrograms'
+// import SignupSection from 'components/SignupSection'
 
 const Page = ({ data, path }) => {
   // remove unneccessary complexity from the data.

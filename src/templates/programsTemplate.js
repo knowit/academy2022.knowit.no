@@ -1,10 +1,10 @@
 import React from 'react'
 import { graphql } from 'gatsby'
-import Layout from '../components/FrontLayout'
-import BlogHeader from '../components/BlogHeader'
-import InfoHeader from '../components/InfoHeader'
+import Layout from 'components/FrontLayout'
+import BlogHeader from 'components/BlogHeader'
+import InfoHeader from 'components/InfoHeader'
 import { Helmet } from 'react-helmet'
-import * as css from '../styles/programTemplate.module.scss'
+import * as css from 'styles/programTemplate.module.scss'
 
 // export default function Template({
 //   data, // this prop will be injected by the GraphQL query below.
