@@ -1,9 +1,9 @@
-import React from 'react'
+import * as React from 'react'
 import { graphql } from 'gatsby'
 import Layout from 'components/FrontLayout'
 import AboutAcademy from 'components/AboutAcademy/about'
 import ThePrograms from 'components/ThePrograms'
-// import SignupSection from 'components/SignupSection'
+import SignupSection from 'components/SignupSection'
 
 const Page = ({ data, path }) => {
   // remove unneccessary complexity from the data.
@@ -21,6 +21,7 @@ const Page = ({ data, path }) => {
   return (
     <Layout data={data} sitemeta={data.site.siteMetadata}>
       <AboutAcademy content={aboutPage} />
+      <SignupSection />
       <ThePrograms pages={programPages} />
     </Layout>
   )
