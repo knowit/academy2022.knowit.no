@@ -7,11 +7,6 @@ import ThePrograms from 'components/ThePrograms'
 
 const Page = ({ data, path }) => {
   // remove unneccessary complexity from the data.
-  const programPages = data.allMarkdownRemark.edges
-    .filter((i) => i.node.frontmatter.path.match(/^\/programs\/about/))
-    .map((item) => item.node.frontmatter)
-    .sort()
-
   const aboutPage = data.allMarkdownRemark.edges.find(
     (i) => i.node.frontmatter.path === '/about'
   ).node
@@ -21,7 +16,7 @@ const Page = ({ data, path }) => {
   return (
     <Layout data={data} sitemeta={data.site.siteMetadata}>
       <AboutAcademy content={aboutPage} />
-      <ThePrograms pages={programPages} />
+      <ThePrograms />
     </Layout>
   )
 }
