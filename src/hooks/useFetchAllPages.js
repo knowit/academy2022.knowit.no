@@ -15,6 +15,7 @@ export const useFetchAllPages = () => {
         allMarkdownRemark {
           edges {
             node {
+              fileAbsolutePath
               html
               frontmatter {
                 title
