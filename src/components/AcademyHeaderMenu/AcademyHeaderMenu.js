@@ -1,34 +1,46 @@
 import React from 'react'
+import AppBar from '@mui/material/AppBar'
+import Typography from '@mui/material/Typography'
+import Container from '@mui/material/Container'
+import Button from '@mui/material/Button'
+import Toolbar from '@mui/material/Toolbar'
 import * as css from './AcademyHeaderMenu.module.scss'
+// import * as atheme from 'AcademyTheme'
 
 const AcademyHeaderMenu = ({ data }) => {
-  // console.log("header menu:", data)
-  //
-  // <div className={css.grower}></div>
+  const menuItems = [
+    ['Hjem', '/'],
+    ['Programmene', '/#theprograms'],
+    ['Påmelding', '/application-form'],
+    ['Om Knowit Academy', '/#about'],
+  ]
+
   return (
-    <header className={css.academyFrontHeader}>
-      <div className={css.gridContainer}>
-        <div className={css.menuContainer}>
-          <div className={css.title}>Knowit Academy</div>
-          <nav className={css.academyHeaderMenu}>
-            <ul>
-              <li>
-                <a href="/">Hjem</a>
-              </li>
-              <li>
-                <a href="/#theprograms">Programmene</a>
-              </li>
-              <li>
-                <a href="/application-form">Påmelding</a>
-              </li>
-              <li>
-                <a href="/#about">Om Knowit Academy</a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-      </div>
-    </header>
+    <AppBar position="relative" elevation={0}>
+      <Container minWidth="mobile" maxWidth="tablet">
+        <Toolbar sx={{ padding: 0 }}>
+          <Typography
+            variant="h5"
+            noWrap
+            component="h1"
+            className={css.academyTitle}
+          >
+            Knowit Academy
+          </Typography>
+          {menuItems.map((item) => (
+            <Button
+              variant="text"
+              noWrap
+              key={item[0]}
+              href={item[1]}
+              sx={{ textTransform: 'none', whiteSpace: 'nowrap', fontSize: 18 }}
+            >
+              {item[0]}
+            </Button>
+          ))}
+        </Toolbar>
+      </Container>
+    </AppBar>
   )
 }
 
