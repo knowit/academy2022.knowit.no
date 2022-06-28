@@ -1,6 +1,7 @@
 import React from 'react'
 import AppBar from '@mui/material/AppBar'
-import Typography from '@mui/material/Typography'
+// import Typography from '@mui/material/Typography'
+import { Link } from '@mui/material'
 import Container from '@mui/material/Container'
 import Button from '@mui/material/Button'
 import Toolbar from '@mui/material/Toolbar'
@@ -9,7 +10,6 @@ import * as css from './AcademyHeaderMenu.module.scss'
 
 const AcademyHeaderMenu = ({ data }) => {
   const menuItems = [
-    ['Hjem', '/'],
     ['Programmene', '/#theprograms'],
     ['Påmelding', '/application-form'],
     ['Om Knowit Academy', '/#about'],
@@ -19,21 +19,24 @@ const AcademyHeaderMenu = ({ data }) => {
     <AppBar position="relative" elevation={0}>
       <Container maxWidth="tablet">
         <Toolbar sx={{ padding: 0 }}>
-          <Typography
+          <Link
             variant="h5"
+            underline="none"
+            marginRight={3}
             noWrap
-            component="h1"
+            href="/"
+            color="#333333"
             className={css.academyTitle}
           >
             Knowit Academy
-          </Typography>
+          </Link>
           {menuItems.map((item) => (
             <Button
               variant="text"
               noWrap={true}
               key={item[0]}
               href={item[1]}
-              sx={{ textTransform: 'none', whiteSpace: 'nowrap', fontSize: 18 }}
+              sx={{ textTransform: 'none', whiteSpace: 'nowrap' }}
             >
               {item[0]}
             </Button>
