@@ -4,86 +4,12 @@ $menu-item-spacing: 50px;
 $container-padding: 40px;
 $menubar-height: 86px;
 
-.academyFrontHeader {
-  width: 100%;
-  background-color: $knowit-pear;
-  height: $menubar-height;
-  .gridContainer {
-    height: 100%;
-  }
-}
-
-.menuContainer {
-  height: 100%;
-  grid-column: 3 / span 8;
-  display: flex;
-  flex-flow: row nowrap;
-  align-items: center;
-  justify-content: flex-start;
-}
-
-.grower {
-  flex-grow: 1;
-}
-
-.title {
+.academyTitle {
   font-family: 'ArialforKnowitRegular';
   font-weight: 200;
   font-size: 30px;
   line-height: 40px;
+  padding-right: 24px;
   // margin-left: $container-padding;
   color: $knowit-black;
-  display: inline-block;
-  white-space: nowrap;
-}
-
-.academyHeaderMenu {
-  font-family: Arial, sans-serif;
-  font-size: 18px;
-  font-weight: normal;
-  color: $knowit-black;
-  grid-column: 6 / span 5;
-  width: 100%;
-
-  ul {
-    padding-right: 0px; /* $menu-item-spacing; */
-    max-width: 100%;
-    margin: auto;
-    display: flex;
-    flex-grow: 1;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-end;
-    overflow: hidden;
-  }
-
-  li {
-    list-style: none;
-    display: inline-block;
-    white-space: nowrap;
-    line-height: 32px;
-    flex-grow: 1;
-    text-align: right;
-    // margin-left: $container-padding;
-    @media (max-height: 480px) {
-      font-size: 0.9em;
-    }
-
-    a {
-      text-decoration: none;
-      color: inherit;
-      padding-bottom: 0.2em;
-      border: none;
-
-      &:hover {
-        border-bottom: 0.3em solid $knowit-lollipop;
-      }
-    }
-  }
-
-  li:hover {
-    // background-color: ${colors.knowit.green[1]};
-    @media (max-height: 480px) {
-    }
-  }
 }
