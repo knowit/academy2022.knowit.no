@@ -42,6 +42,7 @@ export const query = graphql`
     allMarkdownRemark {
       edges {
         node {
+          fileAbsolutePath
           html
           frontmatter {
             title
