@@ -2,31 +2,47 @@ import * as React from 'react'
 import * as css from './SignupSection.module.scss'
 import Container from '@mui/material/Container'
 import Box from '@mui/material/Box'
+import { Typography } from '@mui/material'
+import { Button } from '@mui/material'
 
 const SignupSection = () => {
+  //       <a
+  //         href="/application-form"
+  //         alt="Link til skjema: Søk om plass på knowit academy"
+  //       ></a>
   // <a class="link" href="/how-to-apply">
   //   Les mer om søknadsprosessen
   // </a>
   return (
-    <section>
+    <section className={css.signupSection}>
       <Container maxWidth="tablet">
-        <Box sx={{ textAlign: 'center', bgcolor: 'pink', padding: [2, 4] }}>
-          <a
-            href="/application-form"
-            alt="Link til skjema: Søk om plass på knowit academy"
-          >
-            <h2 className={css.signupTitle}>Påmelding 2022</h2>
-            <p>
-              Påmeldingen starter mandag 30. august.
-              <br /> Søk om plass innen{' '}
-              <strong>søndag 12. september, 2021</strong>.<br />
-            </p>
-            <p className={css.signupMessage}>
-              <span>Meld deg på</span>
-              <img alt="" src="/icons/arrow.svg" width="28px" />
-            </p>
-          </a>
-        </Box>
+        <a href="/how-to-apply" alt="Les mer om søknadsprosessen">
+          <Box pt={4} pb={4}>
+            <Typography variant="h2" component="h2" align="center" pb={3}>
+              Påmelding 2022
+            </Typography>
+            <Typography variant="body1" align="center" paragraph={true}>
+              Påmeldingsfristen vil være i{' '}
+              <strong>første halvdel av september 2022</strong>
+              <br /> Mer informasjon kommer i begynnelsen av august.
+            </Typography>
+            <Box textAlign="center">
+              <Button
+                variant="text"
+                sx={{ textTransform: 'none' }}
+                endIcon={
+                  <img
+                    alt="Dekorativ pil som peker til mer informasjon"
+                    src="/icons/arrow.svg"
+                    height="24px"
+                  />
+                }
+              >
+                <strong>Les mer om søknadsprosessen</strong>
+              </Button>
+            </Box>
+          </Box>
+        </a>
       </Container>
     </section>
   )
