@@ -3,11 +3,11 @@ import Layout from 'components/FrontLayout'
 import BlogHeader from 'components/BlogHeader'
 // import SignupSection from 'components/SignupSection'
 import ProgramOverview from 'components/ProgramOverview'
-import FetchAllPages from 'hooks/fetchAllPages'
+import { useFetchAllPages } from 'hooks/useFetchAllPages'
 import * as css from './programpage.module.scss'
 
 const ProgramPage = ({ program }) => {
-  const data = FetchAllPages()
+  const data = useFetchAllPages()
   const aboutRe = new RegExp(`^/programs/about-${program}`)
   const courseRe = new RegExp(`^/courses/${program}`)
 
