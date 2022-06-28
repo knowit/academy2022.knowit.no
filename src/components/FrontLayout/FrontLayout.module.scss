@@ -73,11 +73,10 @@ a {
   font-weight: normal;
   color: $knowit-black;
   text-decoration: none;
-  padding-bottom: 0.1em;
-  border-bottom: 0.14em solid $knowit-lollipop;
+  border-bottom: 2px solid $knowit-pear;
 
   &:hover {
-    border-color: $knowit-forest;
+    border-bottom: 2px solid $knowit-lollipop;
   }
 }
 
