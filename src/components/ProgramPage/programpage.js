@@ -1,10 +1,10 @@
-import React from 'react'
+import * as React from 'react'
+import * as css from './programpage.module.scss'
 import Layout from 'components/FrontLayout'
 import BlogHeader from 'components/BlogHeader'
 // import SignupSection from 'components/SignupSection'
 import ProgramOverview from 'components/ProgramOverview'
 import { useFetchAllPages } from 'hooks/useFetchAllPages'
-import * as css from './programpage.module.scss'
 
 const ProgramPage = ({ program }) => {
   const data = useFetchAllPages()
@@ -31,6 +31,7 @@ const ProgramPage = ({ program }) => {
 
   // create a list of all courses for program sorted by date
   const courses = data.allMarkdownRemark.edges
+    .filter((i) => !i.node.fileAbsolutePath.match(/pages\/20\d\d/))
     .filter((i) => i.node.frontmatter.path.match(courseRe))
     .map((i) => {
       i.node.frontmatter.date = makeFrontmatterDate(i.node.frontmatter)
