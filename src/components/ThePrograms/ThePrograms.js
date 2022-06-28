@@ -1,8 +1,11 @@
-import React from 'react'
+import * as React from 'react'
+import { useAboutPrograms } from 'hooks/useAboutPrograms'
 import * as css from './ThePrograms.module.scss'
 
-const ThePrograms = ({ pages }) => {
-  const programPages = pages.map((item) => {
+const ThePrograms = () => {
+  const programs = useAboutPrograms()
+  console.log('programs', programs)
+  const programPages = programs.map((item) => {
     const path = item.path.replace(/about-/, '')
     // <a href={path}></a>
     return (
