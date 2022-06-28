@@ -17,7 +17,7 @@ const AcademyHeaderMenu = ({ data }) => {
 
   return (
     <AppBar position="relative" elevation={0}>
-      <Container minWidth="mobile" maxWidth="tablet">
+      <Container maxWidth="tablet">
         <Toolbar sx={{ padding: 0 }}>
           <Typography
             variant="h5"
@@ -30,7 +30,7 @@ const AcademyHeaderMenu = ({ data }) => {
           {menuItems.map((item) => (
             <Button
               variant="text"
-              noWrap
+              noWrap={true}
               key={item[0]}
               href={item[1]}
               sx={{ textTransform: 'none', whiteSpace: 'nowrap', fontSize: 18 }}
