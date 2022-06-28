@@ -11,6 +11,7 @@ module.exports = {
   },
   plugins: [
     'gatsby-plugin-resolve-src',
+    'gatsby-theme-material-ui',
     'gatsby-plugin-styled-components',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
