@@ -39,6 +39,7 @@ const theme = createTheme({
     },
     background: {
       default: '#e4e1db',
+      paper: 'none',
     },
   },
 })
