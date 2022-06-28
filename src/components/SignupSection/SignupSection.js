@@ -1,19 +1,21 @@
-import React from 'react'
+import * as React from 'react'
 import * as css from './SignupSection.module.scss'
+import Container from '@mui/material/Container'
+import Box from '@mui/material/Box'
 
 const SignupSection = () => {
   // <a class="link" href="/how-to-apply">
   //   Les mer om søknadsprosessen
   // </a>
   return (
-    <section className={css.signupSection} id="signup">
-      <a
-        href="/application-form"
-        alt="Link til skjema: Søk om plass på knowit academy"
-      >
-        <div className={css.gridContainer}>
-          <div className={css.frontContent}>
-            <h2 className={css.signupTitle}>Påmelding 2021/2022</h2>
+    <section>
+      <Container maxWidth="tablet">
+        <Box sx={{ textAlign: 'center', bgcolor: 'pink', padding: [2, 4] }}>
+          <a
+            href="/application-form"
+            alt="Link til skjema: Søk om plass på knowit academy"
+          >
+            <h2 className={css.signupTitle}>Påmelding 2022</h2>
             <p>
               Påmeldingen starter mandag 30. august.
               <br /> Søk om plass innen{' '}
@@ -23,9 +25,9 @@ const SignupSection = () => {
               <span>Meld deg på</span>
               <img alt="" src="/icons/arrow.svg" width="28px" />
             </p>
-          </div>
-        </div>
-      </a>
+          </a>
+        </Box>
+      </Container>
     </section>
   )
 }
