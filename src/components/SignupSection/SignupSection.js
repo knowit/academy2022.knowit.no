@@ -17,7 +17,7 @@ const SignupSection = () => {
     <section className={css.signupSection}>
       <Container maxWidth="tablet">
         <a href="/how-to-apply" alt="Les mer om søknadsprosessen">
-          <Box pt={4} pb={4}>
+          <Box pt={8} pb={8}>
             <Typography variant="h2" component="h2" align="center" pb={3}>
               Påmelding 2022
             </Typography>
@@ -29,7 +29,6 @@ const SignupSection = () => {
             <Box textAlign="center">
               <Button
                 variant="text"
-                sx={{ textTransform: 'none' }}
                 endIcon={
                   <img
                     alt="Dekorativ pil som peker til mer informasjon"
@@ -38,7 +37,7 @@ const SignupSection = () => {
                   />
                 }
               >
-                <strong>Les mer om søknadsprosessen</strong>
+                <strong>Les mer</strong>
               </Button>
             </Box>
           </Box>
