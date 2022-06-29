@@ -14,11 +14,14 @@ export const useAboutPrograms = () => {
               description
             }
             fileAbsolutePath
+            id
           }
         }
       }
     }
   `)
 
-  return programs.allMarkdownRemark.edges.map((item) => item.node.frontmatter)
+  return programs.allMarkdownRemark.edges.map((item) =>
+    Object.assign(item.node, item.node.frontmatter)
+  )
 }
