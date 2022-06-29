@@ -1,4 +1,5 @@
 import { useStaticQuery, graphql } from 'gatsby'
+
 export const useAboutPrograms = () => {
   const programs = useStaticQuery(graphql`
     query {
