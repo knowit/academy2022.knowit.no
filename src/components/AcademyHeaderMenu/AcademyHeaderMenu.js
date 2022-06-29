@@ -23,7 +23,6 @@ const AcademyHeaderMenu = ({ data }) => {
             variant="h5"
             underline="none"
             marginRight={3}
-            noWrap
             href="/"
             color="#333333"
             className={css.academyTitle}
@@ -33,7 +32,6 @@ const AcademyHeaderMenu = ({ data }) => {
           {menuItems.map((item) => (
             <Button
               variant="text"
-              noWrap={true}
               key={item[0]}
               href={item[1]}
               sx={{ textTransform: 'none', whiteSpace: 'nowrap' }}
