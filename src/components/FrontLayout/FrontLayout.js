@@ -11,7 +11,7 @@ const FrontLayout = ({ children, data, sitemeta }) => {
       <MainHelmet metadata={data} />
       <HeaderMenu data={data} />
       <main>{children}</main>
-      <Footer data={sitemeta} />
+      <Footer />
     </>
   )
 }
