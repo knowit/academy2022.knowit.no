@@ -1,7 +1,7 @@
 import * as React from 'react'
-import { MainHelmet } from '../MainHelmet'
-import HeaderMenu from '../AcademyHeaderMenu'
-import Footer from '../Footer/Footer'
+import { MainHelmet } from 'components/MainHelmet'
+import HeaderMenu from 'components/AcademyHeaderMenu'
+import Footer from 'components/Footer'
 import { CssBaseline } from '@mui/material'
 
 const FrontLayout = ({ children, data, sitemeta }) => {
