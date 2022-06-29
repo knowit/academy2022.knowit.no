@@ -43,14 +43,7 @@ const AcademyFooter = () => {
                 rowGap={1}
                 textAlign="right"
               >
-                <Link
-                  href="/"
-                  variant="h3"
-                  color="#333333"
-                  fontFamily="ArialforKnowitRegular"
-                  display="block"
-                  underline="none"
-                >
+                <Link href="/" variant="h3" className={css.homeLink}>
                   Knowit Academy
                 </Link>
                 <a

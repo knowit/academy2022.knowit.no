@@ -1,74 +1,55 @@
 @import '../../styles/common.scss';
 
 .footerTopContent {
-  max-width: 1200px;
-  grid-column: 3 / span 8;
   position: relative;
-  text-align: justify;
-  margin: auto;
-
   a {
-    font-weight: normal;
-    font-size: 18px;
+    color: $knowit-black;
     text-decoration: none;
-    line-height: 28px;
+    border-bottom: 2px solid $knowit-lollipop;
+    padding-bottom: 2px;
+
+    &:hover {
+      border-bottom: 2px solid $knowit-forest;
+    }
   }
 
   img {
     width: auto;
     height: 64px;
     position: absolute;
-    left: 164px;
-    top: -48px;
+    left: 140px;
+    top: 0px;
   }
 }
 
-.footerVersion {
-  grid-column: 3 / span 1;
-  display: inline-flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  vertical-align: bottom;
-  padding-top: 8px;
+.version {
+  color: $knowit-forest;
+  font-size: 14px;
 }
 
-.footerKnowit {
-  font-family: 'ArialforKnowitRegular';
-  text-align: right;
-  grid-column: 5 / span 6;
-
-  a {
-    text-decoration: inherit;
-    font-weight: inherit;
-    color: inherit;
-    border: none;
-    padding: none;
-  }
-  p {
-    margin: 0px;
-    padding: 0px 0px 32px 0px;
-    font-size: 52px;
-    text-align: right;
-    color: $knowit-black;
-  }
-
+.knowitLink {
   img {
-    margin-left: 24px;
+    margin-left: 16px;
   }
 }
 
-.footerTop {
-  background-color: $knowit-white;
-  padding: 104px 0px 42px;
-}
+.homeLink {
+  color: $knowit-black;
+  font-family: 'ArialforKnowitRegular';
+  display: block;
+  text-decoration: none;
+  white-space: nowrap;
 
-.footerBottom {
-  background-color: $knowit-pear;
-  padding: 46px 0px 56px;
+  @media (max-width: 392px) {
+    font-size: 12.3vw;
+  }
 }
 
 footer {
-  background-color: $knowit-white;
-  width: 100%;
-  margin: auto;
+  section {
+    background-color: $knowit-white;
+  }
+  section:last-child {
+    background-color: $knowit-pear;
+  }
 }
