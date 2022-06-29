@@ -5,7 +5,7 @@ import AboutAcademy from 'components/AboutAcademy'
 import ThePrograms from 'components/ThePrograms'
 import SignupSection from 'components/SignupSection'
 
-const Page = ({ data, path }) => {
+const FrontPage = ({ data, path }) => {
   // remove unneccessary complexity from the data.
   const aboutPage = data.allMarkdownRemark.edges.find(
     (i) => i.node.frontmatter.path === '/about'
@@ -22,7 +22,7 @@ const Page = ({ data, path }) => {
   )
 }
 
-export default Page
+export default FrontPage
 
 export const query = graphql`
   query {
