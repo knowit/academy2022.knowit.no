@@ -1,4 +1,6 @@
 import * as React from 'react'
+// import * as css from './ThePrograms.module.scss'
+
 import { useAboutPrograms } from 'hooks/useAboutPrograms'
 import {
   CardActions,
@@ -13,6 +15,7 @@ import {
 
 const ThePrograms = () => {
   const programs = useAboutPrograms()
+  console.log('the programs:', programs)
 
   return (
     <section id="theprograms">
@@ -31,7 +34,7 @@ const ThePrograms = () => {
                   const path = item.path.replace(/about-/, '')
                   // <a href={path}>
                   return (
-                    <Grid item tablet={6}>
+                    <Grid item tablet={6} id={item.id} key={item.id}>
                       <Card
                         variant="outlined"
                         sx={{ height: '100%', border: 'none' }}
