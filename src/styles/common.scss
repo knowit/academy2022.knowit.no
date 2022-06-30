@@ -1,5 +1,19 @@
 @import './globalVariables.scss';
 
+@font-face {
+  font-family: 'ArialforKnowitBold';
+  src: url('/fonts/arial-for-knowit-w05-bold.woff2') format('woff2'),
+    url('/fonts/arial-for-knowit-w05-bold.woff') format('woff'),
+    url('/fonts/arial-for-knowit-w05-bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'ArialforKnowitRegular';
+  src: url('/fonts/arial-for-knowit-w05-regular.woff2') format('woff2'),
+    url('/fonts/arial-for-knowit-w05-regular.woff') format('woff'),
+    url('/fonts/arial-for-knowit-w05-regular.ttf') format('truetype');
+}
+
 .gridContainer {
   max-width: 1200px;
   margin: auto;
