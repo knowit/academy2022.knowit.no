@@ -19,6 +19,7 @@
     "@emotion/server": "^11.4.0",
     "@emotion/styled": "^11.9.3",
     "@jamesives/github-pages-deploy-action": "^4.3.4",
+    "@mui/icons-material": "^5.8.4",
     "@mui/material": "^5.8.5",
     "gatsby": "^4.17.1",
     "gatsby-cli": "^4.17.1",
