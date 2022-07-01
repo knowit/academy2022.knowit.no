@@ -1,5 +1,8 @@
 import { createTheme } from '@mui/material/styles'
 import * as css from 'components/FrontLayout/FrontLayout.module.scss'
+
+console.log('theme css:', css)
+
 const theme = createTheme({
   breakpoints: {
     values: {
@@ -21,24 +24,34 @@ const theme = createTheme({
     MuiButton: {
       styleOverrides: {
         text: {
-          color: '#333333',
+          color: css.knowitBlack,
         },
       },
     },
   },
   typography: {
-    fontFamily: 'arial',
+    htmlFontSize: 18,
+    fontFamily: 'arial, Helvetica, sans-serif',
   },
   palette: {
     mode: 'light',
     primary: {
-      main: '#b7debd',
+      light: css.knowitMint,
+      main: css.knowitPear,
+      dark: css.knowitForest,
     },
     secondary: {
-      main: '#fac0b1',
+      light: css.knowitMelon,
+      main: css.knowitFlamingo,
+      dark: css.knowitLollipop,
+    },
+    text: {
+      primary: css.knowitBlack,
+      secondary: css.knowitForest,
+      disabled: css.knowitClay,
     },
     background: {
-      default: '#e4e1db',
+      default: css.knowitWhite,
       paper: 'none',
     },
   },
