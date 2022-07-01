@@ -1,7 +1,7 @@
 @import '../../styles/common.scss';
 
-// @media (max-width: 424px) {
-//   .theProgramsTitle {
-//     font-size: 8vw;
-//   }
-// }
+.theProgramsTitle {
+  @media (max-width: 424px) {
+    font-size: 11.8vw;
+  }
+}

@@ -1,5 +1,5 @@
 import * as React from 'react'
-// import * as css from './ThePrograms.module.scss'
+import { theProgramsTitle } from './ThePrograms.module.scss'
 
 import { useAboutPrograms } from 'hooks/useAboutPrograms'
 import {
@@ -22,7 +22,12 @@ const ThePrograms = () => {
       <Container maxWidth="tablet">
         <Box pt={8} pb={8}>
           <Box pb={6}>
-            <Typography variant="h2" component="h2" align="center">
+            <Typography
+              variant="h2"
+              component="h2"
+              align="center"
+              className={theProgramsTitle}
+            >
               Programmene
             </Typography>
           </Box>
