@@ -51,7 +51,7 @@ const ProgramPage = ({ program }) => {
   return (
     <Layout>
       <Container maxWidth="tablet">
-        <Box paddingTop={8}>
+        <Box paddingTop={4}>
           <BlogHeader data={about} />
           <Typography
             variant="body1"
