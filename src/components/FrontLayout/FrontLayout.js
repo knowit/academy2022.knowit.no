@@ -4,12 +4,12 @@ import HeaderMenu from 'components/AcademyHeaderMenu'
 import Footer from 'components/Footer'
 import { CssBaseline } from '@mui/material'
 
-const FrontLayout = ({ children, data, sitemeta }) => {
+const FrontLayout = ({ children }) => {
   return (
     <>
       <CssBaseline />
-      <MainHelmet metadata={data} />
-      <HeaderMenu data={data} />
+      <MainHelmet />
+      <HeaderMenu />
       <main>{children}</main>
       <Footer />
     </>
