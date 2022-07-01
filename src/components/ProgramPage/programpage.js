@@ -5,6 +5,7 @@ import BlogHeader from 'components/BlogHeader'
 // import SignupSection from 'components/SignupSection'
 import ProgramOverview from 'components/ProgramOverview'
 import { useFetchAllPages } from 'hooks/useFetchAllPages'
+import { Box, Container, Typography } from '@mui/material'
 
 const ProgramPage = ({ program }) => {
   const data = useFetchAllPages()
@@ -15,6 +16,7 @@ const ProgramPage = ({ program }) => {
     i.node.frontmatter.path.match(aboutRe)
   ).node
 
+  // parses the date from frontmatter and tries to correct the most common mistakes
   const makeFrontmatterDate = (front) => {
     if (typeof front.date === 'undefined') return null
     if (front.date instanceof Date) return front.date
@@ -47,17 +49,17 @@ const ProgramPage = ({ program }) => {
   about.frontmatter.path = `/programs/${program}`
 
   return (
-    <Layout data={about} sitemeta={data.site.siteMetadata}>
-      <section id="main" className={css.gridContainer}>
-        <div className={css.blogArticle}>
+    <Layout>
+      <Container maxWidth="tablet">
+        <Box paddingTop={8}>
           <BlogHeader data={about} />
-          <div
-            className={css.aboutProgram}
+          <Typography
+            variant="body1"
             dangerouslySetInnerHTML={{ __html: about.html }}
-          ></div>
+          ></Typography>
           <ProgramOverview courses={courses} title="Kursoversikt" />
-        </div>
-      </section>
+        </Box>
+      </Container>
     </Layout>
   )
 }
