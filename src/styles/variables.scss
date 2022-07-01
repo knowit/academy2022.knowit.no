@@ -51,3 +51,24 @@ $small-vertical-padding: 24px;
 
 // default images
 $favicon-academy-flamingo: '/assets/knowit_academy_flamingo_favicon.png';
+
+:export {
+  knowitPear: $knowit-pear;
+  knowitMint: $knowit-mint;
+  knowitPebble: $knowit-pebble;
+  knowitSand: $knowit-sand;
+  knowitForest: $knowit-forest;
+  knowitClay: $knowit-clay;
+  knowitBlack: $knowit-black;
+  knowitWhite: $knowit-white;
+  knowitLollipop: $knowit-lollipop;
+  knowitPressed: $knowit-pressed;
+  knowitFlamingo: $knowit-flamingo;
+  knowitMelon: $knowit-melon;
+
+  palette: {
+    primary: {
+      main: $knowit-pear;
+    }
+  }
+}
