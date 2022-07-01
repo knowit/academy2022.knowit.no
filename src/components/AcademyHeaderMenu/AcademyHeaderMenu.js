@@ -8,7 +8,7 @@ import Toolbar from '@mui/material/Toolbar'
 import * as css from './AcademyHeaderMenu.module.scss'
 // import * as atheme from 'AcademyTheme'
 
-const AcademyHeaderMenu = ({ data }) => {
+const AcademyHeaderMenu = () => {
   const menuItems = [
     ['Programmene', '/#theprograms'],
     ['Påmelding', '/application-form'],
