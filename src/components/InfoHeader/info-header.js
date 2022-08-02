@@ -1,9 +1,20 @@
-import React from 'react'
-import Icon from '../Icon'
+import * as React from 'react'
+import Icon from '../Icon/Icon'
 import colors from '../../utils/colors'
 import moment from 'moment'
-import * as css from './InfoHeader.module.scss'
-// import 'moment/locale/nb'
+import * as css from './info-header.module.scss'
+import {
+  Card,
+  Button,
+  CardActions,
+  CardContent,
+  CardMedia,
+  Typography,
+  CardActionArea,
+  Box,
+} from '@mui/material'
+import { useTheme } from '@mui/material/styles'
+import useMediaQuery from '@mui/material/useMediaQuery'
 
 /**
  * Takes two strings with something that can be parsed to a date as input.
@@ -84,25 +95,6 @@ const Location = ({ location }) => {
   )
 }
 
-const Picture = ({ url }) => {
-  // set default image if missing url.
-
-  if (typeof url !== 'string' || url.length < 1) {
-    url = '/assets/knowit_academy_flamingo_favicon.png'
-  }
-
-  const elementStyles = {
-    backgroundImage: `url(${url})`,
-    backgroundPosition: '50% 10%',
-  }
-
-  return <div className={css.pictureWrapper} style={elementStyles} />
-}
-
-const Description = ({ description }) => {
-  return <p className={css.description}>{description}</p>
-}
-
 /**
  * Displays a header with the title and metadata about the workshop
  * @param {*} param0
@@ -128,43 +120,76 @@ const InfoHeader = ({ data, showDescription }) => {
     ''
   )
 
-  let picture = frontmatter.path.match(/\/courses/) ? (
-    <Picture url={frontmatter.image} teacher={frontmatter.teacher} />
-  ) : (
-    ''
-  )
-
   let location = frontmatter.path.match(/\/courses/) ? (
     <Location location={frontmatter.location}></Location>
   ) : (
     ''
   )
 
-  let description = showDescription ? (
-    <Description description={frontmatter.description} />
-  ) : (
-    ''
-  )
+  //   <a
+  //     href={frontmatter.path}
+  //     key={frontmatter.path}
+  //     className={css.infoHeaderLink}
+  //   >
+  //    <div className={css.infoHeader} key={frontmatter.path}>
+  //      <div className={css.infoBox}>
+
+  // if (typeof url !== 'string' || url.length < 1) {
+  //   url = '/assets/knowit_academy_flamingo_favicon.png'
+  // }
+
+  const theme = useTheme()
+  const isMobile = useMediaQuery(theme.breakpoints.down('mobile'))
 
   return (
-    <a
-      href={frontmatter.path}
-      key={frontmatter.path}
-      className={css.infoHeaderLink}
+    <Card
+      sx={{
+        backgroundColor: 'white',
+        marginTop: 2,
+      }}
+      variant="outlined"
     >
-      <div className={css.infoHeader} key={frontmatter.path}>
-        <div className={css.infoBox}>
-          <h4>{frontmatter.title}</h4>
-          <div className={css.byline}>
-            {dates}
-            {location}
-            {teacher}
-          </div>
-          {description}
-        </div>
-        {picture}
-      </div>
-    </a>
+      <a href={frontmatter.path} key={frontmatter.path}>
+        <Box
+          sx={{
+            display: 'flex',
+            flexWrap: isMobile ? 'wrap-reverse' : 'nowrap',
+          }}
+        >
+          <Box sx={{ display: 'flex', flexDirection: 'column' }}>
+            <CardContent sx={{ flexGrow: 2 }}>
+              <Typography variant="h4">{frontmatter.title}</Typography>
+              <div className={css.byline}>
+                {dates}
+                {location}
+                {teacher}
+              </div>
+              <Typography variant="body1">{frontmatter.description}</Typography>
+            </CardContent>
+            <CardActions>
+              <Button size="small" key={frontmatter.path}>
+                Les mer
+              </Button>
+            </CardActions>
+          </Box>
+          <CardMedia
+            component="img"
+            alt={`Photo of facilitator: ${frontmatter.teacher}`}
+            sx={{
+              width: isMobile ? '100%' : '33%',
+              height: isMobile ? '55vw' : 'unset',
+              objectPosition: '50% 25%',
+              objectFit: 'cover',
+            }}
+            image={
+              frontmatter.image
+                ? frontmatter.image
+                : '/assets/knowit_academy_flamingo_favicon.png'
+            }
+          />
+        </Box>
+      </a>
+    </Card>
   )
 }
 

@@ -34,29 +34,25 @@
 }
 
 .byline {
-  display: flex;
+  display: inline-flex;
   flex-direction: row;
   flex-wrap: wrap;
   vertical-align: middle;
   color: $knowit-forest;
-  padding: 4px 0px;
+  padding: 4px 0px 16px;
   div {
     display: inline-block;
+    margin: 0;
+    padding-bottom: 4px;
+    line-height: normal;
   }
 }
 
 .labels {
-  padding: 0px 24px 0px 8px;
+  padding: 0px 16px 0px 4px;
   position: relative;
-  top: -5px;
-  font-size: 12px;
-  @media (max-width: 320px) {
-    font-size: 12px;
-    top: -6px;
-  }
-  @media (min-width: 640px) and (max-width: 768px) {
-    font-size: 15px;
-  }
+  top: -6px;
+  font-size: 0.7rem;
 
   a {
     color: inherit;
@@ -111,4 +107,8 @@
   line-height: 1.56em;
   font-size: 0.94em;
   text-align: left;
+}
+
+a:hover {
+  border-bottom: none;
 }
