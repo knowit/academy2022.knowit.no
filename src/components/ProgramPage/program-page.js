@@ -57,6 +57,8 @@ const ProgramPage = ({ program }) => {
             variant="body1"
             dangerouslySetInnerHTML={{ __html: about.html }}
           ></Typography>
+        </Box>
+        <Box paddingBottom={8}>
           <ProgramOverview courses={courses} title="Kursoversikt" />
         </Box>
       </Container>

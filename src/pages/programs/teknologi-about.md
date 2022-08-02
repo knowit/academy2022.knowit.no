@@ -24,4 +24,4 @@ mer informasjon om programmet, hvilke kurs og workshops som er med, og
 informasjon om hvordan du søker.
 
 **Merk: Det kan fortsatt komme oppdateringer og endringer i programmet. Vi vil
-oppdatere websidene så fort det kommer en endring.**
+oppdatere websidene så fort som mulig når det kommer en endring.**

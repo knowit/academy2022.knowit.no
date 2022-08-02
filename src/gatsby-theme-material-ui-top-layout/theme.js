@@ -6,7 +6,7 @@ console.log('theme css:', css)
 const theme = createTheme({
   breakpoints: {
     values: {
-      mobile: 0,
+      mobile: 480,
       tablet: 768,
       laptop: 1024,
       desktop: 1200,
@@ -32,6 +32,12 @@ const theme = createTheme({
   typography: {
     htmlFontSize: 18,
     fontFamily: 'arial, Helvetica, sans-serif',
+    h3: {
+      fontSize: '2rem',
+    },
+    h4: {
+      fontSize: '1.6rem',
+    },
   },
   palette: {
     mode: 'light',
