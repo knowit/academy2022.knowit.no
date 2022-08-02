@@ -10,7 +10,6 @@ import {
   CardContent,
   CardMedia,
   Typography,
-  CardActionArea,
   Box,
 } from '@mui/material'
 import { useTheme } from '@mui/material/styles'
@@ -125,18 +124,6 @@ const InfoHeader = ({ data, showDescription }) => {
   ) : (
     ''
   )
-
-  //   <a
-  //     href={frontmatter.path}
-  //     key={frontmatter.path}
-  //     className={css.infoHeaderLink}
-  //   >
-  //    <div className={css.infoHeader} key={frontmatter.path}>
-  //      <div className={css.infoBox}>
-
-  // if (typeof url !== 'string' || url.length < 1) {
-  //   url = '/assets/knowit_academy_flamingo_favicon.png'
-  // }
 
   const theme = useTheme()
   const isMobile = useMediaQuery(theme.breakpoints.down('mobile'))
