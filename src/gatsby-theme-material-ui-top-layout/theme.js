@@ -6,7 +6,8 @@ console.log('theme css:', css)
 const theme = createTheme({
   breakpoints: {
     values: {
-      mobile: 480,
+      xs: 0,
+      mobile: 420,
       tablet: 768,
       laptop: 1024,
       desktop: 1200,
@@ -68,7 +69,7 @@ const theme = createTheme({
     },
     background: {
       default: css.knowitWhite,
-      paper: 'none',
+      paper: css.knowitWhite,
     },
   },
 })

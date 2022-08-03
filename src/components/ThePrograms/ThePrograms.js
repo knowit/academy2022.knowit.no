@@ -12,6 +12,7 @@ import {
   Box,
   Card,
 } from '@mui/material'
+import * as css from './ThePrograms.module.scss'
 
 const ThePrograms = () => {
   const programs = useAboutPrograms()
@@ -42,7 +43,11 @@ const ThePrograms = () => {
                     <Grid item tablet={6} id={item.id} key={item.id}>
                       <Card
                         variant="outlined"
-                        sx={{ height: '100%', border: 'none' }}
+                        sx={{
+                          height: '100%',
+                          border: 'none',
+                          backgroundColor: css.knowitWhite,
+                        }}
                       >
                         <a href={path}>
                           <CardContent sx={{ padding: 0 }}>
