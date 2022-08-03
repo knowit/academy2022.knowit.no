@@ -50,11 +50,12 @@ module.exports = {
         start_url: '/',
         background_color: '#f1f0ed',
         theme_color: '#b7debd',
-        categories: 'education',
+        categories: ['education'],
         description:
           'Informasjon om Knowits kompetanseutviklingsprogram for alle ansatte i Norge.',
         display: 'fullscreen',
         orientation: 'any',
+        icon: 'static/knowit_academy_flamingo_favicon.png',
       },
     },
   ],
