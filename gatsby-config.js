@@ -54,7 +54,7 @@ module.exports = {
         description:
           'Informasjon om Knowits kompetanseutviklingsprogram for alle ansatte i Norge.',
         display: 'fullscreen',
-        orientation: any,
+        orientation: 'any',
       },
     },
   ],
