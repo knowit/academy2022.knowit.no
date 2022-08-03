@@ -1,30 +1,37 @@
 import * as React from 'react'
 import * as css from './SignupSection.module.scss'
-import Container from '@mui/material/Container'
-import Box from '@mui/material/Box'
-import { Typography } from '@mui/material'
-import { Button } from '@mui/material'
+import { Typography, Button, Box, Container } from '@mui/material'
+
+import { useTheme } from '@mui/material/styles'
+import useMediaQuery from '@mui/material/useMediaQuery'
 
 const SignupSection = () => {
-  //       <a
-  //         href="/application-form"
-  //         alt="Link til skjema: Søk om plass på knowit academy"
-  //       ></a>
-  // <a class="link" href="/how-to-apply">
-  //   Les mer om søknadsprosessen
-  // </a>
+  const theme = useTheme()
+  const isSmall = useMediaQuery('(max-width:480px')
+
   return (
     <section className={css.signupSection}>
       <Container maxWidth="tablet">
         <a href="/how-to-apply" alt="Les mer om søknadsprosessen">
           <Box pt={8} pb={8}>
-            <Typography variant="h2" component="h2" align="center" pb={3}>
+            <Typography
+              variant="h2"
+              component="h2"
+              align="center"
+              pb={3}
+              sx={{
+                fontSize: isSmall
+                  ? 'calc(13.2vw - 4px)'
+                  : theme.typography.h2.fontSize,
+              }}
+            >
               Påmelding 2022
             </Typography>
             <Typography variant="body1" align="center" paragraph={true}>
               Påmeldingsfristen vil være i{' '}
               <strong>første halvdel av september 2022</strong>
-              <br /> Mer informasjon kommer i begynnelsen av august.
+              {isSmall ? '' : <br />} Mer informasjon kommer i begynnelsen av
+              august.
             </Typography>
             <Box textAlign="center">
               <Button

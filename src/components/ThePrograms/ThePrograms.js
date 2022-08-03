@@ -1,6 +1,4 @@
 import * as React from 'react'
-import { theProgramsTitle } from './ThePrograms.module.scss'
-
 import { useAboutPrograms } from 'hooks/useAboutPrograms'
 import {
   CardActions,
@@ -13,10 +11,14 @@ import {
   Card,
 } from '@mui/material'
 import * as css from './ThePrograms.module.scss'
+import { useTheme } from '@mui/material/styles'
+import useMediaQuery from '@mui/material/useMediaQuery'
 
 const ThePrograms = () => {
+  const theme = useTheme()
+  const isSmall = useMediaQuery('(max-width:480px')
+
   const programs = useAboutPrograms()
-  console.log('the programs:', programs)
 
   return (
     <section id="theprograms">
@@ -27,7 +29,11 @@ const ThePrograms = () => {
               variant="h2"
               component="h2"
               align="center"
-              className={theProgramsTitle}
+              sx={{
+                fontSize: isSmall
+                  ? 'calc(13.2vw - 4px)'
+                  : theme.typography.h2.fontSize,
+              }}
             >
               Programmene
             </Typography>

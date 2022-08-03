@@ -4,6 +4,9 @@
   h1 {
     text-align: center;
     padding-bottom: 8px;
+    @media (max-width: 610px) {
+      font-size: calc(12.8vw * 0.94);
+    }
   }
 
   p {
