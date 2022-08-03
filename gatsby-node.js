@@ -1,9 +1,9 @@
-const path = require("path")
+import { resolve } from 'path'
 
-exports.createPages = ({ actions, graphql }) => {
+export function createPages({ actions, graphql }) {
   const { createPage } = actions
 
-  const programsTemplate = path.resolve(`src/templates/programsTemplate.js`)
+  const programsTemplate = resolve(`src/templates/programsTemplate.js`)
 
   return graphql(`
     {
@@ -20,7 +20,7 @@ exports.createPages = ({ actions, graphql }) => {
         }
       }
     }
-  `).then(result => {
+  `).then((result) => {
     if (result.errors) {
       return Promise.reject(result.errors)
     }
