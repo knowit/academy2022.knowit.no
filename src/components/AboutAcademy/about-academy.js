@@ -1,7 +1,7 @@
 import * as React from 'react'
 import * as css from './about-academy.module.scss'
 import Container from '@mui/material/Container'
-import Box from '@mui/material/Box'
+import { Typography, Box } from '@mui/material'
 
 const AboutAcademy = ({ content }) => {
   return (

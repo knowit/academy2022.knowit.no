@@ -1,9 +1,9 @@
-import { resolve } from 'path'
+const path = require('path')
 
-export function createPages({ actions, graphql }) {
+exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions
 
-  const programsTemplate = resolve(`src/templates/programsTemplate.js`)
+  const programsTemplate = path.resolve(`src/templates/programsTemplate.js`)
 
   return graphql(`
     {

@@ -30,13 +30,23 @@ const theme = createTheme({
     },
   },
   typography: {
-    htmlFontSize: 18,
+    fontSize: 18,
     fontFamily: 'arial, Helvetica, sans-serif',
+    color: css.knowitBlack,
+    h1: {
+      fontSize: '4.8rem',
+    },
+    h2: {
+      fontSize: '3.8rem',
+    },
     h3: {
       fontSize: '2rem',
     },
     h4: {
-      fontSize: '1.6rem',
+      fontSize: '1.8rem',
+    },
+    body1: {
+      fontSize: '1.0rem',
     },
   },
   palette: {

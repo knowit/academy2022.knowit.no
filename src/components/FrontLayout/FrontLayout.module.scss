@@ -1,53 +1,5 @@
 @import '../../styles/common.scss';
 
-li {
-  text-align: initial;
-}
-
-h1,
-h2,
-h3,
-h4 {
-  font-family: Arial, sans-serif;
-  font-weight: normal;
-  color: $knowit-black;
-  padding: 0;
-  margin: 0;
-}
-
-h1 {
-  font-family: 'ArialforKnowitRegular', sans-serif;
-  font-size: 77px;
-}
-
-h2 {
-  font-size: 60px;
-}
-
-h3 {
-  font-size: 38px;
-}
-
-h4 {
-  font-size: 24px;
-  font-weight: bold;
-}
-
-a {
-  font-weight: normal;
-  color: $knowit-black;
-  text-decoration: none;
-  border-bottom: 2px solid $knowit-pear;
-
-  &:hover {
-    border-bottom: 2px solid $knowit-lollipop;
-  }
-}
-
-main {
-  background-color: $knowit-white;
-}
-
 .frontpage {
   height: 100%;
   background-color: white;
