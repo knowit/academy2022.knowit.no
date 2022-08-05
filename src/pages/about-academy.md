@@ -12,20 +12,21 @@ description:
 
 # Knowit Academy
 
-Knowit Academy er Knowits interne kompetanseutviklingsprogram for ansatte i
-Norge. Målgruppen for programmet er alle ansatte, og deltakere fra noen av
-våre nøkkelkunder. Vår ambisjon er å lage det beste og mest givende
-kompetanseutviklingsprogramet som finnes blant norske teknologibedrifter.
+Knowit Academy er Knowits interne kompe&shy;tanse&shy;utviklings&shy;program.
+Mål&shy;gruppen er primært ansatte, men vi inviterer også med deltakere fra
+nøkkelkunder og partnere. Vår ambisjon er å lage de beste og mest givende
+kompe&shy;tanse&shy;utviklings&shy;programmene vi klarer, og ha en kvalitet
+som er på høyde med og overgår kommersielle kurstilbydere.
 
 Knowit Academy har programmer som passer for utviklere som vil bli arkitekter,
 tech-leads og ta større ansvar for løsninger, for ansatte som vil fordype seg
-i strategi, personalledelse og ledelse generelt, og for designere og
-tjenestedesignere som vil utviklse seg videre og ta større ansvar.
+i strategi, personal&shy;ledelse og ledelse generelt, og for designere og
+tjeneste&shy;designere som vil utviklse seg videre og ta større ansvar.
 
-Knowit Academy er Knowits interne sertifiseringsløp der vi gir unge ledere
-kompetansen de trenger for å lykkes i oppdragene sine. Programmene følger
-skoleåret med oppstart i miden av september og avslutning i mai eller juni
-hvert år
+Videre er Knowit Academy vårt interne sertifi&shy;serings&shy;løp, der vi gir
+unge ledere kompetansen de trenger for å lykkes i oppdragene sine. Programmene
+følger skoleåret med oppstart i miden av september og avslutning i mai eller
+juni hvert år
 
 Årets programmer, er under utarbeidelse og snart klare. Påmeldingen vil starte
 i midten av august 2022, og søknadsfristen vil være i begynnelsen av

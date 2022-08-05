@@ -7,6 +7,19 @@ $menubar-height: 86px;
 .academyTitle {
   font-family: 'ArialforKnowitRegular';
   font-weight: 200;
-  // margin-left: $container-padding;
+  white-space: nowrap;
   color: $knowit-black;
+  font-size: min(10vw, 2rem);
+}
+
+.menuTitle {
+  font-family: 'ArialforKnowitRegular';
+  font-weight: 200;
+  white-space: nowrap;
+  color: $knowit-black;
+  font-size: min(10vw, 1.4rem);
+
+  a {
+    border-bottom: 0;
+  }
 }

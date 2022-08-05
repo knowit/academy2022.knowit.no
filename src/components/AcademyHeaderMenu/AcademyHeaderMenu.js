@@ -14,11 +14,10 @@ import {
   ListItemButton,
   ListItemText,
   Drawer,
-  Typography,
   Divider,
 } from '@mui/material'
 import MenuIcon from '@mui/icons-material/Menu'
-import ChevronLeftIcon from '@mui/icons-material/ChevronLeft'
+import ChevronRightIcon from '@mui/icons-material/ChevronRight'
 import * as css from './AcademyHeaderMenu.module.scss'
 import { useTheme } from '@mui/material/styles'
 import useMediaQuery from '@mui/material/useMediaQuery'
@@ -49,27 +48,36 @@ const AcademyHeaderMenu = () => {
       sx={{
         width: '90vw',
         maxWidth: '400px',
-        backgroundColor: css.knowitWhite,
       }}
     >
       <Box
-        backgroundColor={css.knowitPear}
         sx={{
-          padding: 2,
+          paddingTop: 0,
+          paddingBottom: 0,
+          paddingLeft: 2,
           display: 'flex',
           flexDirection: 'row',
           alignItems: 'center',
+          backgroundColor: css.knowitWhite,
         }}
       >
-        <Typography
+        <Link
           variant="h5"
-          className={css.academyTitle}
-          sx={{ flexGrow: 2 }}
+          href="/"
+          className={css.menuTitle}
+          sx={{
+            flexGrow: 2,
+            color: css.knowitBlack,
+            fontSize: `min(10vw, 1.4rem)`,
+            fontFamily: 'ArialforKnowitRegular',
+            textDecoration: 'none',
+            borderBottom: 'none',
+          }}
         >
           Knowit Academy
-        </Typography>
+        </Link>
         <IconButton size="large">
-          <ChevronLeftIcon />
+          <ChevronRightIcon />
         </IconButton>
       </Box>
       <Divider />
@@ -89,6 +97,26 @@ const AcademyHeaderMenu = () => {
     <AppBar position="static" elevation={0}>
       <Container maxWidth="tablet">
         <Toolbar sx={{ padding: 0 }}>
+          <Link variant="h5" underline="none" marginRight={3} href="/">
+            <span className={css.academyTitle}>Knowit Academy</span>
+          </Link>
+          <Box sx={{ flexGrow: 2 }}>
+            {menuItems.map((item) => {
+              if (!isTablet) {
+                return (
+                  <Button
+                    variant="text"
+                    key={item[0]}
+                    href={item[1]}
+                    sx={{ textTransform: 'none', whiteSpace: 'nowrap' }}
+                  >
+                    {item[0]}
+                  </Button>
+                )
+              }
+              return ''
+            })}
+          </Box>
           <Box
             sx={{
               display: { xs: 'flex', mobile: 'flex', tablet: 'none' },
@@ -103,44 +131,17 @@ const AcademyHeaderMenu = () => {
               <MenuIcon />
             </IconButton>
             <Drawer
-              anchor="left"
+              anchor="right"
               variant="temporary"
               ModalProps={{ keepMounted: true }}
-              elevation="8"
+              elevation={8}
               open={isMenuOpen}
               onClose={toggleMenu(false)}
               onClick={toggleMenu(false)}
-              sx={{ backgroundColor: 'white' }}
             >
               {menu()}
             </Drawer>
           </Box>
-          <Link
-            variant="h5"
-            underline="none"
-            marginRight={3}
-            href="/"
-            sx={{
-              fontSize: isMobile ? '7.8vw' : '2rem',
-            }}
-          >
-            <span className={css.academyTitle}>Knowit Academy</span>
-          </Link>
-          {menuItems.map((item) => {
-            if (!isTablet) {
-              return (
-                <Button
-                  variant="text"
-                  key={item[0]}
-                  href={item[1]}
-                  sx={{ textTransform: 'none', whiteSpace: 'nowrap' }}
-                >
-                  {item[0]}
-                </Button>
-              )
-            }
-            return ''
-          })}
         </Toolbar>
       </Container>
     </AppBar>
