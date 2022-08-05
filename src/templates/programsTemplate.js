@@ -1,10 +1,11 @@
-import React from 'react'
+import * as React from 'react'
 import { graphql } from 'gatsby'
 import Layout from 'components/FrontLayout'
 import BlogHeader from 'components/BlogHeader'
 import InfoHeader from 'components/InfoHeader'
 import { Helmet } from 'react-helmet'
 import * as css from 'styles/programTemplate.module.scss'
+import { Box, Container } from '@mui/material'
 
 // export default function Template({
 //   data, // this prop will be injected by the GraphQL query below.
@@ -31,15 +32,14 @@ const Template = ({ data }) => {
         <meta property="og:title" content={frontmatter.title} />
         <meta property="og:description" content={frontmatter.description} />
       </Helmet>
-      <section className={css.gridContainer}>
-        <div className={css.content}>
-          {showInfoHeader()}
-          <div
-            className={css.articleContent}
-            dangerouslySetInnerHTML={{ __html: html }}
-          />
-        </div>
-      </section>
+      <Container maxWidth="tablet">
+        {showInfoHeader()}
+        <Box
+          pb={12}
+          className={css.articleContent}
+          dangerouslySetInnerHTML={{ __html: html }}
+        ></Box>
+      </Container>
     </Layout>
   )
 }
