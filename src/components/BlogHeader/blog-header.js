@@ -11,11 +11,8 @@ const BlogHeader = ({ data }) => {
   const theme = useTheme()
 
   return (
-    <Box pt={4} pb={2}>
-      <Typography
-        variant="h1"
-        sx={{ fontSize: `min(10vw, ${theme.typography.h2.fontSize})` }}
-      >
+    <Box pt={2}>
+      <Typography variant="h1" sx={{ fontSize: `min(13.2vw, 3rem)` }}>
         {title}
       </Typography>
       <Box

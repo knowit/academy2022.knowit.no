@@ -13,18 +13,24 @@
     color: $knowit-black;
   }
 
+  h1 {
+    font-size: 1.8rem;
+    font-family: Arial, sans-serif;
+  }
+
   h2 {
-    font-size: 2rem;
+    font-size: 1.6rem;
   }
 
   h3 {
-    font-size: calc(1em + 0.3vw);
+    font-size: 1.2rem;
     margin-top: $small-vertical-padding;
     padding: 0;
   }
 
   p {
     line-height: 1.5em;
+    margin-bottom: 32px;
   }
 
   ul {

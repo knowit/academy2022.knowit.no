@@ -33,7 +33,9 @@ const Template = ({ data }) => {
         <meta property="og:description" content={frontmatter.description} />
       </Helmet>
       <Container maxWidth="tablet">
-        {showInfoHeader()}
+        <Box pt={4} pb={4}>
+          {showInfoHeader()}
+        </Box>
         <Box
           pb={12}
           className={css.articleContent}
