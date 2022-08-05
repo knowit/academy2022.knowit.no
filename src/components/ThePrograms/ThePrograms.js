@@ -12,12 +12,9 @@ import {
 } from '@mui/material'
 import * as css from './ThePrograms.module.scss'
 import { useTheme } from '@mui/material/styles'
-import useMediaQuery from '@mui/material/useMediaQuery'
 
 const ThePrograms = () => {
   const theme = useTheme()
-  const isSmall = useMediaQuery('(max-width:480px')
-
   const programs = useAboutPrograms()
 
   return (
@@ -30,9 +27,7 @@ const ThePrograms = () => {
               component="h2"
               align="center"
               sx={{
-                fontSize: isSmall
-                  ? 'calc(13.2vw - 4px)'
-                  : theme.typography.h2.fontSize,
+                fontSize: `min(10vw, ${theme.typography.h2.fontSize})`,
               }}
             >
               Programmene

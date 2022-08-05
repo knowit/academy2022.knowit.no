@@ -4,9 +4,10 @@
   h1 {
     text-align: center;
     padding-bottom: 8px;
-    @media (max-width: 610px) {
-      font-size: calc(12.8vw * 0.94);
-    }
+    // @media (max-width: 610px) {
+    //   font-size: calc(12.8vw * 0.94);
+    // }
+    font-size: min(10vw, 4.8rem);
   }
 
   p {

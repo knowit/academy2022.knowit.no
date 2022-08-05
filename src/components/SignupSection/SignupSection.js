@@ -9,6 +9,8 @@ const SignupSection = () => {
   const theme = useTheme()
   const isSmall = useMediaQuery('(max-width:480px')
 
+  console.log('signup theme:', theme)
+
   return (
     <section className={css.signupSection}>
       <Container maxWidth="tablet">
@@ -19,11 +21,7 @@ const SignupSection = () => {
               component="h2"
               align="center"
               pb={3}
-              sx={{
-                fontSize: isSmall
-                  ? 'calc(13.2vw - 4px)'
-                  : theme.typography.h2.fontSize,
-              }}
+              sx={{ fontSize: `min(10vw, ${theme.typography.h2.fontSize})` }}
             >
               Påmelding 2022
             </Typography>
