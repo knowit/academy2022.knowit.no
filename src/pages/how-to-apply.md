@@ -29,8 +29,8 @@ er, hvorfor du ønsker å delta og hva du håper å bruke det du lærer til.
 
 ## Send inn søknad
 
-Påmeldingsfristen til årets programmer er <strong>søndag 12. september,
-2021</strong>
+Påmeldingsfristen til programmene er vanligvis <strong>i begynnelsen av
+september</strong> hvert år.
 
 <div>
 <a href="/application-form">Send inn søknad her</a>
