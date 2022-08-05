@@ -6,12 +6,16 @@ description:
   'Information in Norwegian about the application process for Knowit Academy'
 author: Thomas Malt
 email: 'academy@knowit.no'
-updated: '2021-08-22'
+updated: '2022-08-05'
 ---
 
 Det er mange som vil delta på programmene i Knowit Academy og stor konkurranse
-om plassene. Her kommer mer informasjon om søknadsprosessen og hvordan du går
-fram for å søke.
+om plassene. Her er informasjon om søknadsprosessen og hvordan du går fram for
+å søke.
+
+Alle som jobber i et selskap i Knowit Norge har mulighet til å søke på
+programmene. Vi oppfordrer alle til å se gjennom innholdet og søke på de
+programemne de syns ser interessante og relevate ut.
 
 ## Avklar med nærmeste leder
 
