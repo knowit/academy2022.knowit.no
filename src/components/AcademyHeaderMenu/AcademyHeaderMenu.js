@@ -25,7 +25,6 @@ import useMediaQuery from '@mui/material/useMediaQuery'
 
 const AcademyHeaderMenu = () => {
   const theme = useTheme()
-  const isMobile = useMediaQuery(theme.breakpoints.down('mobile'))
   const isTablet = useMediaQuery(theme.breakpoints.down('tablet'))
 
   const [isMenuOpen, setMenuState] = useState(false)
