@@ -1,5 +1,5 @@
 ---
-path: '/application-form'
+path: '/2021/application-form'
 date: '2021-08-22 15:06'
 title: 'Søknadskjema for å få plass på Knowit Academy'
 description:

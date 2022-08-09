@@ -14,7 +14,7 @@ export const useFetchAllPages = () => {
           }
         }
         allMarkdownRemark(
-          filter: { fileAbsolutePath: { regex: "/pages/programs/teknologi/i" } }
+          filter: { fileAbsolutePath: { regex: "/pages/courses/teknologi/i" } }
         ) {
           edges {
             node {

@@ -12,7 +12,7 @@ const SignupSection = () => {
   console.log('signup theme:', theme)
 
   return (
-    <section className={css.signupSection}>
+    <section id="signup" className={css.signupSection}>
       <Container maxWidth="tablet">
         <a href="/how-to-apply" alt="Les mer om søknadsprosessen">
           <Box pt={8} pb={8}>

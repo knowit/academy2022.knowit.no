@@ -9,7 +9,7 @@ import { Box, Container, Typography } from '@mui/material'
 
 const ProgramPage = ({ program }) => {
   const data = useFetchAllPages()
-  const aboutRe = new RegExp(`^/programs/about-${program}`)
+  const aboutRe = new RegExp(`^/courses/about-${program}`)
   const courseRe = new RegExp(`^/courses/${program}`)
 
   const about = data.allMarkdownRemark.edges.find((i) =>
@@ -45,8 +45,8 @@ const ProgramPage = ({ program }) => {
       return a.node.frontmatter.date > b.node.frontmatter.date ? 1 : -1
     })
 
-  about.frontmatter.siteUrl = `https://academy.knowit.no/programs/${program}/`
-  about.frontmatter.path = `/programs/${program}`
+  about.frontmatter.siteUrl = `https://academy.knowit.no/courses/${program}/`
+  about.frontmatter.path = `/courses/${program}`
 
   return (
     <Layout>

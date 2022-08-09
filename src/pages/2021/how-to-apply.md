@@ -1,5 +1,5 @@
 ---
-path: '/how-to-apply'
+path: '/2021/how-to-apply'
 date: '2019-06-05'
 title: 'Søknadsprosessen til Knowit Academy'
 description:

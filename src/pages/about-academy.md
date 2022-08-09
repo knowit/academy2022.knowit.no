@@ -1,16 +1,15 @@
 ---
 path: '/about'
 date: '2022-06-27'
-updated: '2022-06-27'
-title: 'About Knowit Academy'
+updated: '2022-08-09'
+title: 'Hva er Knowit Academy'
 email: 'academy@knowit.no'
+author: 'Thomas Malt'
 description:
   'Knowit Academy er Knowits interne kompetanseutviklingsprogram i Norge.
   Programmet har som ambisjon om å være det beste og mest givende
   kompentaseutviklingsprogrammet.'
 ---
-
-# Knowit Academy
 
 Knowit Academy er Knowits interne kompe&shy;tanse&shy;utviklings&shy;program.
 Mål&shy;gruppen er primært ansatte, men vi inviterer også med deltakere fra

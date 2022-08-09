@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { useAboutPrograms } from 'hooks/useAboutPrograms'
+import { useAboutCourses } from 'hooks/useAboutCourses'
 import {
   CardActions,
   CardContent,
@@ -15,7 +15,7 @@ import { useTheme } from '@mui/material/styles'
 
 const ThePrograms = () => {
   const theme = useTheme()
-  const programs = useAboutPrograms()
+  const courses = useAboutCourses()
 
   return (
     <section id="theprograms">
@@ -35,7 +35,7 @@ const ThePrograms = () => {
           </Box>
           <Box sx={{ flexGrow: 1 }}>
             <Grid container rowSpacing={2} columnSpacing={6}>
-              {programs
+              {courses
                 .sort((a, b) => (a.title > b.title ? 1 : -1))
                 .map((item) => {
                   const path = item.path.replace(/about-/, '')

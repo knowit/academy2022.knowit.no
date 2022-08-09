@@ -38,10 +38,10 @@ All pages are either written in markdown or as react components
 /src/pages
 ```
 
-**All programmes has a top level about page:**
+**All courses has a top level about page:**
 
 ```
-/src/pages/programs/<program-name-about.md>
+/src/pages/courses/<program-name-about.md>
 ```
 
 Please add pages using the existing structure.
@@ -63,6 +63,7 @@ And make sure the changes work.
 ## Add a pre push git hook
 
 ## Development
+
 `yarn install` to install latest packages  
 `yarn develop` to start local version  
 `localhost:8000` address for local page
