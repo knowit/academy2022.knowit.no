@@ -1,10 +1,10 @@
 import { useStaticQuery, graphql } from 'gatsby'
 
-export const useAboutPrograms = () => {
+export const useAboutCourses = () => {
   const programs = useStaticQuery(graphql`
     query {
       allMarkdownRemark(
-        filter: { fileAbsolutePath: { regex: "/pages/programs/.*about.md/i" } }
+        filter: { fileAbsolutePath: { regex: "/pages/courses/.*about.md/i" } }
       ) {
         edges {
           node {
