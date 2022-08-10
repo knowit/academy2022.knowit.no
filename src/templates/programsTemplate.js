@@ -23,7 +23,6 @@ const Template = ({ data }) => {
     }
   }
 
-  console.log('should show info header:', frontmatter.path, showInfoHeader)
   return (
     <Layout data={data} sitemeta={site.siteMetadata}>
       <Helmet>

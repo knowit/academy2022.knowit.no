@@ -7,9 +7,13 @@ import ProgramOverview from 'components/ProgramOverview'
 import { useFetchAllPages } from 'hooks/useFetchAllPages'
 import { Box, Container, Typography } from '@mui/material'
 
-const ProgramPage = ({ program }) => {
+const ProgramPage = ({ year, program }) => {
   const data = useFetchAllPages()
-  const aboutRe = new RegExp(`^/courses/about-${program}`)
+  const aboutRe = new RegExp(
+    `^/${
+      typeof year === 'undefined' ? '' : ''.concat(year, '/')
+    }courses/about-${program}`
+  )
   const courseRe = new RegExp(`^/courses/${program}`)
 
   const about = data.allMarkdownRemark.edges.find((i) =>

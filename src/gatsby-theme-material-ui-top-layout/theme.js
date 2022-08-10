@@ -1,8 +1,6 @@
 import { createTheme } from '@mui/material/styles'
 import * as css from 'components/FrontLayout/FrontLayout.module.scss'
 
-console.log('theme css:', css)
-
 const theme = createTheme({
   breakpoints: {
     values: {

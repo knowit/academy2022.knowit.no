@@ -3,12 +3,10 @@ import moment from 'moment'
 import * as css from './blog-header.module.scss'
 import { Box, Typography } from '@mui/material'
 import { AccessTime } from '@mui/icons-material'
-import { useTheme } from '@mui/material/styles'
 
 const BlogHeader = ({ data }) => {
   const { title, author, email, updated } = data.frontmatter
   const date = moment(updated).format('LL')
-  const theme = useTheme()
 
   return (
     <Box pt={2}>

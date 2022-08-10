@@ -9,8 +9,6 @@ const SignupSection = () => {
   const theme = useTheme()
   const isSmall = useMediaQuery('(max-width:480px')
 
-  console.log('signup theme:', theme)
-
   return (
     <section id="signup" className={css.signupSection}>
       <Container maxWidth="tablet">
