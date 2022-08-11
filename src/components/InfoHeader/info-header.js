@@ -27,9 +27,18 @@ const dateString = (from, to, confirmed = false) => {
     return 'Informasjon kommer'
   }
   try {
+    console.log(
+      'dateString:',
+      from,
+      to,
+      confirmed,
+      'instance:',
+      from instanceof Date,
+      to instanceof Date
+    )
     const startDate = moment(from)
     const endDate = moment(to)
-    // console.log('dateString:', from, to, confirmed)
+    console.log('startDate:', startDate, 'endDate:', endDate)
     if (moment(startDate).isValid === false) {
       return 'TBD'
     }
@@ -105,7 +114,7 @@ const InfoHeader = ({ data, showDescription }) => {
   const { frontmatter } = data
 
   const confirmed = frontmatter.confirmed ? true : false
-
+  console.log(frontmatter.path)
   let dates = frontmatter.path.match(/\/courses/) ? (
     <Dates
       confirmed={confirmed}
