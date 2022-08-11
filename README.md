@@ -6,6 +6,8 @@ This is a landing page for information about Knowit Academy Norway. It's
 currently work in progress. You can find the current webiste at
 https://academy.knowit.no
 
+This years programmes are in the finals stages of planning.
+
 ## About Knowit Academy
 
 Knowit Academy Norway is Knowits formal competency training programme for
