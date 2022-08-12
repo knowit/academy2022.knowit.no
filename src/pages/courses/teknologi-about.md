@@ -14,10 +14,11 @@ email: 'academy@knowit.no'
 updated: '2022-08-05'
 ---
 
-Teknologi-programmet er for utviklere og unge teknologi-ledere som vil utvikle
-seg videre som tech-lead og arkitekt. Programmet krever minst 3 års
-arbeidsefaring, og er et naturlig skritt på veien for å kunne ta større ansvar
-for system-, tjeneste- og produktutvikling, i team og overfor kunde.
+Teknologi-programmet er for utviklere og unge teknologi-ledere som ønsker mer
+ansvar og vil utvikle seg videre som tech-lead og arkitekt. Programmet krever
+minst 3 års arbeidsefaring, og er et naturlig skritt på veien for å kunne ta
+større ansvar for system-, tjeneste- og produktutvikling, i team og overfor
+kunde.
 
 Programmet i månedsskiftet september/oktober og varer fram til neste sommer.
 Her finner du mer informasjon om programmet, hvilke kurs og workshops som er
