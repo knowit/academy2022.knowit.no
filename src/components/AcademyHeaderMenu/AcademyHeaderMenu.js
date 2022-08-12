@@ -83,7 +83,11 @@ const AcademyHeaderMenu = () => {
       <List>
         {menuItems.map((item, index) => (
           <ListItem key={item[0]} disablePadding>
-            <ListItemButton href={item[1]} onClick={toggleMenu(false)}>
+            <ListItemButton
+              href={item[1]}
+              onClick={toggleMenu(false)}
+              sx={{ borderBottm: '2px solid #ffffff00', borderRadius: 0 }}
+            >
               <ListItemText primary={item[0]} />
             </ListItemButton>
           </ListItem>
