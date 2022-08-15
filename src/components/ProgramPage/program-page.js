@@ -14,12 +14,17 @@ const ProgramPage = ({ year, program }) => {
       typeof year === 'undefined' ? '' : ''.concat(year, '/')
     }courses/about-${program}`
   )
+
   const courseRe = new RegExp(`^/courses/${program}`)
+
+  console.log('aboutre:', aboutRe)
+  console.log('courseRe:', courseRe)
 
   const about = data.allMarkdownRemark.edges.find((i) =>
     i.node.frontmatter.path.match(aboutRe)
   ).node
 
+  console.log(about)
   // parses the date from frontmatter and tries to correct the most common mistakes
   const makeFrontmatterDate = (front) => {
     if (typeof front.date === 'undefined') return null
