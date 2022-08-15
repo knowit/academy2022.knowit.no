@@ -20,9 +20,16 @@ const ProgramPage = ({ year, program }) => {
   console.log('aboutre:', aboutRe)
   console.log('courseRe:', courseRe)
 
-  const about = data.allMarkdownRemark.edges.find((i) =>
-    i.node.frontmatter.path.match(aboutRe)
-  ).node
+  let about = {}
+  try {
+    about = data.allMarkdownRemark.edges.find((i) =>
+      i.node.frontmatter.path.match(aboutRe)
+    ).node
+  } catch (e) {
+    console.error('Did not find about node', e, about)
+    about.frontmatter = {}
+    about.html = '<p>informasjon mangler</p>'
+  }
 
   console.log(about)
   // parses the date from frontmatter and tries to correct the most common mistakes
@@ -45,6 +52,7 @@ const ProgramPage = ({ year, program }) => {
     .filter((i) => !i.node.fileAbsolutePath.match(/pages\/20\d\d/))
     .filter((i) => i.node.frontmatter.path.match(courseRe))
     .map((i) => {
+      console.log('node:', i.node)
       i.node.frontmatter.date = makeFrontmatterDate(i.node.frontmatter)
       return i
     })
