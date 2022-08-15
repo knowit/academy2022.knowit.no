@@ -37,7 +37,6 @@ const ProgramPage = ({ year, program }) => {
     if (typeof front.date === 'undefined') return null
     if (front.date instanceof Date) return front.date
     if (typeof front.date !== 'string') return null
-
     if (front.date.length === 10) return new Date(front.date)
     if (front.date.length === 16)
       return new Date(front.date.split(/[T\s]/i).join('T'))
@@ -52,7 +51,7 @@ const ProgramPage = ({ year, program }) => {
     .filter((i) => !i.node.fileAbsolutePath.match(/pages\/20\d\d/))
     .filter((i) => i.node.frontmatter.path.match(courseRe))
     .map((i) => {
-      console.log('node:', i.node)
+      // console.log('node:', i.node)
       i.node.frontmatter.date = makeFrontmatterDate(i.node.frontmatter)
       return i
     })
@@ -63,7 +62,8 @@ const ProgramPage = ({ year, program }) => {
     })
 
   about.frontmatter.siteUrl = `https://academy.knowit.no/courses/${program}/`
-  about.frontmatter.path = `/courses/${program}`
+  // about.frontmatter.path = `/courses/${program}`
+  // const aboutPath = `/courses/${program}`
 
   return (
     <Layout>
