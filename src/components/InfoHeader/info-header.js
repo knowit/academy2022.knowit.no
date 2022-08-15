@@ -26,38 +26,25 @@ const dateString = (from, to, confirmed = false) => {
   if (from === null) {
     return 'Informasjon kommer'
   }
-  try {
-    console.log(
-      'dateString:',
-      from,
-      to,
-      confirmed,
-      'instance:',
-      from instanceof Date,
-      to instanceof Date
-    )
-    const startDate = moment(from)
-    const endDate = moment(to)
-    console.log('startDate:', startDate, 'endDate:', endDate)
-    if (moment(startDate).isValid === false) {
-      return 'TBD'
-    }
+  const startDate = moment(from)
+  const endDate = moment(to)
 
-    if (confirmed === false) {
-      return `${startDate.format('D MMM')} (ubekreftet)`
-    }
-
-    let string = startDate.format('D MMM')
-    if (endDate.isValid()) {
-      string += ` - ${endDate.format('D MMM')}`
-    }
-    string += ` ${startDate.format('YYYY')}`
-    string += `, kl ${startDate.format('HH:mm')}`
-
-    return string
-  } catch (e) {
-    console.log('GOT ERROR:', e)
+  if (moment(startDate).isValid === false) {
+    return 'TBD'
   }
+
+  if (confirmed === false) {
+    return `${startDate.format('D MMM')} (ubekreftet)`
+  }
+
+  let string = startDate.format('D MMM')
+  if (endDate.isValid()) {
+    string += ` - ${endDate.format('D MMM')}`
+  }
+  string += ` ${startDate.format('YYYY')}`
+  string += `, kl ${startDate.format('HH:mm')}`
+
+  return string
 }
 
 /**
