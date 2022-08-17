@@ -101,7 +101,6 @@ const InfoHeader = ({ data, showDescription }) => {
   const { frontmatter } = data
 
   const confirmed = frontmatter.confirmed ? true : false
-  console.log(frontmatter.path)
   let dates = frontmatter.path.match(/\/courses/) ? (
     <Dates
       confirmed={confirmed}

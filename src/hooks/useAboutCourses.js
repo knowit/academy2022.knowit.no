@@ -12,6 +12,7 @@ export const useAboutCourses = () => {
               path
               title
               description
+              application
             }
             fileAbsolutePath
             id

@@ -1,11 +1,12 @@
 import * as React from 'react'
-// import * as css from './program-page.module.scss'
+import * as css from './program-page.module.scss'
 import Layout from 'components/FrontLayout'
 import BlogHeader from 'components/BlogHeader'
 // import SignupSection from 'components/SignupSection'
 import ProgramOverview from 'components/ProgramOverview'
 import { useFetchAllPages } from 'hooks/useFetchAllPages'
-import { Box, Container, Typography } from '@mui/material'
+import { Box, Container, Link, Typography } from '@mui/material'
+import SignupSection from '../SignupSection/SignupSection'
 
 const ProgramPage = ({ year, program }) => {
   const data = useFetchAllPages()
@@ -16,9 +17,6 @@ const ProgramPage = ({ year, program }) => {
   )
 
   const courseRe = new RegExp(`^/courses/${program}`)
-
-  console.log('aboutre:', aboutRe)
-  console.log('courseRe:', courseRe)
 
   let about = {}
   try {
@@ -31,7 +29,6 @@ const ProgramPage = ({ year, program }) => {
     about.html = '<p>informasjon mangler</p>'
   }
 
-  console.log(about)
   // parses the date from frontmatter and tries to correct the most common mistakes
   const makeFrontmatterDate = (front) => {
     if (typeof front.date === 'undefined') return null
@@ -51,7 +48,6 @@ const ProgramPage = ({ year, program }) => {
     .filter((i) => !i.node.fileAbsolutePath.match(/pages\/20\d\d/))
     .filter((i) => i.node.frontmatter.path.match(courseRe))
     .map((i) => {
-      // console.log('node:', i.node)
       i.node.frontmatter.date = makeFrontmatterDate(i.node.frontmatter)
       return i
     })
@@ -75,9 +71,31 @@ const ProgramPage = ({ year, program }) => {
             dangerouslySetInnerHTML={{ __html: about.html }}
           ></Typography>
         </Box>
-        <Box paddingBottom={8}>
+        {about.frontmatter.application ? (
+          <Box sx={{ textAlign: 'right' }}>
+            <Link
+              target={'_blank'}
+              sx={{
+                color: css.knowitBlack,
+                paddingBottom: '4px',
+                borderBottom: `2px solid ${css.knowitLollipop}`,
+                textDecoration: 'none',
+              }}
+              href={about.frontmatter.application}
+            >
+              Søk om plass
+            </Link>
+          </Box>
+        ) : (
+          ''
+        )}
+        <Box pt={2} pb={8}>
           <ProgramOverview courses={courses} title="Kursoversikt" />
         </Box>
+      </Container>
+      <SignupSection></SignupSection>
+      <Container>
+        <Box pb={12}></Box>
       </Container>
     </Layout>
   )

@@ -16,7 +16,6 @@ const Page = ({ data, path }) => {
     (i) => i.node.frontmatter.path === '/about'
   ).node
 
-  // front page index console.log('programs ya:', programPages)
   // <SignupSection />
   return (
     <Layout data={data} sitemeta={data.site.siteMetadata}>
