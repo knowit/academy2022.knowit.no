@@ -2,7 +2,7 @@ const { version, author } = require('./package.json')
 
 module.exports = {
   flags: {
-    DEV_SSR: true,
+    // DEV_SSR: true,
   },
   siteMetadata: {
     title: 'Knowit Academy Norway',

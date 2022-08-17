@@ -30,14 +30,12 @@ const AcademyHeaderMenu = () => {
   const [isMenuOpen, setMenuState] = useState(false)
 
   const toggleMenu = (open) => (event) => {
-    // foo
-    console.log('button pressed', open, event)
     setMenuState(open)
   }
 
   const menuItems = [
     ['Programmene', '/#theprograms'],
-    ['Påmelding', '/#signup'],
+    ['Påmelding', '/application'],
     ['Om Knowit Academy', '/#about'],
   ]
 

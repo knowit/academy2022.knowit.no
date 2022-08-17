@@ -12,7 +12,7 @@ const SignupSection = () => {
   return (
     <section id="signup" className={css.signupSection}>
       <Container maxWidth="tablet">
-        <a href="/how-to-apply" alt="Les mer om søknadsprosessen">
+        <a href="/application" alt="Les mer om søknadsprosessen">
           <Box pt={8} pb={8}>
             <Typography
               variant="h2"
@@ -24,10 +24,9 @@ const SignupSection = () => {
               Påmelding 2022
             </Typography>
             <Typography variant="body1" align="center" paragraph={true}>
-              Påmeldingsfristen vil være i{' '}
-              <strong>første halvdel av september 2022</strong>
-              {isSmall ? '' : <br />} Mer informasjon kommer i begynnelsen av
-              august.
+              Søknadsskjema for årets program er tilgjengelig.
+              {isSmall ? '' : <br />}
+              Fristen for å søke er <strong>mandag, 12 september, 2022</strong>
             </Typography>
             <Box textAlign="center">
               <Button
@@ -40,7 +39,7 @@ const SignupSection = () => {
                   />
                 }
               >
-                <strong>Les mer</strong>
+                <strong>Søk om plass</strong>
               </Button>
             </Box>
           </Box>

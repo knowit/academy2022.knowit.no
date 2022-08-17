@@ -30,6 +30,7 @@ export const useFetchAllPages = () => {
                 author
                 email
                 location
+                application
               }
             }
           }

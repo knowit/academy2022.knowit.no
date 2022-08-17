@@ -6,7 +6,7 @@ description:
   'Information in Norwegian about the application process for Knowit Academy'
 author: Thomas Malt
 email: 'academy@knowit.no'
-updated: '2022-08-05'
+updated: '2022-08-17'
 ---
 
 Det er mange som vil delta på programmene i Knowit Academy og stor konkurranse
@@ -33,6 +33,6 @@ Påmeldingsfristen til programmene er vanligvis <strong>i begynnelsen av
 september</strong> hvert år.
 
 <div>
-<a href="/application-form">Send inn søknad her</a>
+<a href="/application">Send inn søknad her</a>
 <img class="arrow" style="vertical-align: middle; padding-left: 12px" alt="Decorative right arrow" src="/icons/arrow.svg" width="28px" />
 </div>
