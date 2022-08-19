@@ -1,0 +1,54 @@
+@import '../../styles/common.scss';
+
+.footerTopContent {
+  position: relative;
+  a {
+    color: $knowit-black;
+    text-decoration: none;
+    border-bottom: 2px solid $knowit-lollipop;
+    padding-bottom: 2px;
+
+    &:hover {
+      border-bottom: 2px solid $knowit-forest;
+    }
+  }
+
+  img {
+    width: auto;
+    height: 64px;
+    position: absolute;
+    left: 140px;
+    top: 0px;
+  }
+}
+
+.version {
+  color: $knowit-forest;
+  font-size: 14px;
+}
+
+.knowitLink {
+  img {
+    margin-left: 16px;
+  }
+}
+
+.homeLink {
+  color: $knowit-black;
+  font-family: 'ArialforKnowitRegular';
+  display: block;
+  text-decoration: none;
+  white-space: nowrap;
+  @media (max-width: 392px) {
+    font-size: 12.3vw;
+  }
+}
+
+footer {
+  section {
+    background-color: $knowit-white;
+  }
+  section:last-child {
+    background-color: $knowit-pear;
+  }
+}
