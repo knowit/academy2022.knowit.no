@@ -7,6 +7,7 @@ import {
   Box,
   Button,
   Card,
+  CardActionArea,
   CardActions,
   CardContent,
   Container,
@@ -40,47 +41,52 @@ const ApplicationPage = ({ data, path }) => {
               return (
                 <Grid item tablet={6} id={course.id} key={course.id}>
                   <Card sx={{ backgroundColor: 'white' }}>
-                    <CardContent>
-                      <Typography variant="h4" gutterBottom>
-                        {course.title}
-                      </Typography>
-                      <Typography variant="body1">
-                        {course.description}
-                      </Typography>
-                    </CardContent>
-
-                    <CardActions
-                      sx={{
-                        display: 'flex',
-                        justifyContent: 'flex-end',
-                      }}
+                    <CardActionArea
+                      sx={{ borderBottom: '2px solid transparent' }}
+                      href={course.application ? course.application : ''}
                     >
-                      {course.application ? (
-                        <Button
-                          variant="text"
-                          target={'_blank'}
-                          sx={{
-                            '&:hover': {
-                              border: 'none',
-                            },
-                          }}
-                          href={course.application}
-                          endIcon={
-                            <img
-                              alt="Dekorativ pil som peker til mer informasjon"
-                              src="/icons/arrow.svg"
-                              height="24px"
-                            />
-                          }
-                        >
-                          Søk om plass
-                        </Button>
-                      ) : (
-                        <Typography variant="body1">
-                          Søknadskjema ennå ikke lagt ut
+                      <CardContent>
+                        <Typography variant="h4" gutterBottom>
+                          {course.title}
                         </Typography>
-                      )}
-                    </CardActions>
+                        <Typography variant="body1">
+                          {course.description}
+                        </Typography>
+                      </CardContent>
+
+                      <CardActions
+                        sx={{
+                          display: 'flex',
+                          justifyContent: 'flex-end',
+                        }}
+                      >
+                        {course.application ? (
+                          <Button
+                            variant="text"
+                            target={'_blank'}
+                            sx={{
+                              '&:hover': {
+                                border: 'none',
+                              },
+                            }}
+                            href={course.application}
+                            endIcon={
+                              <img
+                                alt="Dekorativ pil som peker til mer informasjon"
+                                src="/icons/arrow.svg"
+                                height="24px"
+                              />
+                            }
+                          >
+                            Søk om plass
+                          </Button>
+                        ) : (
+                          <Typography variant="body1">
+                            Søknadskjema ennå ikke lagt ut
+                          </Typography>
+                        )}
+                      </CardActions>
+                    </CardActionArea>
                   </Card>
                 </Grid>
               )

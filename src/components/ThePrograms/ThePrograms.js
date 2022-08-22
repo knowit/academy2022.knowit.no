@@ -9,6 +9,7 @@ import {
   Typography,
   Box,
   Card,
+  CardActionArea,
 } from '@mui/material'
 import * as css from './ThePrograms.module.scss'
 import { useTheme } from '@mui/material/styles'
@@ -34,7 +35,7 @@ const ThePrograms = () => {
             </Typography>
           </Box>
           <Box sx={{ flexGrow: 1 }}>
-            <Grid container rowSpacing={2} columnSpacing={6}>
+            <Grid container rowSpacing={2} columnSpacing={4}>
               {courses
                 .sort((a, b) => (a.title > b.title ? 1 : -1))
                 .map((item) => {
@@ -50,7 +51,10 @@ const ThePrograms = () => {
                           backgroundColor: css.knowitWhite,
                         }}
                       >
-                        <a href={path}>
+                        <CardActionArea
+                          href={path}
+                          sx={{ borderBottom: '2px solid transparent' }}
+                        >
                           <CardContent sx={{ padding: 0 }}>
                             <Typography variant="h4" gutterBottom>
                               {item.title}
@@ -79,7 +83,7 @@ const ThePrograms = () => {
                               Les mer
                             </Button>
                           </CardActions>
-                        </a>
+                        </CardActionArea>
                       </Card>
                     </Grid>
                   )
