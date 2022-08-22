@@ -10,7 +10,7 @@ module.exports = {
     email: 'academy@knowit.no',
     version,
     author,
-    description: `Knowit Academy er Knowits kompetanseutviklingsprogram for ansatte i Norge. Programmene blir gjennomført årlig og følger skoleåret. Søknadsfrist er normalt i månedsskiftet august/september og gjennomføring fra september til juni hvert år.`,
+    description: `Knowit Academy er Knowits kompetanseutviklingsprogram for ansatte i Norge. Programmene blir gjennomført årlig og følger skoleåret. Årets søknadsfrist er mandag 12. september, og programmene vil starte opp i siste halvdel av oktober.`,
     ogImage:
       'https://academy.knowit.no/assets/knowit_academy_banner_flamingo.png',
     image:
