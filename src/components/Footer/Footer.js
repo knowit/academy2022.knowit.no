@@ -1,5 +1,5 @@
 import * as React from 'react'
-import * as css from './Footer.module.scss'
+import * as css from './footer.module.scss'
 import { useSiteMetadata } from 'hooks/useSiteMetadata'
 import { Container, Box, Link, Typography, Grid } from '@mui/material'
 
