@@ -29,10 +29,9 @@ er, hvorfor du ønsker å delta og hva du håper å bruke det du lærer til.
 
 ## Send inn søknad
 
-Påmeldingsfristen til programmene er vanligvis <strong>i begynnelsen av
-september</strong> hvert år.
+Søknadsfristen i 2022 er **mandag 12. september**.
 
-<div>
-<a href="/application">Send inn søknad her</a>
+<p>
+<a href="/application"><strong>Send inn søknad her</strong></a>
 <img class="arrow" style="vertical-align: middle; padding-left: 12px" alt="Decorative right arrow" src="/icons/arrow.svg" width="28px" />
-</div>
+</p>
