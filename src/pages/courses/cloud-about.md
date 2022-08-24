@@ -94,28 +94,28 @@ til et samarbeid der de kommer og bidrar i løpet av perioden.
 <ul>
 <li>AWS Certified Developer - Associate</li>
 <li>AWS Certified Solutions Architect - Associate</li>
-<li>AWS Certified Solutions Architect - Professional (krever Associate først)
-<li>AWS Certified Data Analytics - Specialty
-<li>AWS Certified DevOps Engineer - Professional
+<li>AWS Certified Solutions Architect - Professional</li>
+<li>AWS Certified Data Analytics - Specialty</li>
+<li>AWS Certified DevOps Engineer - Professional</li>
 </ul>
 
 **Azure**
 
 <ul>
-<li>Azure Developer Associate
-<li>Azure Solutions Architect Expert
-<li>Azure Data Engineer Associate
-<li>Azure DevOps Engineer Expert (krever Administrator eller Developer først)
-<li>Microsoft Power BI Data Analyst
+<li>Azure Developer Associate</li>
+<li>Azure Solutions Architect Expert</li>
+<li>Azure Data Engineer Associate</li>
+<li>Azure DevOps Engineer Expert (krever Administrator eller Developer først)</li>
+<li>Microsoft Power BI Data Analyst</li>
 </ul>
 
 **GCP**
 
 <ul>
-<li>GCP Associate Cloud Engineer
-<li>GCP Professional Cloud Developer
-<li>GCP Professional Cloud Architect
-<li>GCP Professional Data Engineer
+<li>GCP Associate Cloud Engineer</li>
+<li>GCP Professional Cloud Developer</li>
+<li>GCP Professional Cloud Architect</li>
+<li>GCP Professional Data Engineer</li>
 </ul>
 
 **Merk: Ved få påmeldinger kan noen av programmene bli avlyst**
