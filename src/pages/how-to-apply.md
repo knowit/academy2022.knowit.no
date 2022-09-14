@@ -29,7 +29,7 @@ er, hvorfor du ønsker å delta og hva du håper å bruke det du lærer til.
 
 ## Send inn søknad
 
-Søknadsfristen i 2022 er **mandag 12. september**.
+Søknadsfristen i 2022 er utvidet til **fredag 16. september**.
 
 <p>
 <a href="/application"><strong>Send inn søknad her</strong></a>

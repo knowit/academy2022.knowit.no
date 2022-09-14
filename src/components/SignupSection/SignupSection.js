@@ -26,7 +26,8 @@ const SignupSection = () => {
             <Typography variant="body1" align="center" paragraph={true}>
               Søknadsskjema for årets program er tilgjengelig.
               {isSmall ? '' : <br />}
-              Fristen for å søke er <strong>mandag, 12 september, 2022</strong>
+              Fristen for å søke er utvidet til{' '}
+              <strong>fredag, 16 september, 2022</strong>
             </Typography>
             <Box textAlign="center">
               <Button

@@ -32,7 +32,9 @@ const ApplicationPage = ({ data, path }) => {
             leder at du ønsker å delta og at det passer at du deltar.
           </Typography>
           <Typography variant="body1">
-            <strong>Søknadsfristen er mandag 12. september, 2022.</strong>
+            <strong>
+              Søknadsfristen utvidet til fredag 16. september, 2022.
+            </strong>
           </Typography>
         </Box>
         <Box>
