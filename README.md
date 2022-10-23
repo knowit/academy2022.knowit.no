@@ -69,3 +69,6 @@ And make sure the changes work.
 `yarn install` to install latest packages  
 `yarn develop` to start local version  
 `localhost:8000` address for local page
+
+##
+- Changes for testing
