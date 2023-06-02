@@ -35,7 +35,6 @@ const AcademyHeaderMenu = () => {
 
   const menuItems = [
     ['Programmene', '/#theprograms'],
-    ['Påmelding', '/application'],
     ['Om Knowit Academy', '/#about'],
   ]
 

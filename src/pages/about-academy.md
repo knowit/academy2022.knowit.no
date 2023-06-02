@@ -1,7 +1,7 @@
 ---
 path: '/about'
 date: '2022-06-27'
-updated: '2022-08-09'
+updated: '2023-06-02'
 title: 'Hva er Knowit Academy'
 email: 'academy@knowit.no'
 author: 'Thomas Malt'
@@ -25,9 +25,9 @@ tjeneste&shy;designere som vil utviklse seg videre og ta større ansvar.
 Videre er Knowit Academy vårt interne sertifi&shy;serings&shy;løp, der vi gir
 unge ledere kompetansen de trenger for å lykkes i oppdragene sine. Programmene
 følger skoleåret med oppstart i miden av september og avslutning i mai eller
-juni hvert år
+juni hvert år.
 
-Årets programmer, er under utarbeidelse og snart klare. Påmeldingen vil starte
-i midten av august 2022, og søknadsfristen vil være i begynnelsen av
-september, 2022. Programmene vil normalt ha oppstart i slutten av
-september 2022.
+Årets programmer er under utarbeidelse og snart klare. Påmeldingen vil starte
+i midten av august 2023, og søknadsfristen vil være i begynnelsen av
+september, 2023. Programmene vil normalt ha oppstart i slutten av
+september 2023.

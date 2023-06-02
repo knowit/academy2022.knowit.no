@@ -14,7 +14,6 @@ const FrontPage = ({ data, path }) => {
   return (
     <Layout data={data} sitemeta={data.site.siteMetadata}>
       <AboutAcademy content={aboutPage} />
-      <SignupSection />
       <ThePrograms />
     </Layout>
   )

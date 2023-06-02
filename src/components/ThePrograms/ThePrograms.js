@@ -31,7 +31,7 @@ const ThePrograms = () => {
                 fontSize: `min(10vw, ${theme.typography.h2.fontSize})`,
               }}
             >
-              Programmene
+              Programmene 2022
             </Typography>
           </Box>
           <Box sx={{ flexGrow: 1 }}>
