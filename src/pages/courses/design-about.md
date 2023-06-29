@@ -9,7 +9,6 @@ description:
   design-rollen men også i lederrollen som design-lead.'
 author: 'Øyvind Brande-Lien'
 email: 'academy@knowit.no'
-application: 'https://docs.google.com/forms/d/e/1FAIpQLSfYa81ppUmKUvB7KNgLQ08zMKK7tiECTwrpGe5jyaLzYsUy1w/viewform?usp=sf_link'
 updated: '2022-08-22'
 ---
 
@@ -24,3 +23,5 @@ design-rollen men også i lederrollen som design-lead.
 På broen mot forretningssiden vil vi lære om strategisk business design,
 kommunikasjon, service design og trend-watching. På broen mot utviklere vil vi
 lære om tverrfaglige team, animasjon og design-metodikk.
+
+(Søknadsfristen har utgått)
