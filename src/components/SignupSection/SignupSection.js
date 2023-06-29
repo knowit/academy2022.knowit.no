@@ -11,41 +11,7 @@ const SignupSection = () => {
 
   return (
     <section id="signup" className={css.signupSection}>
-      <Container maxWidth="tablet">
-        <a href="/application" alt="Les mer om søknadsprosessen">
-          <Box pt={8} pb={8}>
-            <Typography
-              variant="h2"
-              component="h2"
-              align="center"
-              pb={3}
-              sx={{ fontSize: `min(10vw, ${theme.typography.h2.fontSize})` }}
-            >
-              Påmelding 2022
-            </Typography>
-            <Typography variant="body1" align="center" paragraph={true}>
-              Søknadsskjema for årets program er tilgjengelig.
-              {isSmall ? '' : <br />}
-              Fristen for å søke er utvidet til{' '}
-              <strong>fredag, 16 september, 2022</strong>
-            </Typography>
-            <Box textAlign="center">
-              <Button
-                variant="text"
-                endIcon={
-                  <img
-                    alt="Dekorativ pil som peker til mer informasjon"
-                    src="/icons/arrow.svg"
-                    height="24px"
-                  />
-                }
-              >
-                <strong>Søk om plass</strong>
-              </Button>
-            </Box>
-          </Box>
-        </a>
-      </Container>
+
     </section>
   )
 }
