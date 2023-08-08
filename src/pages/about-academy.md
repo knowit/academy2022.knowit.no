@@ -12,7 +12,7 @@ description:
 ---
 
 Dette er arkivert informasjom om Knowit Academy 2022.
-[Gå til nye sider for Knowit Academy 2023](https://info.knowit.no/academy)
+[**Gå til nye sider for Knowit Academy 2023**](https://info.knowit.no/academy)
 
 Knowit Academy er Knowits interne kompe&shy;tanse&shy;utviklings&shy;program.
 Mål&shy;gruppen er primært ansatte, men vi inviterer også med deltakere fra
