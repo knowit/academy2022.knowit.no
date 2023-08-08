@@ -1,7 +1,7 @@
 ---
 path: '/courses/about-design'
 date: '2022-08-18'
-title: 'Design'
+title: 'Design 2022'
 description:
   'Med dette programmet søker vi å utvide design-kompetansen til deltakerne i
   to retninger. Mot utviklere i den ene enden og mot forretningssiden i den

@@ -1,7 +1,7 @@
 ---
 path: '/courses/about-personalledelse'
 date: '2022-08-01'
-title: 'Praktisk personalledelse'
+title: 'Praktisk personalledelse 2022'
 description:
   'Programmet er for deg som har eller ønsker deg personalansvar i Knowit.
   Programmet tilbyr nyttige verktøy for å veilede andre og for å bli mer

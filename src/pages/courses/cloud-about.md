@@ -1,7 +1,7 @@
 ---
 path: '/courses/about-cloud'
 date: '2022-08-08'
-title: 'Cloud'
+title: 'Cloud 2022'
 description:
   'Cloud-programmet er for utviklere og arkitekter som ønsker å ta en
   sertifisering på skyteknologi. Kanskje du allerede har jobbet i skyen en

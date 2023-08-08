@@ -34,7 +34,7 @@ const AcademyHeaderMenu = () => {
   }
 
   const menuItems = [
-    ['Programmene', '/#theprograms'],
+    ['Programmene 2022', '/#theprograms'],
     ['Om Knowit Academy', '/#about'],
   ]
 

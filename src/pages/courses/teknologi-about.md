@@ -1,7 +1,7 @@
 ---
 path: '/courses/about-teknologi'
 date: '2022-09-22'
-title: 'Teknologi'
+title: 'Teknologi 2022'
 description:
   'Teknologi-programmet er for utviklere med minst 3 års arbeidserfaring som
   vil utvikle seg videre som tech-lead og arkitekt. Programmet er et naturlig
